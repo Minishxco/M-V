@@ -1,8 +1,10 @@
-Shader "UI/WhiteImage"
+Shader "UI/WhiteImageWithOutline"
 {
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
+        _OutlineColor ("Outline Color", Color) = (0,0,0,1)
+        _OutlineSize ("Outline Size", Range(0,5)) = 1
     }
 
     SubShader
@@ -18,6 +20,9 @@ Shader "UI/WhiteImage"
             #include "UnityCG.cginc"
 
             sampler2D _MainTex;
+            float4 _MainTex_TexelSize;
+            float4 _OutlineColor;
+            float _OutlineSize;
 
             struct appdata
             {
@@ -42,7 +47,22 @@ Shader "UI/WhiteImage"
             fixed4 frag (v2f i) : SV_Target
             {
                 float alpha = tex2D(_MainTex, i.uv).a;
-                return fixed4(1,1,1,alpha);
+
+                // Outline detection
+                float outlineAlpha = 0;
+                float2 offset = _MainTex_TexelSize.xy * _OutlineSize;
+
+                outlineAlpha += tex2D(_MainTex, i.uv + float2( offset.x, 0)).a;
+                outlineAlpha += tex2D(_MainTex, i.uv + float2(-offset.x, 0)).a;
+                outlineAlpha += tex2D(_MainTex, i.uv + float2(0,  offset.y)).a;
+                outlineAlpha += tex2D(_MainTex, i.uv + float2(0, -offset.y)).a;
+
+                outlineAlpha = saturate(outlineAlpha - alpha);
+
+                fixed4 baseColor = fixed4(1,1,1,alpha);
+                fixed4 outline = fixed4(_OutlineColor.rgb, outlineAlpha * _OutlineColor.a);
+
+                return lerp(outline, baseColor, alpha);
             }
             ENDCG
         }
