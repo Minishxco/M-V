@@ -1,0 +1,1117 @@
+fileFormatVersion: 2
+guid: 3ab971b17afba85479bd3bdce6398c70
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WCMillan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 182
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2036fbfe37d38b4a86ab83ec9daec10
+      internalID: -1972078030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 181
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc06ed640aefbb4f89f6c4bbe65298c
+      internalID: 113506903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 204
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff2523bc3523054184481b34a830c54
+      internalID: -261524909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_3
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 0
+        width: 221
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b259d9ece358e74889581cca9f80ece
+      internalID: -2057845216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_4
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 192
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c079d1c35d371a47b12269a6f7bcebd
+      internalID: 1952753203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_5
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 0
+        width: 186
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a32d1f5deadb184083ec0ff4ba71c70
+      internalID: 2106825295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_6
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 243
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d131be6496d82340aaf94c36504615e
+      internalID: 1791249159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_7
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 0
+        width: 223
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4cc2cde74eafd4092a5627c54fcd18
+      internalID: -1991669816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_8
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 0
+        width: 211
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260a8e78d47e83a45a6d56f19278e0e7
+      internalID: 2050458815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_9
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 0
+        width: 213
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb8fb2ef2a2c9d4daba32771665025f
+      internalID: -1890711101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_10
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 0
+        width: 285
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7d977f11cade6438660d9ddba3f33b
+      internalID: -1902778748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_11
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 0
+        width: 292
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd46a4802ea6fb9409359e0530f4fa3c
+      internalID: 190208685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_12
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 0
+        width: 243
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f757a2defb16ab41bb35fd7619e1264
+      internalID: -750154107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_13
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 0
+        width: 243
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d025057194288af47af2fb1672469def
+      internalID: 997119292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_14
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 0
+        width: 216
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee153376b4bdde418dbd2d75493e454
+      internalID: -1652828083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_15
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 0
+        width: 287
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b237185b5ab364f8bfd0d24eda5107
+      internalID: -1051473306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_16
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 0
+        width: 284
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8522b4f7dbc814ca7978cd899fac76
+      internalID: -2064258972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_17
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 0
+        width: 275
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecf1cb50ba282f40bf8d5ac904c9514
+      internalID: 1854823247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_18
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 0
+        width: 264
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd1ff1e73a818245900925dc0866e42
+      internalID: -82986446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_19
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 0
+        width: 269
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a301be6cddc734989cc36a36f638ad
+      internalID: 1058786221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_20
+      rect:
+        serializedVersion: 2
+        x: 4661
+        y: 0
+        width: 229
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43557258bd0d16145ad88cf17e5574f1
+      internalID: 259028153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_21
+      rect:
+        serializedVersion: 2
+        x: 4893
+        y: 0
+        width: 286
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d44697ba73ed4641bb01681adc71780
+      internalID: -760600320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_22
+      rect:
+        serializedVersion: 2
+        x: 5181
+        y: 0
+        width: 297
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec5d85b9b90ad04aabba801a7bd5b5a
+      internalID: 764038764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_23
+      rect:
+        serializedVersion: 2
+        x: 5479
+        y: 0
+        width: 275
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db84946f90fcf4479260cc5945f95aa
+      internalID: 342541197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_24
+      rect:
+        serializedVersion: 2
+        x: 5755
+        y: 0
+        width: 256
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80c317762e3e314997b138f30473e0f
+      internalID: -1267341770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_25
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 0
+        width: 249
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205ab04f62c44b2448de1325f81cc0e4
+      internalID: -685442201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_26
+      rect:
+        serializedVersion: 2
+        x: 6260
+        y: 0
+        width: 227
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c95425b6560e443a34cdc2b6a05a1d
+      internalID: -61370576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_27
+      rect:
+        serializedVersion: 2
+        x: 6490
+        y: 0
+        width: 268
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1914d375bbc00943a4f6a8e29ef647e
+      internalID: 2119518076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_28
+      rect:
+        serializedVersion: 2
+        x: 6757
+        y: 0
+        width: 254
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa34364ce59c8574fb26b90c759f67a0
+      internalID: 713451705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_29
+      rect:
+        serializedVersion: 2
+        x: 7011
+        y: 0
+        width: 207
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102fc4240ab257a4ab36e2c49f42955f
+      internalID: 535782574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_30
+      rect:
+        serializedVersion: 2
+        x: 7221
+        y: 0
+        width: 188
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968df6f9d58ce3a47950eb8511dc949a
+      internalID: 770319586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_31
+      rect:
+        serializedVersion: 2
+        x: 7407
+        y: 0
+        width: 195
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ae49d7ae6ff8a4992487616f5a0787
+      internalID: 141608687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_32
+      rect:
+        serializedVersion: 2
+        x: 7603
+        y: 0
+        width: 281
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c14f8cd5001fe42a7b63a72e7ca5ff
+      internalID: -722157473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_33
+      rect:
+        serializedVersion: 2
+        x: 7885
+        y: 0
+        width: 288
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a1ac9fa46596347a421a64ea972627
+      internalID: -68565090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_34
+      rect:
+        serializedVersion: 2
+        x: 8173
+        y: 0
+        width: 278
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea9ce5d386a7a746a16654cdf76f3f7
+      internalID: -1448149787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_35
+      rect:
+        serializedVersion: 2
+        x: 8453
+        y: 0
+        width: 186
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0427109600d7bbe48ae17278a7efe135
+      internalID: 543329970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_36
+      rect:
+        serializedVersion: 2
+        x: 8641
+        y: 0
+        width: 196
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02902fe063d90e8448cbefa404c05c98
+      internalID: 931416850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_37
+      rect:
+        serializedVersion: 2
+        x: 8841
+        y: 0
+        width: 280
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8ff868b22b58a468886c9fe7d81668
+      internalID: 1509052070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_38
+      rect:
+        serializedVersion: 2
+        x: 9125
+        y: 0
+        width: 278
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929690fe879459d4d9ebdb0d22f3b432
+      internalID: 1505100326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_39
+      rect:
+        serializedVersion: 2
+        x: 9401
+        y: 0
+        width: 233
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0963cb85e85bd7c408591a723378fa93
+      internalID: -185752771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_40
+      rect:
+        serializedVersion: 2
+        x: 9637
+        y: 0
+        width: 243
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3a5312a4aa3264da15fa91fa17de98
+      internalID: -1960000430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_41
+      rect:
+        serializedVersion: 2
+        x: 9881
+        y: 0
+        width: 180
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4e4dd32f70e6141845839d68650c27
+      internalID: -518185408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_42
+      rect:
+        serializedVersion: 2
+        x: 10063
+        y: 0
+        width: 282
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6738c8a83ddf45047aec3dc6c92e52d1
+      internalID: 2131213066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_43
+      rect:
+        serializedVersion: 2
+        x: 10345
+        y: 0
+        width: 301
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e667780391f6a439328c30d1eed491
+      internalID: 845794720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WCMillan_44
+      rect:
+        serializedVersion: 2
+        x: 10646
+        y: 0
+        width: 300
+        height: 474
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d440fe6f718da754a949ab97e73809ed
+      internalID: 1467826098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WCMillan_0: -1972078030
+      WCMillan_1: 113506903
+      WCMillan_10: -1902778748
+      WCMillan_11: 190208685
+      WCMillan_12: -750154107
+      WCMillan_13: 997119292
+      WCMillan_14: -1652828083
+      WCMillan_15: -1051473306
+      WCMillan_16: -2064258972
+      WCMillan_17: 1854823247
+      WCMillan_18: -82986446
+      WCMillan_19: 1058786221
+      WCMillan_2: -261524909
+      WCMillan_20: 259028153
+      WCMillan_21: -760600320
+      WCMillan_22: 764038764
+      WCMillan_23: 342541197
+      WCMillan_24: -1267341770
+      WCMillan_25: -685442201
+      WCMillan_26: -61370576
+      WCMillan_27: 2119518076
+      WCMillan_28: 713451705
+      WCMillan_29: 535782574
+      WCMillan_3: -2057845216
+      WCMillan_30: 770319586
+      WCMillan_31: 141608687
+      WCMillan_32: -722157473
+      WCMillan_33: -68565090
+      WCMillan_34: -1448149787
+      WCMillan_35: 543329970
+      WCMillan_36: 931416850
+      WCMillan_37: 1509052070
+      WCMillan_38: 1505100326
+      WCMillan_39: -185752771
+      WCMillan_4: 1952753203
+      WCMillan_40: -1960000430
+      WCMillan_41: -518185408
+      WCMillan_42: 2131213066
+      WCMillan_43: 845794720
+      WCMillan_44: 1467826098
+      WCMillan_5: 2106825295
+      WCMillan_6: 1791249159
+      WCMillan_7: -1991669816
+      WCMillan_8: 2050458815
+      WCMillan_9: -1890711101
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

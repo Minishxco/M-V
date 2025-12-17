@@ -17,10 +17,12 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 movement;
     private Animator animator;
+    private SpriteRenderer spriteRenderer;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         minScale = new Vector3(minScalePlayer, minScalePlayer, 1f);
         maxScale = new Vector3(maxScalePlayer, maxScalePlayer, 1f);
@@ -42,25 +44,18 @@ public class PlayerController : MonoBehaviour
         transform.localScale = Vector3.Lerp(transform.localScale, target, Time.deltaTime * smooth);
 
         UpdateAnimations();
+        UpdateFlip();
     }
 
     void ReadMovementInput()
     {
         movement = Vector2.zero;
 
-        if (Input.GetKey(KeyCode.UpArrow))
-            movement.y = 1;
+        if (Input.GetKey(KeyCode.UpArrow)) movement.y = 1;
+        if (Input.GetKey(KeyCode.DownArrow)) movement.y = -1;
+        if (Input.GetKey(KeyCode.LeftArrow)) movement.x = -1;
+        if (Input.GetKey(KeyCode.RightArrow)) movement.x = 1;
 
-        if (Input.GetKey(KeyCode.DownArrow))
-            movement.y = -1;
-
-        if (Input.GetKey(KeyCode.LeftArrow))
-            movement.x = -1;
-
-        if (Input.GetKey(KeyCode.RightArrow))
-            movement.x = 1;
-
-        // Evita movimiento diagonal más rápido
         if (movement.sqrMagnitude > 1)
             movement.Normalize();
     }
@@ -77,15 +72,20 @@ public class PlayerController : MonoBehaviour
 
         animator.SetBool("Up", false);
         animator.SetBool("Down", false);
-        animator.SetBool("Left", false);
-        animator.SetBool("Right", false);
+        animator.SetBool("LR", false);
         animator.SetBool("Idle", false);
 
         if (up) animator.SetBool("Up", true);
         else if (down) animator.SetBool("Down", true);
-        else if (left) animator.SetBool("Left", true);
-        else if (right) animator.SetBool("Right", true);
+        else if (left || right) animator.SetBool("LR", true);
         else animator.SetBool("Idle", true);
     }
-}
 
+    void UpdateFlip()
+    {
+        if (movement.x < 0)
+            spriteRenderer.flipX = true;
+        else if (movement.x > 0)
+            spriteRenderer.flipX = false;
+    }
+}
