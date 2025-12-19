@@ -2,7 +2,9 @@
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 3f;
+    public float speedX = 4f;
+    public float speedY = 3.5f;
+
 
     public GameObject minY;
     public GameObject maxY;
@@ -33,7 +35,8 @@ public class PlayerController : MonoBehaviour
         ReadMovementInput();
 
         // ---- Movimiento ----
-        Vector3 delta = new Vector3(movement.x, movement.y, 0) * moveSpeed * Time.deltaTime;
+        Vector3 delta = new Vector3(movement.x * speedX, movement.y * speedY, 0f) * Time.deltaTime;
+
         transform.position += delta;
 
         float clampedY = Mathf.Clamp(transform.position.y, minY.transform.position.y, maxY.transform.position.y);
