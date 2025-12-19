@@ -1,39 +1,107 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Interactable : MonoBehaviour
 {
-    public GameObject objetoAControlar;
-    public GameObject selector;
-
-    void Start()
+    [System.Serializable]
+    public class Herramienta
     {
-        if (selector != null)
-            selector.SetActive(false);
+        public string tag;                 // Tag de la herramienta
+        public GameObject panelNivel1;     // Panel inicial
+        public GameObject panelNivel2;     // Selector o panel nivel 2
+        public GameObject imagenButton;        // Imagen UI
+        public GameObject spriteMostrar; // Sprite que se muetra al final
     }
+
+    [Header("Herramientas")]
+    public List<Herramienta> herramientas = new List<Herramienta>();
+
+    [Header("Panels de Respuesta")]
+    public GameObject panelCorrecto;
+    public GameObject panelIncorrecto;
+
+    public GameObject llave;
+
+    private int nivel = 1;
+    private Herramienta herramientaActual;
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Objeto detectado dentro del collider: " + other.name);
-        if (objetoAControlar != null && selector != null) 
-        { 
-            objetoAControlar.SetActive(true); 
-        } 
+        foreach (Herramienta h in herramientas)
+        {
+            if (other.CompareTag(h.tag))
+            {
+                herramientaActual = h;
+                Debug.Log("Tocó: " + h.tag);
+
+                if (nivel == 1 && h.panelNivel1 != null)
+                    h.panelNivel1.SetActive(true);
+                else if (nivel == 2 && h.panelNivel2 != null)
+                    h.panelNivel2.SetActive(true);
+
+                break;
+            }
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("Objeto salió del collider: " + other.name);
-        if (objetoAControlar != null && selector != null) 
-        { 
-            objetoAControlar.SetActive(false); 
-        } 
+        if (herramientaActual == null) return;
+
+        if (other.CompareTag(herramientaActual.tag))
+        {
+            if (nivel == 1 && herramientaActual.panelNivel1 != null)
+                herramientaActual.panelNivel1.SetActive(false);
+            else if (nivel == 2 && herramientaActual.panelNivel2 != null)
+                herramientaActual.panelNivel2.SetActive(false);
+
+            herramientaActual = null;
+        }
     }
 
-    public void ActiveSelector()
+    public void SeleccionarObjeto()
     {
-        if (selector != null)
+        if (herramientaActual == null) return;
+
+        herramientaActual.spriteMostrar.SetActive(true);
+        herramientaActual.imagenButton.SetActive(false);
+
+        VerificarSpritesActivos();
+    }
+
+    public void llaveFinal()
+    {
+        llave.SetActive(false);
+        Debug.Log("Juego Terminado");
+    }
+
+    public void RespuestaCorrecta()
+    {
+        nivel = 2;
+        panelCorrecto.SetActive(true);
+
+        foreach (Herramienta h in herramientas)
         {
-            selector.SetActive(!selector.activeSelf);
+            h.imagenButton.GetComponent<SpriteRenderer>().enabled = true; ;
         }
+    }
+
+    public void RespuestaIncorrecta()
+    {
+        nivel = 1;
+        panelIncorrecto.SetActive(true);
+    }
+
+    public void VerificarSpritesActivos()
+    {
+        foreach (Herramienta h in herramientas)
+        {
+            if (h.spriteMostrar == null || !h.spriteMostrar.activeSelf)
+            {
+                return;
+            }
+        }
+
+        llave.SetActive(true);
     }
 }

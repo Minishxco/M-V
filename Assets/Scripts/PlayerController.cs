@@ -51,14 +51,27 @@ public class PlayerController : MonoBehaviour
     {
         movement = Vector2.zero;
 
-        if (Input.GetKey(KeyCode.UpArrow)) movement.y = 1;
-        if (Input.GetKey(KeyCode.DownArrow)) movement.y = -1;
-        if (Input.GetKey(KeyCode.LeftArrow)) movement.x = -1;
-        if (Input.GetKey(KeyCode.RightArrow)) movement.x = 1;
+        // Arriba
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
+            movement.y = 1;
 
+        // Abajo
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+            movement.y = -1;
+
+        // Izquierda
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+            movement.x = -1;
+
+        // Derecha
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+            movement.x = 1;
+
+        // Normalizar para evitar mayor velocidad en diagonal
         if (movement.sqrMagnitude > 1)
             movement.Normalize();
     }
+
 
     // ----------------------------
     // ANIMACIONES
