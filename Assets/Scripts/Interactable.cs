@@ -11,6 +11,7 @@ public class Interactable : MonoBehaviour
         public GameObject panelNivel2;     // Selector o panel nivel 2
         public GameObject imagenButton;        // Imagen UI
         public GameObject spriteMostrar; // Sprite que se muetra al final
+        public GameObject imageLetters;
     }
 
     [Header("Herramientas")]
@@ -18,6 +19,7 @@ public class Interactable : MonoBehaviour
 
     [Header("Panels de Respuesta")]
     public GameObject panelCorrecto;
+    public GameObject imageLettersCorrecto;
     public GameObject panelIncorrecto;
 
     public GameObject llave;
@@ -77,19 +79,38 @@ public class Interactable : MonoBehaviour
 
     public void RespuestaCorrecta()
     {
+   
+        if (herramientaActual != null && herramientaActual.panelNivel1 != null)
+        {
+            herramientaActual.panelNivel1.SetActive(false);
+        }
+
         nivel = 2;
         panelCorrecto.SetActive(true);
-
+        
         foreach (Herramienta h in herramientas)
         {
-            h.imagenButton.GetComponent<SpriteRenderer>().enabled = true; ;
+            h.imagenButton.GetComponent<SpriteRenderer>().enabled = true;
+            h.imageLetters.SetActive(false);
         }
     }
 
     public void RespuestaIncorrecta()
     {
+
+        if (herramientaActual != null && herramientaActual.panelNivel1 != null)
+        {
+            herramientaActual.panelNivel1.SetActive(false);
+        }
+
         nivel = 1;
         panelIncorrecto.SetActive(true);
+    }
+
+    public void CerrarCorrecto()
+    {
+        panelCorrecto.SetActive(false);
+        imageLettersCorrecto.SetActive(true);
     }
 
     public void VerificarSpritesActivos()
