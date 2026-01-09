@@ -6,7 +6,7 @@ public class Interactable : MonoBehaviour
     [System.Serializable]
     public class Herramienta
     {
-        public string tag;                 // Tag de la herramienta
+        public string tagHerramienta;                 // Tag de la herramienta
         public GameObject panelNivel1;     // Panel inicial
         public GameObject panelNivel2;     // Selector o panel nivel 2
         public GameObject imagenButton;        // Imagen UI
@@ -27,20 +27,34 @@ public class Interactable : MonoBehaviour
     private int nivel = 1;
     private Herramienta herramientaActual;
 
+    public AudioManager audioManager;
+
+    private void Start()
+    {
+        foreach (Herramienta h in herramientas)
+        {
+            h.imagenButton.GetComponent<CircleCollider2D>().enabled = false;
+        }
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         foreach (Herramienta h in herramientas)
         {
-            if (other.CompareTag(h.tag))
+            if (other.CompareTag(h.tagHerramienta))
             {
                 herramientaActual = h;
-                Debug.Log("Tocó: " + h.tag);
+                Debug.Log("Tocó: " + h.tagHerramienta);
 
                 if (nivel == 1 && h.panelNivel1 != null)
+                {
+                    audioManager.PlayOptionsBox();
                     h.panelNivel1.SetActive(true);
+                }
                 else if (nivel == 2 && h.panelNivel2 != null)
+                {
                     h.panelNivel2.SetActive(true);
-
+                }  
                 break;
             }
         }
@@ -50,7 +64,7 @@ public class Interactable : MonoBehaviour
     {
         if (herramientaActual == null) return;
 
-        if (other.CompareTag(herramientaActual.tag))
+        if (other.CompareTag(herramientaActual.tagHerramienta))
         {
             if (nivel == 1 && herramientaActual.panelNivel1 != null)
                 herramientaActual.panelNivel1.SetActive(false);
@@ -64,7 +78,7 @@ public class Interactable : MonoBehaviour
     public void SeleccionarObjeto()
     {
         if (herramientaActual == null) return;
-
+        audioManager.PlaySelectTools();
         herramientaActual.spriteMostrar.SetActive(true);
         herramientaActual.imagenButton.SetActive(false);
 
@@ -73,13 +87,15 @@ public class Interactable : MonoBehaviour
 
     public void llaveFinal()
     {
+        audioManager.PlayKeyCollected();
         llave.SetActive(false);
         Debug.Log("Juego Terminado");
     }
 
     public void RespuestaCorrecta()
     {
-   
+        audioManager.PlayCorrectAnswer();
+
         if (herramientaActual != null && herramientaActual.panelNivel1 != null)
         {
             herramientaActual.panelNivel1.SetActive(false);
@@ -91,12 +107,14 @@ public class Interactable : MonoBehaviour
         foreach (Herramienta h in herramientas)
         {
             h.imagenButton.GetComponent<SpriteRenderer>().enabled = true;
+            h.imagenButton.GetComponent<CircleCollider2D>().enabled = true;
             h.imageLetters.SetActive(false);
         }
     }
 
     public void RespuestaIncorrecta()
     {
+        audioManager.PlayWrongAnswer();
 
         if (herramientaActual != null && herramientaActual.panelNivel1 != null)
         {

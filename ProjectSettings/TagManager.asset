@@ -4,10 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Alicates
-  - Martillo
-  - LlaveInglesa
-  - Destornillador
+  - Object1
+  - Object2
+  - Object3
+  - Object4
   layers:
   - Default
   - TransparentFX

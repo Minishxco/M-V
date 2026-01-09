@@ -6,8 +6,18 @@ public class Writer : MonoBehaviour
 {
     public float delay = 0.05f;
     public float delayBetweenTexts = 0.3f;
+    public bool hasName;
 
     public TextMeshProUGUI[] texts;
+    public AudioManager audioManager;
+
+    private void Start()
+    {
+        if (hasName)
+        {
+            texts[0].text = UserDataLoader.LoadName() + ": " + texts[0].text;
+        }
+    }
 
     private void OnEnable()
     {
@@ -31,6 +41,8 @@ public class Writer : MonoBehaviour
 
     IEnumerator TypeAll()
     {
+        audioManager.PlayKeyboard();
+
         foreach (TextMeshProUGUI tmp in texts)
         {
             tmp.ForceMeshUpdate();
@@ -44,5 +56,6 @@ public class Writer : MonoBehaviour
 
             yield return new WaitForSeconds(delayBetweenTexts);
         }
+        audioManager.StopKeyboard();
     }
 }
