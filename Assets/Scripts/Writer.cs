@@ -28,6 +28,7 @@ public class Writer : MonoBehaviour
     private void OnDisable()
     {
         StopAllCoroutines();
+        audioManager.StopKeyboard();
     }
 
     void ResetTexts()

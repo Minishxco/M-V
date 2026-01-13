@@ -48,6 +48,7 @@ public class Interactable : MonoBehaviour
 
                 if (nivel == 1 && h.panelNivel1 != null)
                 {
+                    DesactivarTodosPanelesNivel1();
                     audioManager.PlayOptionsBox();
                     h.panelNivel1.SetActive(true);
                 }
@@ -91,6 +92,18 @@ public class Interactable : MonoBehaviour
         llave.SetActive(false);
         Debug.Log("Juego Terminado");
     }
+
+    void DesactivarTodosPanelesNivel1()
+    {
+        foreach (Herramienta h in herramientas)
+        {
+            if (h.panelNivel1 != null && h.panelNivel1.activeSelf)
+            {
+                h.panelNivel1.SetActive(false);
+            }
+        }
+    }
+
 
     public void RespuestaCorrecta()
     {

@@ -3661,14 +3661,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.059523582, y: -1.6359023}
+    - - {x: 1.0393648, y: 21.512836}
       - {x: 0.0885365, y: -2.5457273}
       - {x: 2.346507, y: -3.7256622}
       - {x: 2.48236, y: -4.4251366}
       - {x: 4.6475487, y: -5.4818916}
       - {x: 7.038659, y: -5.490014}
-      - {x: 13.954019, y: -8.704385}
-      - {x: 13.896096, y: -7.673256}
+      - {x: 20.984398, y: -13.557212}
+      - {x: 38.347923, y: 7.1544123}
   m_UseDelaunayMesh: 1
 --- !u!4 &652883211
 Transform:
@@ -5952,8 +5952,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.5319977, y: 6.147995}
-  m_SizeDelta: {x: -214.164, y: -140.939}
+  m_AnchoredPosition: {x: -1.9669952, y: -3.800003}
+  m_SizeDelta: {x: -222.36, y: -158.149}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1466833825
 MonoBehaviour:
@@ -5975,7 +5975,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
+  m_text: "En este piso se encuentra un taller, bastante desordenado por cierto,
+    para encontrar la\r\nllave que nos ayude a liberar a nuestro amigo tenemos que
+    buscarla entre todas estas\r\nherramientas. \n\xBFCu\xE1l es la mejor manera
+    de conseguirla?\r\nPara conseguir la llave. Encuentra las opciones y elige la
+    correcta."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6002,8 +6006,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12.85
-  m_fontSizeBase: 12.85
+  m_fontSize: 11.77
+  m_fontSizeBase: 11.77
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8347,14 +8351,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -8.373744, y: -1.7560747}
-      - {x: -8.386824, y: -2.4762874}
+    - - {x: -7.137388, y: 21.853123}
+      - {x: -8.066179, y: -1.8670616}
       - {x: -10.428639, y: -3.446607}
       - {x: -10.387152, y: -4.0927787}
       - {x: -12.630566, y: -5.280216}
       - {x: -12.829452, y: -4.6087093}
-      - {x: -20.361385, y: -8.465114}
-      - {x: -20.480785, y: -7.281212}
+      - {x: -28.532276, y: -12.932136}
+      - {x: -40.900406, y: -0.21930504}
   m_UseDelaunayMesh: 1
 --- !u!4 &2043149337
 Transform:
