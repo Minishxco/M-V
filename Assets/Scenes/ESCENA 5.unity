@@ -1140,6 +1140,7 @@ GameObject:
   - component: {fileID: 225998972}
   - component: {fileID: 225998971}
   - component: {fileID: 225998973}
+  - component: {fileID: 225998974}
   m_Layer: 5
   m_Name: PanelRojo
   m_TagString: Untagged
@@ -1221,9 +1222,24 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenTexts: 0.3
   hasName: 1
+  hasBotton: 1
+  closeButton: {fileID: 1371803083}
   texts:
   - {fileID: 601849160}
   audioManager: {fileID: 1012575326}
+--- !u!114 &225998974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225998969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3fb26a67e4987949befd4324426248b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 491871864}
 --- !u!1 &228409936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,7 +2293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &414689282
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2293,11 +2309,11 @@ RectTransform:
   - {fileID: 623457031}
   m_Father: {fileID: 463719400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 170.382, y: 97.9}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 49.3, y: 3}
+  m_SizeDelta: {x: 145.749, y: 73.267}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &414689283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2563,6 +2579,7 @@ GameObject:
   - component: {fileID: 463719400}
   - component: {fileID: 463719402}
   - component: {fileID: 463719401}
+  - component: {fileID: 463719403}
   m_Layer: 5
   m_Name: presentation
   m_TagString: Untagged
@@ -2629,6 +2646,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463719399}
   m_CullTransparentMesh: 1
+--- !u!114 &463719403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463719399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3fb26a67e4987949befd4324426248b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 491871864}
 --- !u!1 &472163382
 GameObject:
   m_ObjectHideFlags: 0
@@ -2788,7 +2818,7 @@ Transform:
   m_GameObject: {fileID: 486817436}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.46, z: 0}
+  m_LocalPosition: {x: 0, y: -2.715, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2942,7 +2972,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 1915639372, guid: 63e3bb9b16c51f049b3b83e8bb10888c, type: 3}
+  m_Sprite: {fileID: -86881112, guid: 282b060394aa526478acab703c20ffa8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2962,7 +2992,7 @@ Transform:
   m_GameObject: {fileID: 491871861}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0326, y: -2.7186, z: 0}
+  m_LocalPosition: {x: 0.8884, y: -2.7186, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2983,10 +3013,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   speedX: 4
   speedY: 3.5
+  canPlayerMove: 1
   minY: {fileID: 2110225371}
   maxY: {fileID: 486817436}
-  minScalePlayer: 1.3
-  maxScalePlayer: 2.5
+  minScalePlayer: 0.9
+  maxScalePlayer: 2
   smooth: 8
 --- !u!58 &491871865
 CircleCollider2D:
@@ -3131,7 +3162,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &565605797
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3147,11 +3178,11 @@ RectTransform:
   - {fileID: 1497369456}
   m_Father: {fileID: 1963760363}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
-  m_SizeDelta: {x: 170.382, y: 97.9}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 50.8, y: 3}
+  m_SizeDelta: {x: 124.102, y: 76.253}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &565605798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3200,6 +3231,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
         m_MethodName: CerrarCorrecto
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 565605796}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3466,8 +3509,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 18.67
+  m_fontSizeBase: 18.67
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3663,9 +3706,9 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 1.0393648, y: 21.512836}
       - {x: 0.0885365, y: -2.5457273}
-      - {x: 2.346507, y: -3.7256622}
-      - {x: 2.48236, y: -4.4251366}
-      - {x: 4.6475487, y: -5.4818916}
+      - {x: 1.6517243, y: -3.5552669}
+      - {x: 1.6101575, y: -4.1273065}
+      - {x: 4.5644455, y: -5.731203}
       - {x: 7.038659, y: -5.490014}
       - {x: 20.984398, y: -13.557212}
       - {x: 38.347923, y: 7.1544123}
@@ -3746,6 +3789,8 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenTexts: 0.3
   hasName: 0
+  hasBotton: 0
+  closeButton: {fileID: 0}
   texts:
   - {fileID: 1173892490}
   audioManager: {fileID: 1012575326}
@@ -4103,6 +4148,8 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenTexts: 0.3
   hasName: 0
+  hasBotton: 0
+  closeButton: {fileID: 0}
   texts:
   - {fileID: 1716937488}
   audioManager: {fileID: 1012575326}
@@ -4793,8 +4840,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 19.01
+  m_fontSizeBase: 19.01
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5528,9 +5575,10 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenTexts: 0.5
   hasName: 1
+  hasBotton: 1
+  closeButton: {fileID: 414689281}
   texts:
   - {fileID: 1466833825}
-  - {fileID: 623457032}
   audioManager: {fileID: 1012575326}
 --- !u!1 &1334224634
 GameObject:
@@ -5634,7 +5682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1371803084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5650,11 +5698,11 @@ RectTransform:
   - {fileID: 1137527620}
   m_Father: {fileID: 225998970}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
-  m_SizeDelta: {x: 170.382, y: 97.9}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 50.800003, y: 3}
+  m_SizeDelta: {x: 124.102, y: 76.253}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1371803085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5700,6 +5748,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 225998969}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1371803083}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -5975,7 +6035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "En este piso se encuentra un taller, bastante desordenado por cierto,
+  m_text: "en este piso se encuentra un taller, bastante desordenado por cierto,
     para encontrar la\r\nllave que nos ayude a liberar a nuestro amigo tenemos que
     buscarla entre todas estas\r\nherramientas. \n\xBFCu\xE1l es la mejor manera
     de conseguirla?\r\nPara conseguir la llave. Encuentra las opciones y elige la
@@ -6276,8 +6336,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 19.01
+  m_fontSizeBase: 19.01
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7133,6 +7193,8 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenTexts: 0.3
   hasName: 0
+  hasBotton: 0
+  closeButton: {fileID: 0}
   texts:
   - {fileID: 1479466027}
   audioManager: {fileID: 1012575326}
@@ -7461,6 +7523,7 @@ GameObject:
   - component: {fileID: 1963760365}
   - component: {fileID: 1963760364}
   - component: {fileID: 1963760366}
+  - component: {fileID: 1963760367}
   m_Layer: 5
   m_Name: PanelVerde
   m_TagString: Untagged
@@ -7542,9 +7605,24 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenTexts: 0.3
   hasName: 1
+  hasBotton: 1
+  closeButton: {fileID: 565605796}
   texts:
   - {fileID: 2036011410}
   audioManager: {fileID: 1012575326}
+--- !u!114 &1963760367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963760362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3fb26a67e4987949befd4324426248b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 491871864}
 --- !u!1 &1978327179
 GameObject:
   m_ObjectHideFlags: 0
@@ -7606,6 +7684,8 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenTexts: 0.3
   hasName: 0
+  hasBotton: 0
+  closeButton: {fileID: 0}
   texts:
   - {fileID: 472163384}
   audioManager: {fileID: 1012575326}
@@ -8021,6 +8101,8 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenTexts: 0.3
   hasName: 0
+  hasBotton: 0
+  closeButton: {fileID: 0}
   texts:
   - {fileID: 211288294}
   audioManager: {fileID: 1012575326}
@@ -8352,11 +8434,11 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -7.137388, y: 21.853123}
-      - {x: -8.066179, y: -1.8670616}
-      - {x: -10.428639, y: -3.446607}
-      - {x: -10.387152, y: -4.0927787}
-      - {x: -12.630566, y: -5.280216}
-      - {x: -12.829452, y: -4.6087093}
+      - {x: -8.156094, y: -2.6463194}
+      - {x: -9.974632, y: -3.4007878}
+      - {x: -9.65715, y: -4.003272}
+      - {x: -12.698891, y: -5.8252993}
+      - {x: -14.514081, y: -5.7476254}
       - {x: -28.532276, y: -12.932136}
       - {x: -40.900406, y: -0.21930504}
   m_UseDelaunayMesh: 1

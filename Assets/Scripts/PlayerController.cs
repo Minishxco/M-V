@@ -4,8 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speedX = 4f;
     public float speedY = 3.5f;
-
-
+    public bool canPlayerMove;
     public GameObject minY;
     public GameObject maxY;
 
@@ -32,6 +31,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (!canPlayerMove) return;
         ReadMovementInput();
 
         // ---- Movimiento ----
@@ -103,5 +103,10 @@ public class PlayerController : MonoBehaviour
             spriteRenderer.flipX = true;
         else if (movement.x > 0)
             spriteRenderer.flipX = false;
+    }
+
+    public void SetPlayerMovement(bool estado)
+    {
+        canPlayerMove = estado;
     }
 }

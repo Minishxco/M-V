@@ -1,0 +1,1051 @@
+fileFormatVersion: 2
+guid: 282b060394aa526478acab703c20ffa8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MillanIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6938405063c2641b34e7bae052667d
+      internalID: -86881112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e91e0585ad2064db4b6718aa02c197
+      internalID: 429544869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_2
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0939d6ee027324a41a8e0c7d3bb05d78
+      internalID: 1499852782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_3
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959acbf82c59fcd4a8d0ef382e7c425f
+      internalID: 1825169087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_4
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be85875d402e074199748cbec889aa7
+      internalID: 97140430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_5
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabeb04e57b461a4ca3eae73e068726b
+      internalID: 14771915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_6
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b0e4b2ecfc412458ec76d3ad0e7b2b
+      internalID: 1668507241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_7
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c807196ba436404583a37e5dbc5fee1
+      internalID: 1637529114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_8
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5cab00ced717c499e05f02ef3566f9
+      internalID: 1265028394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_9
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccc0b9a3c0b8bd43b25cfb9b7a3fd1f
+      internalID: 1146531494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_10
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865dc745495db44428621a14c8a3b213
+      internalID: -1287474854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_11
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0840aa3eba6876645a5c7175794da56f
+      internalID: 425888277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_12
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed99f3dc61b9cf646b6f2592417a064a
+      internalID: -850482566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_13
+      rect:
+        serializedVersion: 2
+        x: 4212
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f66979b1842204eb5df7961eb1d893
+      internalID: -1704765656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_14
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12901a8d08b987242b7bbdab76c4a9ff
+      internalID: -1307261608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_15
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445ffd974e3873e4ba47e0712398893d
+      internalID: -565322739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_16
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ce428a612463c4f8faa1c034fc34ed
+      internalID: 757447531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_17
+      rect:
+        serializedVersion: 2
+        x: 5508
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e56617df8f41d46a4524fb75b0e903
+      internalID: 1192692953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_18
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ad8d9a08932d445922e541636d8c14
+      internalID: 974153944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_19
+      rect:
+        serializedVersion: 2
+        x: 6156
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa20560e37ca4d34289f67053a0469c3
+      internalID: 1699209097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_20
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb35e7f1affff348a5d9c571d3f275e
+      internalID: 362772818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_21
+      rect:
+        serializedVersion: 2
+        x: 6804
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9fc9ae8be1b25459ae04af99e2af6a
+      internalID: 1206799798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_22
+      rect:
+        serializedVersion: 2
+        x: 7128
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74dd1d67ccdbb840ba3f55f64ee929a
+      internalID: 1599814901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_23
+      rect:
+        serializedVersion: 2
+        x: 7452
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d5550b629984146a09ef5b4879cbd1
+      internalID: 1241260008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_24
+      rect:
+        serializedVersion: 2
+        x: 7776
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9065ccb87f7bc9a49ba56831dbfa64e6
+      internalID: 41468538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_25
+      rect:
+        serializedVersion: 2
+        x: 8100
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1449f5a4bf18df045a087682260f64a5
+      internalID: -626179651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_26
+      rect:
+        serializedVersion: 2
+        x: 8424
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edba070622f15f4a830ce6e71775e63
+      internalID: -1205409984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_27
+      rect:
+        serializedVersion: 2
+        x: 8748
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9188e67ee04fa3439d6bf032ba6123d
+      internalID: -540302649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_28
+      rect:
+        serializedVersion: 2
+        x: 9072
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8dcf209ba12f246ab7e327bc0b26fa
+      internalID: -2101675623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_29
+      rect:
+        serializedVersion: 2
+        x: 9396
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c9fbf32c00a4a4ba49f6160e78e4d3
+      internalID: -835546166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_30
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7af2259211ee264dba110442c770308
+      internalID: 329539453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_31
+      rect:
+        serializedVersion: 2
+        x: 10044
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a2729c8a8db9043b5a4793b8b13e67
+      internalID: -1463550904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_32
+      rect:
+        serializedVersion: 2
+        x: 10368
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd6b3db33be9eb4c9166c2cf18e3775
+      internalID: -67560993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_33
+      rect:
+        serializedVersion: 2
+        x: 10692
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce967be3af3f79244893fd735da57097
+      internalID: -1919076713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_34
+      rect:
+        serializedVersion: 2
+        x: 11016
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc03bb5049725d4ca5e8d248598c739
+      internalID: -902590197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_35
+      rect:
+        serializedVersion: 2
+        x: 11340
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3838a1f58a59b404a920e1f9d10d1e89
+      internalID: -1968272360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_36
+      rect:
+        serializedVersion: 2
+        x: 11664
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894aee1eb33e8f441beefdecfeeb7484
+      internalID: 1190335345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_37
+      rect:
+        serializedVersion: 2
+        x: 11988
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db45cba14b113f349b3a5fdb26c461eb
+      internalID: -863337646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_38
+      rect:
+        serializedVersion: 2
+        x: 12312
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e798f086622da3e488086f4b262b8301
+      internalID: 810616138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_39
+      rect:
+        serializedVersion: 2
+        x: 12636
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f2ef92651229447829097ed2098c80
+      internalID: 464746522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_40
+      rect:
+        serializedVersion: 2
+        x: 12960
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da5b4ae71002e94eb6f0d808aec310b
+      internalID: -1635332527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MillanIdle_41
+      rect:
+        serializedVersion: 2
+        x: 13284
+        y: 0
+        width: 324
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1f57b585855cb4bad6da8095de7ce4
+      internalID: -470762187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MillanIdle_0: -86881112
+      MillanIdle_1: 429544869
+      MillanIdle_10: -1287474854
+      MillanIdle_11: 425888277
+      MillanIdle_12: -850482566
+      MillanIdle_13: -1704765656
+      MillanIdle_14: -1307261608
+      MillanIdle_15: -565322739
+      MillanIdle_16: 757447531
+      MillanIdle_17: 1192692953
+      MillanIdle_18: 974153944
+      MillanIdle_19: 1699209097
+      MillanIdle_2: 1499852782
+      MillanIdle_20: 362772818
+      MillanIdle_21: 1206799798
+      MillanIdle_22: 1599814901
+      MillanIdle_23: 1241260008
+      MillanIdle_24: 41468538
+      MillanIdle_25: -626179651
+      MillanIdle_26: -1205409984
+      MillanIdle_27: -540302649
+      MillanIdle_28: -2101675623
+      MillanIdle_29: -835546166
+      MillanIdle_3: 1825169087
+      MillanIdle_30: 329539453
+      MillanIdle_31: -1463550904
+      MillanIdle_32: -67560993
+      MillanIdle_33: -1919076713
+      MillanIdle_34: -902590197
+      MillanIdle_35: -1968272360
+      MillanIdle_36: 1190335345
+      MillanIdle_37: -863337646
+      MillanIdle_38: 810616138
+      MillanIdle_39: 464746522
+      MillanIdle_4: 97140430
+      MillanIdle_40: -1635332527
+      MillanIdle_41: -470762187
+      MillanIdle_5: 14771915
+      MillanIdle_6: 1668507241
+      MillanIdle_7: 1637529114
+      MillanIdle_8: 1265028394
+      MillanIdle_9: 1146531494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

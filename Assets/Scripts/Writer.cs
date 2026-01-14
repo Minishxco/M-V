@@ -6,16 +6,17 @@ public class Writer : MonoBehaviour
 {
     public float delay = 0.05f;
     public float delayBetweenTexts = 0.3f;
-    public bool hasName;
+    public bool hasName, hasBotton;
+    public GameObject closeButton;
 
     public TextMeshProUGUI[] texts;
     public AudioManager audioManager;
 
-    private void Start()
+    private void Awake()
     {
         if (hasName)
         {
-            texts[0].text = UserDataLoader.LoadName() + ": " + texts[0].text;
+            texts[0].text = UserDataLoader.LoadName() + " " + texts[0].text;
         }
     }
 
@@ -28,7 +29,10 @@ public class Writer : MonoBehaviour
     private void OnDisable()
     {
         StopAllCoroutines();
-        audioManager.StopKeyboard();
+        if(audioManager != null )
+        {
+            audioManager.StopKeyboard();
+        }        
     }
 
     void ResetTexts()
@@ -42,7 +46,10 @@ public class Writer : MonoBehaviour
 
     IEnumerator TypeAll()
     {
-        audioManager.PlayKeyboard();
+        if (audioManager != null)
+        {
+            audioManager.PlayKeyboard();
+        }
 
         foreach (TextMeshProUGUI tmp in texts)
         {
@@ -57,6 +64,15 @@ public class Writer : MonoBehaviour
 
             yield return new WaitForSeconds(delayBetweenTexts);
         }
-        audioManager.StopKeyboard();
+
+        if(hasBotton)
+        {
+            closeButton.SetActive(true);
+        }
+
+        if (audioManager != null)
+        {
+            audioManager.StopKeyboard();
+        }
     }
 }
