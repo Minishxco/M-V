@@ -2370,6 +2370,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1012575326}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayNarratorAudio1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &414689284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2580,6 +2592,7 @@ GameObject:
   - component: {fileID: 463719402}
   - component: {fileID: 463719401}
   - component: {fileID: 463719403}
+  - component: {fileID: 463719405}
   m_Layer: 5
   m_Name: presentation
   m_TagString: Untagged
@@ -2659,6 +2672,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: 491871864}
+--- !u!114 &463719405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463719399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1587069aee55bb341abd029b0cdb79a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.05
+  delayBetweenTexts: 0.5
+  hasName: 1
+  hasBotton: 1
+  closeButton: {fileID: 414689281}
+  texts:
+  - {fileID: 1466833825}
+  audioManager: {fileID: 1012575326}
 --- !u!1 &472163382
 GameObject:
   m_ObjectHideFlags: 0
@@ -3019,6 +3052,8 @@ MonoBehaviour:
   minScalePlayer: 0.9
   maxScalePlayer: 2
   smooth: 8
+  controllerA: {fileID: 9100000, guid: 8a2b2737217c7c741be5842ff9facded, type: 2}
+  controllerB: {fileID: 9100000, guid: 2b70feab86d1b5d4f92d9ca8fbdaf120, type: 2}
 --- !u!58 &491871865
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4531,8 +4566,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1012575328}
-  - component: {fileID: 1012575327}
   - component: {fileID: 1012575326}
+  - component: {fileID: 1012575327}
+  - component: {fileID: 1012575329}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -4553,12 +4589,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1012575327}
+  audioSource2: {fileID: 1012575329}
   correctAnswer: {fileID: 8300000, guid: f396da9f2cbb8ca47b43f362759c73bf, type: 3}
   wrongAnswer: {fileID: 8300000, guid: c932b39dec0303849aab2a474c09485a, type: 3}
   optionsBox: {fileID: 8300000, guid: 6ab330c9efc754d458500d11e48cfe4b, type: 3}
   keyCollected: {fileID: 8300000, guid: c102e8fe9171a12459c906066799bca3, type: 3}
   selectTools: {fileID: 8300000, guid: 6a6170a7f3343d34bb3d1af99085f730, type: 3}
   keyboard: {fileID: 8300000, guid: 9642f599152e887418d7e8c3202fff7e, type: 3}
+  narratorVoice1: {fileID: 8300000, guid: 6a788f88d8884ee44b63fff12a550026, type: 3}
 --- !u!82 &1012575327
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4670,6 +4708,102 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1012575329
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012575325}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1131839429
 GameObject:
   m_ObjectHideFlags: 0
@@ -5448,7 +5582,6 @@ GameObject:
   - component: {fileID: 1326751168}
   - component: {fileID: 1326751167}
   - component: {fileID: 1326751166}
-  - component: {fileID: 1326751171}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5560,26 +5693,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1326751171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326751165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1587069aee55bb341abd029b0cdb79a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 0.05
-  delayBetweenTexts: 0.5
-  hasName: 1
-  hasBotton: 1
-  closeButton: {fileID: 414689281}
-  texts:
-  - {fileID: 1466833825}
-  audioManager: {fileID: 1012575326}
 --- !u!1 &1334224634
 GameObject:
   m_ObjectHideFlags: 0

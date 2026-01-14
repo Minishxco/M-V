@@ -3,22 +3,23 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public AudioSource audioSource;
-
+    public AudioSource audioSource2;
     public AudioClip correctAnswer;
     public AudioClip wrongAnswer;
     public AudioClip optionsBox;
     public AudioClip keyCollected;
     public AudioClip selectTools;
     public AudioClip keyboard;
+    public AudioClip narratorVoice1;
 
     public void PlayCorrectAnswer()
     {
-        audioSource.PlayOneShot(correctAnswer);
+        audioSource2.PlayOneShot(correctAnswer);
     }
 
     public void PlayWrongAnswer()
     {
-        audioSource.PlayOneShot(wrongAnswer);
+        audioSource2.PlayOneShot(wrongAnswer);
     }
 
     public void PlayOptionsBox()
@@ -47,5 +48,10 @@ public class AudioManager : MonoBehaviour
     {
         audioSource.loop = false;
         audioSource.Stop();
+    }
+
+    public void PlayNarratorAudio1()
+    {
+        audioSource2.PlayOneShot(narratorVoice1);
     }
 }

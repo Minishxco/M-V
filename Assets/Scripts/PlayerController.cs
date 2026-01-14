@@ -20,10 +20,23 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
+    private int character;
+    public RuntimeAnimatorController controllerA;
+    public RuntimeAnimatorController controllerB;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        character = UserDataLoader.LoadCharacter();
+        if(character == 1)
+        {
+            animator.runtimeAnimatorController = controllerA;
+        }
+        else if(character == 2) { 
+            animator.runtimeAnimatorController = controllerB;
+        }
 
         minScale = new Vector3(minScalePlayer, minScalePlayer, 1f);
         maxScale = new Vector3(maxScalePlayer, maxScalePlayer, 1f);

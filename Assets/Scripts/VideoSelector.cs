@@ -13,13 +13,19 @@ public class VideoSelector : MonoBehaviour
     public GameObject panelSeleccionar;
     public GameObject panelNombre;
 
-    private string escenaSiguiente = "ESCENA 5";
-
     private bool personajeSeleccionado = false;
 
     void Awake()
     {
         videoPlayer.loopPointReached += OnVideoFinished;
+    }
+
+    void Update()
+    {
+        if (videoPlayer.isPlaying && Input.GetKeyDown(KeyCode.Escape))
+        {
+            FinishVideo();
+        }
     }
 
     public void StartVideo()
@@ -55,12 +61,17 @@ public class VideoSelector : MonoBehaviour
     {
         if (personajeSeleccionado)
         {
-            SceneManager.LoadScene(escenaSiguiente);
+            SceneManager.LoadScene(1);
         }
         else
         {
             video1.SetActive(false);
             panelSeleccionar.SetActive(true);
         }
+    }
+
+    public void FinishVideo()
+    {
+        OnVideoFinished(videoPlayer);
     }
 }
