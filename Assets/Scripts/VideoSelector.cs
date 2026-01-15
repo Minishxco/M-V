@@ -9,8 +9,10 @@ public class VideoSelector : MonoBehaviour
     public VideoPlayer videoPlayer;
 
     // RUTAS RELATIVAS DENTRO DE StreamingAssets
-    private string videoPersonaje1 = "Video/VideoPersonaje1.mp4";
-    private string videoPersonaje2 = "Video/VideoPersonaje2.mp4";
+    private string videoPersonaje1 = "Video/VideoPersonaje2.mp4";
+    private string videoPersonaje2 = "Video/VideoPersonaje1.mp4";
+    private string videoIntro = "Video/Intromprevencion.mp4";
+    private string videoLoop = "Video/loop.mp4";
 
     public GameObject video1;
     public GameObject panelSeleccionar;
@@ -30,6 +32,10 @@ public class VideoSelector : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
+        else
+        {
+            panelNombre.SetActive(true);
+        }
     }
 
     void Update()
@@ -44,6 +50,7 @@ public class VideoSelector : MonoBehaviour
     {
         panelNombre.SetActive(false);
         video1.SetActive(true);
+        videoPlayer.url = Application.streamingAssetsPath + "/" + videoIntro;
     }
 
     // BOTÓN PERSONAJE 1
@@ -79,8 +86,8 @@ public class VideoSelector : MonoBehaviour
         }
         else
         {
-            video1.SetActive(false);
             panelSeleccionar.SetActive(true);
+            videoPlayer.url = Application.streamingAssetsPath + "/" + videoLoop;
         }
     }
 
