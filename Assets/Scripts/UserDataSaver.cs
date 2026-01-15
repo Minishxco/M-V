@@ -7,6 +7,7 @@ public class UserDataSaver : MonoBehaviour
 
     const string NAME_KEY = "UserName";
     const string CHARACTER_KEY = "UserCharacter";
+    const string DATA_KEY = "UserKey";
     public VideoSelector videoSelector;
 
     public void SaveName()
@@ -29,6 +30,7 @@ public class UserDataSaver : MonoBehaviour
         PlayerPrefs.SetInt(CHARACTER_KEY, 1);
         PlayerPrefs.Save();
         Debug.Log("Personaje 1 seleccionado");
+        SaveGame();
     }
 
     public void SelectCharacter2()
@@ -36,5 +38,12 @@ public class UserDataSaver : MonoBehaviour
         PlayerPrefs.SetInt(CHARACTER_KEY, 2);
         PlayerPrefs.Save();
         Debug.Log("Personaje 2 seleccionado");
+        SaveGame();
+    }
+
+    private void SaveGame()
+    {
+        PlayerPrefs.SetInt(DATA_KEY, 1);
+        PlayerPrefs.Save();
     }
 }

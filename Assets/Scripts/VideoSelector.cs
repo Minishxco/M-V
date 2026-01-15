@@ -1,13 +1,16 @@
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
+using System.IO;
+using System.Collections;
 
 public class VideoSelector : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
 
-    public VideoClip videoPersonaje1;
-    public VideoClip videoPersonaje2;
+    // RUTAS RELATIVAS DENTRO DE StreamingAssets
+    private string videoPersonaje1 = "Video/VideoPersonaje1.mp4";
+    private string videoPersonaje2 = "Video/VideoPersonaje2.mp4";
 
     public GameObject video1;
     public GameObject panelSeleccionar;
@@ -18,6 +21,15 @@ public class VideoSelector : MonoBehaviour
     void Awake()
     {
         videoPlayer.loopPointReached += OnVideoFinished;
+        videoPlayer.source = VideoSource.Url;
+    }
+
+    void Start()
+    {
+        if (UserDataLoader.LoadGame() == 1)
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 
     void Update()
@@ -48,13 +60,15 @@ public class VideoSelector : MonoBehaviour
         PlayVideo(videoPersonaje2);
     }
 
-    void PlayVideo(VideoClip clip)
+    void PlayVideo(string videoPath)
     {
         video1.SetActive(true);
         panelSeleccionar.SetActive(false);
 
-        videoPlayer.clip = clip;
-        videoPlayer.Play();
+        videoPlayer.url = Application.streamingAssetsPath + "/" + videoPath;
+
+
+        StartCoroutine(PlayPrepared());
     }
 
     void OnVideoFinished(VideoPlayer vp)
@@ -73,5 +87,14 @@ public class VideoSelector : MonoBehaviour
     public void FinishVideo()
     {
         OnVideoFinished(videoPlayer);
+    }
+
+    IEnumerator PlayPrepared()
+    {
+        videoPlayer.Prepare();
+        while (!videoPlayer.isPrepared)
+            yield return null;
+
+        videoPlayer.Play();
     }
 }

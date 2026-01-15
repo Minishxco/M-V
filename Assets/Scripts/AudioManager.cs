@@ -12,6 +12,11 @@ public class AudioManager : MonoBehaviour
     public AudioClip keyboard;
     public AudioClip narratorVoice1;
 
+    void Start()
+    {
+        PlayNarratorAudio1();
+    }
+
     public void PlayCorrectAnswer()
     {
         audioSource2.PlayOneShot(correctAnswer);
@@ -52,6 +57,6 @@ public class AudioManager : MonoBehaviour
 
     public void PlayNarratorAudio1()
     {
-        audioSource2.PlayOneShot(narratorVoice1);
+        audioSource.PlayOneShot(narratorVoice1);
     }
 }
