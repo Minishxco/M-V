@@ -10,12 +10,6 @@ public class AudioManager : MonoBehaviour
     public AudioClip keyCollected;
     public AudioClip selectTools;
     public AudioClip keyboard;
-    public AudioClip narratorVoice1;
-
-    void Start()
-    {
-        PlayNarratorAudio1();
-    }
 
     public void PlayCorrectAnswer()
     {
@@ -53,10 +47,5 @@ public class AudioManager : MonoBehaviour
     {
         audioSource.loop = false;
         audioSource.Stop();
-    }
-
-    public void PlayNarratorAudio1()
-    {
-        audioSource.PlayOneShot(narratorVoice1);
     }
 }
