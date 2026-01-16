@@ -28,14 +28,14 @@ public class VideoSelector : MonoBehaviour
 
     void Start()
     {
-        if (UserDataLoader.LoadGame() == 1)
+        /*if (UserDataLoader.LoadGame() == 1)
         {
             SceneManager.LoadScene(1);
         }
         else
         {
             panelNombre.SetActive(true);
-        }
+        }*/
     }
 
     void Update()
