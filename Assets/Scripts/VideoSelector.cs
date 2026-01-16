@@ -46,11 +46,24 @@ public class VideoSelector : MonoBehaviour
         }
     }
 
+    string GetVideoURL(string relativePath)
+    {
+#if UNITY_WEBGL && !UNITY_EDITOR
+        // WebGL 
+        return Application.streamingAssetsPath + "/" + relativePath;
+#else
+        // Windows
+        return "file://" + Path.Combine(Application.streamingAssetsPath, relativePath);
+#endif
+    }
+
     public void StartVideo()
     {
         panelNombre.SetActive(false);
         video1.SetActive(true);
-        videoPlayer.url = Application.streamingAssetsPath + "/" + videoIntro;
+
+        videoPlayer.url = GetVideoURL(videoIntro);
+        StartCoroutine(PlayPrepared());
     }
 
     // BOTÓN PERSONAJE 1
@@ -72,9 +85,7 @@ public class VideoSelector : MonoBehaviour
         video1.SetActive(true);
         panelSeleccionar.SetActive(false);
 
-        videoPlayer.url = Application.streamingAssetsPath + "/" + videoPath;
-
-
+        videoPlayer.url = GetVideoURL(videoPath);
         StartCoroutine(PlayPrepared());
     }
 
@@ -87,7 +98,8 @@ public class VideoSelector : MonoBehaviour
         else
         {
             panelSeleccionar.SetActive(true);
-            videoPlayer.url = Application.streamingAssetsPath + "/" + videoLoop;
+            videoPlayer.url = GetVideoURL(videoLoop);
+            StartCoroutine(PlayPrepared());
         }
     }
 

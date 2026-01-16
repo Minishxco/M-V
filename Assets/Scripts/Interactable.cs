@@ -20,7 +20,7 @@ public class Interactable : MonoBehaviour
     [Header("Panels de Respuesta")]
     public GameObject panelCorrecto;
     public GameObject imageLettersCorrecto;
-    public GameObject panelIncorrecto;
+    public GameObject panelIncorrecto1, panelIncorrecto2, panelIncorrecto3;
 
     public GameObject llave;
 
@@ -55,7 +55,7 @@ public class Interactable : MonoBehaviour
                 else if (nivel == 2 && h.panelNivel2 != null)
                 {
                     h.panelNivel2.SetActive(true);
-                }  
+                }
                 break;
             }
         }
@@ -116,7 +116,7 @@ public class Interactable : MonoBehaviour
 
         nivel = 2;
         panelCorrecto.SetActive(true);
-        
+
         foreach (Herramienta h in herramientas)
         {
             h.imagenButton.GetComponent<SpriteRenderer>().enabled = true;
@@ -125,7 +125,22 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    public void RespuestaIncorrecta()
+    public void RespuestaIncorrecta1()
+    {
+        RespuestaIncorrecta(panelIncorrecto1);
+    }
+
+    public void RespuestaIncorrecta2()
+    {
+        RespuestaIncorrecta(panelIncorrecto2);
+    }
+
+    public void RespuestaIncorrecta3()
+    {
+        RespuestaIncorrecta(panelIncorrecto3);
+    }
+
+    private void RespuestaIncorrecta(GameObject panelIncorrecto)
     {
         audioManager.PlayWrongAnswer();
 
