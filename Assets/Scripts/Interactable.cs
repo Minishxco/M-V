@@ -7,11 +7,9 @@ public class Interactable : MonoBehaviour
     public class Herramienta
     {
         public string tagHerramienta;                 // Tag de la herramienta
-        public GameObject panelNivel1;     // Panel inicial
         public GameObject panelNivel2;     // Selector o panel nivel 2
         public GameObject imagenButton;        // Imagen UI
         public GameObject spriteMostrar; // Sprite que se muetra al final
-        public GameObject imageLetters;
     }
 
     [Header("Herramientas")]
@@ -24,10 +22,15 @@ public class Interactable : MonoBehaviour
 
     public GameObject llave;
 
+    public GameObject[] dialoguePanel;
+
     private int nivel = 1;
     private Herramienta herramientaActual;
 
     public AudioManager audioManager;
+
+    public KeyManager keyManager;
+    public GameObject[] imageLetters;
 
     private void Start()
     {
@@ -46,13 +49,7 @@ public class Interactable : MonoBehaviour
                 herramientaActual = h;
                 Debug.Log("Tocó: " + h.tagHerramienta);
 
-                if (nivel == 1 && h.panelNivel1 != null)
-                {
-                    DesactivarTodosPanelesNivel1();
-                    audioManager.PlayOptionsBox();
-                    h.panelNivel1.SetActive(true);
-                }
-                else if (nivel == 2 && h.panelNivel2 != null)
+                if (nivel == 2 && h.panelNivel2 != null)
                 {
                     h.panelNivel2.SetActive(true);
                 }
@@ -67,9 +64,7 @@ public class Interactable : MonoBehaviour
 
         if (other.CompareTag(herramientaActual.tagHerramienta))
         {
-            if (nivel == 1 && herramientaActual.panelNivel1 != null)
-                herramientaActual.panelNivel1.SetActive(false);
-            else if (nivel == 2 && herramientaActual.panelNivel2 != null)
+            if (nivel == 2 && herramientaActual.panelNivel2 != null)
                 herramientaActual.panelNivel2.SetActive(false);
 
             herramientaActual = null;
@@ -90,29 +85,14 @@ public class Interactable : MonoBehaviour
     {
         audioManager.PlayKeyCollected();
         llave.SetActive(false);
+        keyManager.updateKey();
         Debug.Log("Juego Terminado");
-    }
-
-    void DesactivarTodosPanelesNivel1()
-    {
-        foreach (Herramienta h in herramientas)
-        {
-            if (h.panelNivel1 != null && h.panelNivel1.activeSelf)
-            {
-                h.panelNivel1.SetActive(false);
-            }
-        }
     }
 
 
     public void RespuestaCorrecta()
     {
         audioManager.PlayCorrectAnswer();
-
-        if (herramientaActual != null && herramientaActual.panelNivel1 != null)
-        {
-            herramientaActual.panelNivel1.SetActive(false);
-        }
 
         nivel = 2;
         panelCorrecto.SetActive(true);
@@ -121,7 +101,11 @@ public class Interactable : MonoBehaviour
         {
             h.imagenButton.GetComponent<SpriteRenderer>().enabled = true;
             h.imagenButton.GetComponent<CircleCollider2D>().enabled = true;
-            h.imageLetters.SetActive(false);
+        }
+
+        foreach (var imgLetters in imageLetters)
+        {
+            imgLetters.SetActive(false);
         }
     }
 
@@ -144,9 +128,9 @@ public class Interactable : MonoBehaviour
     {
         audioManager.PlayWrongAnswer();
 
-        if (herramientaActual != null && herramientaActual.panelNivel1 != null)
+        foreach (var panel in dialoguePanel)
         {
-            herramientaActual.panelNivel1.SetActive(false);
+            panel.SetActive(false);
         }
 
         nivel = 1;

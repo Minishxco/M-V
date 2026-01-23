@@ -1,4 +1,4 @@
-Shader "UI/WhiteImageWithOutline"
+﻿Shader "UI/WhiteImageWithOutline"
 {
     Properties
     {
@@ -9,11 +9,22 @@ Shader "UI/WhiteImageWithOutline"
 
     SubShader
     {
-        Tags { "Queue"="Transparent" "RenderType"="Transparent" }
-        Blend SrcAlpha OneMinusSrcAlpha
+        Tags
+        {
+            "Queue"="Transparent"
+            "IgnoreProjector"="True"
+            "RenderType"="Transparent"
+            "PreviewType"="Plane"
+            "CanUseSpriteAtlas"="True"
+        }
 
         Pass
         {
+            ZWrite Off
+            ZTest [unity_GUIZTestMode]
+            Blend SrcAlpha OneMinusSrcAlpha
+            Cull Off
+
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -46,7 +57,8 @@ Shader "UI/WhiteImageWithOutline"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float alpha = tex2D(_MainTex, i.uv).a;
+                fixed4 tex = tex2D(_MainTex, i.uv);
+                float alpha = tex.a;
 
                 // Outline detection
                 float outlineAlpha = 0;
@@ -59,7 +71,7 @@ Shader "UI/WhiteImageWithOutline"
 
                 outlineAlpha = saturate(outlineAlpha - alpha);
 
-                fixed4 baseColor = fixed4(1,1,1,alpha);
+                fixed4 baseColor = fixed4(1, 1, 1, alpha);
                 fixed4 outline = fixed4(_OutlineColor.rgb, outlineAlpha * _OutlineColor.a);
 
                 return lerp(outline, baseColor, alpha);

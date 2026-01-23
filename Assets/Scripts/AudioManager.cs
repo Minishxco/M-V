@@ -11,6 +11,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip selectTools;
     public AudioClip keyboard;
 
+    public static AudioManager Instance;
+
     public void PlayCorrectAnswer()
     {
         audioSource2.PlayOneShot(correctAnswer);

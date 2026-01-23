@@ -9,8 +9,8 @@ public class VideoSelector : MonoBehaviour
     public VideoPlayer videoPlayer;
 
     // RUTAS RELATIVAS DENTRO DE StreamingAssets
-    private string videoPersonaje1 = "Video/VideoPersonaje2.mp4";
-    private string videoPersonaje2 = "Video/VideoPersonaje1.mp4";
+    private string videoPersonaje1 = "Video/secVega.mov";
+    private string videoPersonaje2 = "Video/secMillan.mov";
     private string videoIntro = "Video/Intromprevencion.mp4";
     private string videoLoop = "Video/loop.mp4";
 

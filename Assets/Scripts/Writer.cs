@@ -11,8 +11,6 @@ public class Writer : MonoBehaviour
 
     public TextMeshProUGUI[] texts;
     public AudioManager audioManager;
-    private bool isActive;
-
 
     private void Awake()
     {
