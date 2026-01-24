@@ -32,6 +32,9 @@ public class Interactable : MonoBehaviour
     public KeyManager keyManager;
     public GameObject[] imageLetters;
 
+    public string tagKey;
+    public GameObject outlineKey;
+
     private void Start()
     {
         foreach (Herramienta h in herramientas)
@@ -56,6 +59,11 @@ public class Interactable : MonoBehaviour
                 break;
             }
         }
+
+        if (other.CompareTag(tagKey))
+        {
+            outlineKey.SetActive(true);
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
@@ -68,6 +76,11 @@ public class Interactable : MonoBehaviour
                 herramientaActual.panelNivel2.SetActive(false);
 
             herramientaActual = null;
+        }
+
+        if (other.CompareTag(tagKey))
+        {
+            outlineKey.SetActive(false);
         }
     }
 
@@ -89,26 +102,6 @@ public class Interactable : MonoBehaviour
         Debug.Log("Juego Terminado");
     }
 
-
-    public void RespuestaCorrecta()
-    {
-        audioManager.PlayCorrectAnswer();
-
-        nivel = 2;
-        panelCorrecto.SetActive(true);
-
-        foreach (Herramienta h in herramientas)
-        {
-            h.imagenButton.GetComponent<SpriteRenderer>().enabled = true;
-            h.imagenButton.GetComponent<CircleCollider2D>().enabled = true;
-        }
-
-        foreach (var imgLetters in imageLetters)
-        {
-            imgLetters.SetActive(false);
-        }
-    }
-
     public void RespuestaIncorrecta1()
     {
         RespuestaIncorrecta(panelIncorrecto1);
@@ -124,6 +117,24 @@ public class Interactable : MonoBehaviour
         RespuestaIncorrecta(panelIncorrecto3);
     }
 
+    public void RespuestaCorrecta()
+    {
+        audioManager.PlayCorrectAnswer();
+
+        nivel = 2;
+        panelCorrecto.SetActive(true);
+
+        foreach (var panel in dialoguePanel)
+        {
+            panel.SetActive(false);
+        }
+
+        foreach (Herramienta h in herramientas)
+        {
+            h.imagenButton.GetComponent<SpriteRenderer>().enabled = true;
+            h.imagenButton.GetComponent<CircleCollider2D>().enabled = true;
+        }
+    }
     private void RespuestaIncorrecta(GameObject panelIncorrecto)
     {
         audioManager.PlayWrongAnswer();
@@ -139,6 +150,10 @@ public class Interactable : MonoBehaviour
 
     public void CerrarCorrecto()
     {
+        foreach (var imgLetters in imageLetters)
+        {
+            imgLetters.SetActive(false);
+        }
         panelCorrecto.SetActive(false);
         imageLettersCorrecto.SetActive(true);
     }

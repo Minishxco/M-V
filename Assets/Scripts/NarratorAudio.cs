@@ -1,20 +1,22 @@
 using UnityEngine;
 
-public class narratorAudio : MonoBehaviour
+public class NarratorAudio : MonoBehaviour
 {
-    public AudioSource audioSource;
+    public GameObject targetObject;
     public AudioClip player1, player2;
-    private int character;
-    private void OnEnable()
+
+    private bool played;
+
+    void Update()
     {
-        character = UserDataLoader.LoadCharacter();
-        if (character == 1)
+        if (!played && targetObject.activeInHierarchy)
         {
-            audioSource.PlayOneShot(player1);
-        }
-        else if (character == 2)
-        {
-            audioSource.PlayOneShot(player2);
+            played = true;
+
+            int character = UserDataLoader.LoadCharacter();
+            AudioClip clip = character == 1 ? player1 : player2;
+
+            AudioManager.Instance.PlayNarrator(clip);
         }
     }
 }

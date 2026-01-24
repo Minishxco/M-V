@@ -12,6 +12,32 @@ public class AudioManager : MonoBehaviour
     public AudioClip keyboard;
 
     public static AudioManager Instance;
+    public AudioSource narratorSource;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public void PlayNarrator(AudioClip clip)
+    {
+        // Si hay otro audio narrado, se corta
+        if (narratorSource.isPlaying)
+        {
+            narratorSource.Stop();
+        }
+
+        narratorSource.clip = clip;
+        narratorSource.Play();
+    }
 
     public void PlayCorrectAnswer()
     {
