@@ -18,39 +18,24 @@ public class CharacterSelector : MonoBehaviour
 
     public void SelectCharacter1()
     {
-        if (selectedCharacter == 1)
-        {
-            ConfirmCharacter1();
-            return;
-        }
-
-        selectedCharacter = 1;
         character1Image.SetActive(true);
         character2Image.SetActive(false);
     }
 
     public void SelectCharacter2()
     {
-        if (selectedCharacter == 2)
-        {
-            ConfirmCharacter2();
-            return;
-        }
-
-        selectedCharacter = 2;
         character2Image.SetActive(true);
         character1Image.SetActive(false);
     }
 
-    // SEGUNDO CLIC
-    private void ConfirmCharacter1()
+    public void ConfirmCharacter1()
     {
         Debug.Log("Personaje 1 confirmado");
         videoSelector.PlayPersonaje2();
         dataSaver.SelectCharacter2();
     }
 
-    private void ConfirmCharacter2()
+    public void ConfirmCharacter2()
     {
         Debug.Log("Personaje 2 confirmado");
         videoSelector.PlayPersonaje1();
