@@ -6,17 +6,25 @@ public class Writer : MonoBehaviour
 {
     public float delay = 0.05f;
     public float delayBetweenTexts = 0.3f;
-    public bool hasName, hasBotton;
+    public bool hasBotton;
     public GameObject closeButton;
 
     public TextMeshProUGUI[] texts;
     public AudioManager audioManager;
 
+    public bool hasName;
+    public TextMeshProUGUI textName;
+
     private void Awake()
     {
         if (hasName)
         {
-            texts[0].text = UserDataLoader.LoadName() + " " + texts[0].text;
+            if(textName != null)
+            {
+                textName.text = UserDataLoader.LoadName();
+            }
+
+            texts[0].text = texts[0].text;
         }
     }
 

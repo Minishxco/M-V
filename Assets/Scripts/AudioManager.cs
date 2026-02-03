@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource audioSource;
-    public AudioSource audioSource2;
+    public AudioSource audioAlert;
+    public AudioSource audioNotification;
+    public AudioSource audioWriting;
+    public AudioSource audioVoice;
+
     public AudioClip correctAnswer;
     public AudioClip wrongAnswer;
     public AudioClip optionsBox;
@@ -12,7 +15,6 @@ public class AudioManager : MonoBehaviour
     public AudioClip keyboard;
 
     public static AudioManager Instance;
-    public AudioSource narratorSource;
 
     private void Awake()
     {
@@ -30,50 +32,50 @@ public class AudioManager : MonoBehaviour
     public void PlayNarrator(AudioClip clip)
     {
         // Si hay otro audio narrado, se corta
-        if (narratorSource.isPlaying)
+        if (audioVoice.isPlaying)
         {
-            narratorSource.Stop();
+            audioVoice.Stop();
         }
 
-        narratorSource.clip = clip;
-        narratorSource.Play();
+        audioVoice.clip = clip;
+        audioVoice.Play();
     }
 
     public void PlayCorrectAnswer()
     {
-        audioSource2.PlayOneShot(correctAnswer);
+        audioAlert.PlayOneShot(correctAnswer);
     }
 
     public void PlayWrongAnswer()
     {
-        audioSource2.PlayOneShot(wrongAnswer);
+        audioAlert.PlayOneShot(wrongAnswer);
     }
 
     public void PlayOptionsBox()
     {
-        audioSource.PlayOneShot(optionsBox);
+        audioNotification.PlayOneShot(optionsBox);
     }
 
     public void PlayKeyCollected()
     {
-        audioSource.PlayOneShot(keyCollected);
+        audioNotification.PlayOneShot(keyCollected);
     }
 
     public void PlaySelectTools()
     {
-        audioSource.PlayOneShot(selectTools);
+        audioNotification.PlayOneShot(selectTools);
     }
 
     public void PlayKeyboard()
     {
-        audioSource.loop = true;
-        audioSource.clip = keyboard;
-        audioSource.Play();
+        audioWriting.loop = true;
+        audioWriting.clip = keyboard;
+        audioWriting.Play();
     }
 
     public void StopKeyboard()
     {
-        audioSource.loop = false;
-        audioSource.Stop();
+        audioWriting.loop = false;
+        audioWriting.Stop();
     }
 }

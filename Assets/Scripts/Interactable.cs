@@ -137,7 +137,15 @@ public class Interactable : MonoBehaviour
     }
     private void RespuestaIncorrecta(GameObject panelIncorrecto)
     {
-        audioManager.PlayWrongAnswer();
+
+        if (audioManager != null)
+        {
+            audioManager.PlayWrongAnswer();
+        }
+        else
+        {
+            Debug.LogWarning("No se pudo reproducir sonido: AudioManager es null");
+        }
 
         foreach (var panel in dialoguePanel)
         {
