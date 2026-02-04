@@ -14,10 +14,24 @@ public class AudioManager : MonoBehaviour
     public AudioClip selectTools;
     public AudioClip keyboard;
 
+    private int character;
+    public AudioClip narrationVega;
+    public AudioClip narrationMillan;
+
     public static AudioManager Instance;
 
     private void Awake()
     {
+        character = UserDataLoader.LoadCharacter();
+        if (character == 1)
+        {
+            PlayNarrator(narrationMillan);
+        }
+        else if (character == 2)
+        {
+            PlayNarrator(narrationVega);
+        }
+
         if (Instance == null)
         {
             Instance = this;
