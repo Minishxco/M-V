@@ -4374,9 +4374,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "ERROR,  puedes creer que es la opci\xF3n m\xE1s r\xE1pida pero no sabemos
-    lo que nos podemos encontrar al meter la mano en ese desorden, podemos sufrir
-    cortes o golpes."
+  m_text: "ERROR,  aunque puede parecer una buena soluci\xF3n y sobre todo r\xE1pida,
+    con esta opci\xF3n no conseguiremos encontrar la llave.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9740,7 +9739,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1686143689
 Transform:
   m_ObjectHideFlags: 0
@@ -11984,8 +11983,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "ERROR,  aunque puede parecer una buena soluci\xF3n y sobre todo r\xE1pida,
-    con esta opci\xF3n no conseguiremos encontrar la llave."
+  m_text: "ERROR,  puedes creer que es la opci\xF3n m\xE1s r\xE1pida pero no sabemos
+    lo que nos podemos encontrar al meter la mano en ese desorden, podemos sufrir
+    cortes o golpes."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
