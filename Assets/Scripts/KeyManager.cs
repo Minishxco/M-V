@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class KeyManager : MonoBehaviour
 {
+    public GameObject fadeOut;
     public GameObject[] fullKeyImage;
     void Start()
     {
@@ -19,5 +20,6 @@ public class KeyManager : MonoBehaviour
         {
             fullKeyImage[0].SetActive(true);
         }
+        fadeOut.SetActive(true);
     }
 }

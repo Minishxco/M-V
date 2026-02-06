@@ -15,7 +15,7 @@ public class NarratorAudio : MonoBehaviour
 
             int character = UserDataLoader.LoadCharacter();
             AudioClip clip = character == 1 ? player1 : player2;
-
+            gameObject.SetActive(false);
             AudioManager.Instance.PlayNarrator(clip);
         }
     }
