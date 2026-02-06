@@ -4748,18 +4748,18 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 493170438}
+  m_TargetGraphic: {fileID: 748033055}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 725673419}
-        m_TargetAssemblyTypeName: ButtonPanel, Assembly-CSharp
-        m_MethodName: Dialogo
-        m_Mode: 3
+      - m_Target: {fileID: 491871868}
+        m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+        m_MethodName: RespuestaIncorrecta2
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4880,18 +4880,18 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 497392808}
+  m_TargetGraphic: {fileID: 153846636}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 725673419}
-        m_TargetAssemblyTypeName: ButtonPanel, Assembly-CSharp
-        m_MethodName: Dialogo
-        m_Mode: 3
+      - m_Target: {fileID: 491871868}
+        m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+        m_MethodName: RespuestaIncorrecta3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5012,18 +5012,18 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 508127690}
+  m_TargetGraphic: {fileID: 2012466832}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 725673419}
-        m_TargetAssemblyTypeName: ButtonPanel, Assembly-CSharp
-        m_MethodName: Dialogo
-        m_Mode: 3
+      - m_Target: {fileID: 491871868}
+        m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+        m_MethodName: RespuestaCorrecta
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6578,7 +6578,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 725673418}
-  - component: {fileID: 725673419}
   m_Layer: 0
   m_Name: Interactable
   m_TagString: Untagged
@@ -6610,23 +6609,6 @@ Transform:
   - {fileID: 1686143689}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &725673419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725673414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23b225d58e5d1f1489c026ab787038f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panelABCD:
-  - {fileID: 1978327179}
-  - {fileID: 678974568}
-  - {fileID: 753444880}
-  - {fileID: 2030914707}
 --- !u!1 &729641210
 GameObject:
   m_ObjectHideFlags: 0
@@ -7802,14 +7784,14 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 854997243}
+  m_TargetGraphic: {fileID: 2018444955}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 725673419}
-        m_TargetAssemblyTypeName: ButtonPanel, Assembly-CSharp
-        m_MethodName: Dialogo
-        m_Mode: 3
+      - m_Target: {fileID: 491871868}
+        m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+        m_MethodName: RespuestaIncorrecta1
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
