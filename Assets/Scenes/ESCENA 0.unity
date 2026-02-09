@@ -1380,7 +1380,7 @@ GameObject:
   - component: {fileID: 1117288783}
   - component: {fileID: 1117288785}
   m_Layer: 5
-  m_Name: PanelSeleccionar
+  m_Name: '[OFF]PanelSeleccionar'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1606,7 +1606,7 @@ GameObject:
   - component: {fileID: 1140865020}
   - component: {fileID: 1140865019}
   m_Layer: 5
-  m_Name: Resplandor1
+  m_Name: '[OFF]Resplandor1'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1629,7 +1629,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.799982, y: -134.69997}
+  m_AnchoredPosition: {x: 39, y: -133.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1140865019
@@ -2003,7 +2003,7 @@ GameObject:
   - component: {fileID: 1305240093}
   - component: {fileID: 1305240092}
   m_Layer: 5
-  m_Name: Resplandor2
+  m_Name: '[OFF]Resplandor2'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2064,7 +2064,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -119.50003, y: -131.2}
+  m_AnchoredPosition: {x: -124.6, y: -129.7}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1422648678
@@ -2189,8 +2189,8 @@ MonoBehaviour:
   videoPlayer: {fileID: 526904609}
   videoPersonaje1: "TOTAL DE MILLA\u0301N_INTRO_V2.mp4"
   videoPersonaje2: TOTAL DE VEGA_INTRO_V2.mp4
-  videoCabecera: CABECERA V3.mp4
-  videoLoop: loop.mp4
+  videoCabecera: "Video_Introduccio\u0301n_Misio\u0301n Prevencio\u0301n_v3.mov"
+  videoLoop: LOOP SELECCION DE PERSONAJE V3.mov
   video1: {fileID: 526904608}
   panelSeleccionar: {fileID: 1117288781}
   panelNombre: {fileID: 1696580510}
@@ -2440,7 +2440,7 @@ GameObject:
   - component: {fileID: 1696580513}
   - component: {fileID: 1696580512}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: '[ON]Panel'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

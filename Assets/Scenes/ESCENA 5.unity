@@ -878,6 +878,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 682770792}
   - {fileID: 920914846}
   m_Father: {fileID: 1326751170}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3660,6 +3661,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1078068174}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 682770791}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &414689284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4359,8 +4384,8 @@ Transform:
   m_GameObject: {fileID: 490859187}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.02, y: -0.02, z: 0}
+  m_LocalScale: {x: 0.82000345, y: 0.80089414, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1193502273}
@@ -4410,12 +4435,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 8682514614959850769, guid: 57b281c60037e284386b3ad24eaaac6b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f19048bfcba19fa4683b83145c1e24d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 11.84, y: 8.64}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -6420,12 +6445,12 @@ GameObject:
   - component: {fileID: 682770792}
   - component: {fileID: 682770793}
   m_Layer: 5
-  m_Name: Control
+  m_Name: '[OFF]Controles'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &682770792
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6439,7 +6464,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 79346485}
-  m_Father: {fileID: 1078068175}
+  m_Father: {fileID: 80061828}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7959,7 +7984,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -46, y: 62.799988}
+  m_AnchoredPosition: {x: -46, y: 62.799973}
   m_SizeDelta: {x: 387.854, y: 242.542}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &920914847
@@ -8232,8 +8257,8 @@ Transform:
   m_GameObject: {fileID: 983269051}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.182, y: 0.05, z: 0}
+  m_LocalScale: {x: 0.89120454, y: 0.8480482, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1430241081}
@@ -8283,12 +8308,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -5141795349398773875, guid: eb1476ab103c72e4c96f605ccb617e1a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 933c03dbd0485974aa41b5a8db386140, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 11.84, y: 8.64}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -8514,12 +8539,12 @@ GameObject:
   - component: {fileID: 1078068175}
   - component: {fileID: 1078068177}
   m_Layer: 5
-  m_Name: '[ON]KeyPanel'
+  m_Name: '[OFF]KeyPanel'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1078068175
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8533,7 +8558,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 787898704}
-  - {fileID: 682770792}
   m_Father: {fileID: 1326751170}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9996,10 +10020,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 986279872}
-  - {fileID: 1078068175}
   - {fileID: 463719400}
   - {fileID: 80061828}
+  - {fileID: 986279872}
+  - {fileID: 1078068175}
   - {fileID: 246861033}
   - {fileID: 1807175486}
   - {fileID: 1978327180}
@@ -12051,7 +12075,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: dc3fbf9074f6cf141a6037ffd7ea5596, type: 3}
+  m_Sprite: {fileID: 5812446368560120767, guid: 0b8ad9488df03e44c999203f4c56062a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12702,7 +12726,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1855227546}
+  m_TargetGraphic: {fileID: 414689284}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -12717,6 +12741,30 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1078068174}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 682770791}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1855227546
 MonoBehaviour:
@@ -13005,8 +13053,8 @@ Transform:
   m_GameObject: {fileID: 1904537796}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.065, y: -0.066, z: 0}
+  m_LocalScale: {x: 0.85221505, y: 0.88331103, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1650593647}
@@ -13056,12 +13104,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 1456793327016758467, guid: 8c404e357ee404540b5367020a33a77e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f0aaa1963ebafb4f836948ddc43058f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 11.84, y: 8.64}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -13615,8 +13663,8 @@ Transform:
   m_GameObject: {fileID: 2004427566}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.043, y: 0.115, z: 0}
+  m_LocalScale: {x: 0.8809436, y: 0.8512383, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 321813836}
@@ -13666,12 +13714,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -5505505602619946853, guid: 5b8a60ce3c15d0243aa29706f3e717c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 775a1ae66832b4e429c0ca8662425ae3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.86, y: 5.75}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -14287,6 +14335,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1807175485}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2041732581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14611,12 +14671,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 8814631109758448598, guid: c150c2fd5f0b19a48b7d1f8be0754d07, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d94ef2fbd5cf30d44883aa87789f5353, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 11.84, y: 8.64}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -14631,8 +14691,8 @@ Transform:
   m_GameObject: {fileID: 2101867730}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.134, y: -0.035, z: 0}
+  m_LocalScale: {x: 0.8892475, y: 0.89560395, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 30933901}
