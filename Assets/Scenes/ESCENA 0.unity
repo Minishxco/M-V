@@ -2224,6 +2224,7 @@ MonoBehaviour:
   character2Image: {fileID: 1305240091}
   videoSelector: {fileID: 1422648683}
   dataSaver: {fileID: 1422648684}
+  panelSeccionar: {fileID: 1117288781}
 --- !u!1 &1608809717
 GameObject:
   m_ObjectHideFlags: 0
@@ -2574,6 +2575,7 @@ GameObject:
   - component: {fileID: 1774280801}
   - component: {fileID: 1774280800}
   - component: {fileID: 1774280799}
+  - component: {fileID: 1774280802}
   m_Layer: 5
   m_Name: Button_Start
   m_TagString: Untagged
@@ -2695,6 +2697,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774280797}
   m_CullTransparentMesh: 1
+--- !u!114 &1774280802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774280797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0608c43aca787644facee0fbf423e566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnterPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1422648684}
+        m_TargetAssemblyTypeName: UserDataSaver, Assembly-CSharp
+        m_MethodName: SaveName
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  key: 13
 --- !u!1 &1942369611
 GameObject:
   m_ObjectHideFlags: 0
