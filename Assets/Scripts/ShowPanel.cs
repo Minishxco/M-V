@@ -4,7 +4,7 @@ using UnityEngine;
 public class ShowPanel : MonoBehaviour
 {
     public AudioManager audioManager;
-    public GameObject panel;
+    public GameObject panel, buttonLetter;
     [TextArea(3, 10)]
     public string dialogueText;
     public TextMeshProUGUI TMP_dialogueText;
@@ -16,6 +16,7 @@ public class ShowPanel : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         audioManager.PlayOptionsBox();
+        buttonLetter.SetActive(true);
         panel.SetActive(true);
     }
 
@@ -24,6 +25,7 @@ public class ShowPanel : MonoBehaviour
         if (panel != null)
         {
             panel.SetActive(false);
+            buttonLetter.SetActive(false);
         }
     }
 }

@@ -487,6 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioManager: {fileID: 1747134629}
   panel: {fileID: 678974568}
+  buttonLetter: {fileID: 493170435}
   dialogueText: DIRECTAMENTE BUSCAR LA LLAVE ENTRE TODO EL DESORDEN PARA GANAR TIEMPO
   TMP_dialogueText: {fileID: 1173892490}
 --- !u!114 &34792164
@@ -3205,6 +3206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioManager: {fileID: 1747134629}
   panel: {fileID: 1978327179}
+  buttonLetter: {fileID: 854997240}
   dialogueText: APAGAR LA LUZ PARA QUE NO SE VEA EL DESORDEN
   TMP_dialogueText: {fileID: 472163384}
 --- !u!114 &338660566
@@ -4708,12 +4710,12 @@ GameObject:
   - component: {fileID: 493170438}
   - component: {fileID: 493170437}
   m_Layer: 0
-  m_Name: 'Button[ABCD]'
+  m_Name: '[OFF]ButtonB'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &493170436
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4840,12 +4842,12 @@ GameObject:
   - component: {fileID: 497392808}
   - component: {fileID: 497392807}
   m_Layer: 0
-  m_Name: 'Button[ABCD]'
+  m_Name: '[OFF]ButtonC'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &497392806
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4972,12 +4974,12 @@ GameObject:
   - component: {fileID: 508127690}
   - component: {fileID: 508127689}
   m_Layer: 0
-  m_Name: 'Button[ABCD]'
+  m_Name: '[OFF]ButtonD'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &508127688
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5457,7 +5459,7 @@ MonoBehaviour:
     el taller. Con esta opci\xF3n no conseguiremos encontrar la llave.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5522,7 +5524,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &601849161
@@ -6291,7 +6293,7 @@ MonoBehaviour:
   m_text: Name
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6356,7 +6358,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &669280738
@@ -6775,6 +6777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioManager: {fileID: 1747134629}
   panel: {fileID: 753444880}
+  buttonLetter: {fileID: 497392805}
   dialogueText: SALTAR ESQUIVANDO TODAS LAS HERRAMIENTAS
   TMP_dialogueText: {fileID: 1716937488}
 --- !u!114 &729641215
@@ -7744,12 +7747,12 @@ GameObject:
   - component: {fileID: 854997243}
   - component: {fileID: 854997242}
   m_Layer: 0
-  m_Name: 'Button[ABCD]'
+  m_Name: '[OFF]ButtonA'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &854997241
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7984,7 +7987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -46, y: 62.799973}
+  m_AnchoredPosition: {x: -46, y: 62.799988}
   m_SizeDelta: {x: 387.854, y: 242.542}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &920914847
@@ -10967,7 +10970,7 @@ MonoBehaviour:
   m_text: Saltar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11032,7 +11035,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1512790163
@@ -12363,6 +12366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioManager: {fileID: 1747134629}
   panel: {fileID: 2030914707}
+  buttonLetter: {fileID: 508127687}
   dialogueText: "ORDENARLAS PARA QUE AS\xCD PUEDA ENCONTRAR LA LLAVE"
   TMP_dialogueText: {fileID: 211288294}
 --- !u!114 &1738167012

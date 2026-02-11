@@ -34,6 +34,7 @@ public class Interactable : MonoBehaviour
 
     public string tagKey;
     public GameObject outlineKey;
+    public GameObject ButtonKey;
 
     private void Start()
     {
@@ -63,6 +64,7 @@ public class Interactable : MonoBehaviour
         if (other.CompareTag(tagKey))
         {
             outlineKey.SetActive(true);
+            ButtonKey.SetActive(true);
         }
     }
 
@@ -81,6 +83,7 @@ public class Interactable : MonoBehaviour
         if (other.CompareTag(tagKey))
         {
             outlineKey.SetActive(false);
+            ButtonKey.SetActive(false);
         }
     }
 
