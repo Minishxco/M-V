@@ -6,6 +6,7 @@ public class KeyManager : MonoBehaviour
 {
     public GameObject fadeOut;
     public GameObject[] fullKeyImage;
+    public AudioManager audioManager;
     void Start()
     {
         foreach (var fullKey in fullKeyImage)
@@ -16,6 +17,7 @@ public class KeyManager : MonoBehaviour
 
     public void updateKey()
     {
+        audioManager.PlayKeyCollected();
         for (int i = 0; i < fullKeyImage.Length; i++)
         {
             fullKeyImage[0].SetActive(true);

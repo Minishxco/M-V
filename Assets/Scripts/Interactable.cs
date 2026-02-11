@@ -99,7 +99,6 @@ public class Interactable : MonoBehaviour
 
     public void llaveFinal()
     {
-        audioManager.PlayKeyCollected();
         llave.SetActive(false);
         keyManager.updateKey();
         Debug.Log("Juego Terminado");
