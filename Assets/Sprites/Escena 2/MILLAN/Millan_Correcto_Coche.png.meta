@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: 04072c53e0a8c73478959964bec83978
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -519600992969670546
+    second: Millan_Correcto_Coche_0
+  - first:
+      213: 8714755196336746456
+    second: Millan_Correcto_Coche_1
+  - first:
+      213: -3085668820240634297
+    second: Millan_Correcto_Coche_2
+  - first:
+      213: 3699863888278472976
+    second: Millan_Correcto_Coche_3
+  - first:
+      213: 3648259584431449271
+    second: Millan_Correcto_Coche_4
+  - first:
+      213: -1240586911208762433
+    second: Millan_Correcto_Coche_5
+  - first:
+      213: -6828609851038113
+    second: Millan_Correcto_Coche_6
+  - first:
+      213: -8618482970274407635
+    second: Millan_Correcto_Coche_7
+  - first:
+      213: 560463248702565587
+    second: Millan_Correcto_Coche_8
+  - first:
+      213: -4873301897023537886
+    second: Millan_Correcto_Coche_9
+  - first:
+      213: 6520634345776932960
+    second: Millan_Correcto_Coche_10
+  - first:
+      213: 8242341897460251556
+    second: Millan_Correcto_Coche_11
+  - first:
+      213: 3382467252646300493
+    second: Millan_Correcto_Coche_12
+  - first:
+      213: -6786346568476725387
+    second: Millan_Correcto_Coche_13
+  - first:
+      213: -718795757223496616
+    second: Millan_Correcto_Coche_14
+  - first:
+      213: -3420384389777867569
+    second: Millan_Correcto_Coche_15
+  - first:
+      213: 678627689785442262
+    second: Millan_Correcto_Coche_16
+  - first:
+      213: 7026296076680681876
+    second: Millan_Correcto_Coche_17
+  - first:
+      213: 8656144727036871800
+    second: Millan_Correcto_Coche_18
+  - first:
+      213: 145122609427942441
+    second: Millan_Correcto_Coche_19
+  - first:
+      213: 7478998468144057512
+    second: Millan_Correcto_Coche_20
+  - first:
+      213: -3877091013140386070
+    second: Millan_Correcto_Coche_21
+  - first:
+      213: 5692781992301190904
+    second: Millan_Correcto_Coche_22
+  - first:
+      213: 3741045605881060067
+    second: Millan_Correcto_Coche_23
+  - first:
+      213: 3549936525008900939
+    second: Millan_Correcto_Coche_24
+  - first:
+      213: -6534911198073801886
+    second: Millan_Correcto_Coche_25
+  - first:
+      213: 1018069406112535627
+    second: Millan_Correcto_Coche_26
+  - first:
+      213: 3832509246356421285
+    second: Millan_Correcto_Coche_27
+  - first:
+      213: 6545063307646610292
+    second: Millan_Correcto_Coche_28
+  - first:
+      213: 5082069885646753598
+    second: Millan_Correcto_Coche_29
+  - first:
+      213: -8701767808315282034
+    second: Millan_Correcto_Coche_30
+  - first:
+      213: -6056775577916322250
+    second: Millan_Correcto_Coche_31
+  - first:
+      213: 4993341979950995732
+    second: Millan_Correcto_Coche_32
+  - first:
+      213: 2600981236392455126
+    second: Millan_Correcto_Coche_33
+  - first:
+      213: 5599616151487838784
+    second: Millan_Correcto_Coche_34
+  - first:
+      213: -3340249269342698072
+    second: Millan_Correcto_Coche_35
+  - first:
+      213: -6366115647545006892
+    second: Millan_Correcto_Coche_36
+  - first:
+      213: -1200710482530286966
+    second: Millan_Correcto_Coche_37
+  - first:
+      213: 3440468247124871524
+    second: Millan_Correcto_Coche_38
+  - first:
+      213: 9195281947092247265
+    second: Millan_Correcto_Coche_39
+  - first:
+      213: 1248859888564565193
+    second: Millan_Correcto_Coche_40
+  - first:
+      213: 5823217457805107026
+    second: Millan_Correcto_Coche_41
+  - first:
+      213: 2354924190800054172
+    second: Millan_Correcto_Coche_42
+  - first:
+      213: -3550462370409648752
+    second: Millan_Correcto_Coche_43
+  - first:
+      213: -4775627243566931160
+    second: Millan_Correcto_Coche_44
+  - first:
+      213: -6827155010089040802
+    second: Millan_Correcto_Coche_45
+  - first:
+      213: 5550268327124559358
+    second: Millan_Correcto_Coche_46
+  - first:
+      213: -4240184345261307645
+    second: Millan_Correcto_Coche_47
+  - first:
+      213: 5511946191330083263
+    second: Millan_Correcto_Coche_48
+  - first:
+      213: 4897408134833614937
+    second: Millan_Correcto_Coche_49
+  - first:
+      213: 3001136386799807012
+    second: Millan_Correcto_Coche_50
+  - first:
+      213: 6391140844791707204
+    second: Millan_Correcto_Coche_51
+  - first:
+      213: -3927277679894897874
+    second: Millan_Correcto_Coche_52
+  - first:
+      213: 8479591764757953638
+    second: Millan_Correcto_Coche_53
+  - first:
+      213: 2235622522153390859
+    second: Millan_Correcto_Coche_54
+  - first:
+      213: -4911256214762823883
+    second: Millan_Correcto_Coche_55
+  - first:
+      213: 8283611593995495091
+    second: Millan_Correcto_Coche_56
+  - first:
+      213: -7943643986731898959
+    second: Millan_Correcto_Coche_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 393
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e604a1d56a10ac8f0800000000000000
+      internalID: -519600992969670546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_1
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 393
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df2426ada701f870800000000000000
+      internalID: 8714755196336746456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_2
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 0
+        width: 393
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74eee0b7e808d25d0800000000000000
+      internalID: -3085668820240634297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_3
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 0
+        width: 393
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019422a8a9e885330800000000000000
+      internalID: 3699863888278472976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_4
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 0
+        width: 393
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4637243c831a230800000000000000
+      internalID: 3648259584431449271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_5
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 0
+        width: 391
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb31764f6cc88cee0800000000000000
+      internalID: -1240586911208762433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_6
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 0
+        width: 391
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56e48f5a6db7eff0800000000000000
+      internalID: -6828609851038113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_7
+      rect:
+        serializedVersion: 2
+        x: 3632
+        y: 0
+        width: 392
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b5a06b66ff46880800000000000000
+      internalID: -8618482970274407635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_8
+      rect:
+        serializedVersion: 2
+        x: 4144
+        y: 0
+        width: 392
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dce390fa5a27c700800000000000000
+      internalID: 560463248702565587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_9
+      rect:
+        serializedVersion: 2
+        x: 4656
+        y: 0
+        width: 391
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dbca89ebd8e5cb0800000000000000
+      internalID: -4873301897023537886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_10
+      rect:
+        serializedVersion: 2
+        x: 5168
+        y: 0
+        width: 392
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068ee32c362fd7a50800000000000000
+      internalID: 6520634345776932960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_11
+      rect:
+        serializedVersion: 2
+        x: 5680
+        y: 0
+        width: 392
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abff63394ea26270800000000000000
+      internalID: 8242341897460251556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_12
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 0
+        width: 391
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bcf529b00f0fe20800000000000000
+      internalID: 3382467252646300493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_13
+      rect:
+        serializedVersion: 2
+        x: 6704
+        y: 0
+        width: 392
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fe04760cd02d1a0800000000000000
+      internalID: -6786346568476725387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_14
+      rect:
+        serializedVersion: 2
+        x: 7216
+        y: 0
+        width: 392
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854b2a031135606f0800000000000000
+      internalID: -718795757223496616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_15
+      rect:
+        serializedVersion: 2
+        x: 7729
+        y: 0
+        width: 392
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccbffbf48a5880d0800000000000000
+      internalID: -3420384389777867569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_16
+      rect:
+        serializedVersion: 2
+        x: 8241
+        y: 0
+        width: 392
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfb760d948fa6900800000000000000
+      internalID: 678627689785442262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_17
+      rect:
+        serializedVersion: 2
+        x: 8753
+        y: 0
+        width: 391
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499d5490e0b628160800000000000000
+      internalID: 7026296076680681876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_18
+      rect:
+        serializedVersion: 2
+        x: 9264
+        y: 0
+        width: 392
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874476b54cdc02870800000000000000
+      internalID: 8656144727036871800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_19
+      rect:
+        serializedVersion: 2
+        x: 9776
+        y: 0
+        width: 392
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c84df8e34930200800000000000000
+      internalID: 145122609427942441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_20
+      rect:
+        serializedVersion: 2
+        x: 10288
+        y: 0
+        width: 392
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acca693b7dbac760800000000000000
+      internalID: 7478998468144057512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_21
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 0
+        width: 392
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee68e7e34ec13ac0800000000000000
+      internalID: -3877091013140386070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_22
+      rect:
+        serializedVersion: 2
+        x: 11312
+        y: 0
+        width: 392
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe5ad27f03d00f40800000000000000
+      internalID: 5692781992301190904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_23
+      rect:
+        serializedVersion: 2
+        x: 11823
+        y: 0
+        width: 390
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea931b582ddae330800000000000000
+      internalID: 3741045605881060067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_24
+      rect:
+        serializedVersion: 2
+        x: 12336
+        y: 0
+        width: 391
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43175c0678e34130800000000000000
+      internalID: 3549936525008900939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_25
+      rect:
+        serializedVersion: 2
+        x: 12847
+        y: 0
+        width: 393
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263b61883e45f45a0800000000000000
+      internalID: -6534911198073801886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_26
+      rect:
+        serializedVersion: 2
+        x: 13359
+        y: 0
+        width: 393
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44d70c1bb8e02e00800000000000000
+      internalID: 1018069406112535627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_27
+      rect:
+        serializedVersion: 2
+        x: 13871
+        y: 0
+        width: 393
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa7973aadecf2530800000000000000
+      internalID: 3832509246356421285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_28
+      rect:
+        serializedVersion: 2
+        x: 14380
+        y: 0
+        width: 395
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b28bca66cb4da50800000000000000
+      internalID: 6545063307646610292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_29
+      rect:
+        serializedVersion: 2
+        x: 14892
+        y: 0
+        width: 396
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f4fa192a3278640800000000000000
+      internalID: 5082069885646753598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_30
+      rect:
+        serializedVersion: 2
+        x: 15401
+        y: 0
+        width: 399
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d2073484c1d3780800000000000000
+      internalID: -8701767808315282034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_31
+      rect:
+        serializedVersion: 2
+        x: 15913
+        y: 0
+        width: 399
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e490ab3b202fba0800000000000000
+      internalID: -6056775577916322250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_32
+      rect:
+        serializedVersion: 2
+        x: 16425
+        y: 0
+        width: 399
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419560d231aeb4540800000000000000
+      internalID: 4993341979950995732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_33
+      rect:
+        serializedVersion: 2
+        x: 16933
+        y: 0
+        width: 403
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbe0a667aa881420800000000000000
+      internalID: 2600981236392455126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_34
+      rect:
+        serializedVersion: 2
+        x: 17445
+        y: 0
+        width: 403
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04af8f3c835d5bd40800000000000000
+      internalID: 5599616151487838784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_35
+      rect:
+        serializedVersion: 2
+        x: 17936
+        y: 0
+        width: 423
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a50297acfc05a1d0800000000000000
+      internalID: -3340249269342698072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_36
+      rect:
+        serializedVersion: 2
+        x: 18448
+        y: 0
+        width: 423
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d426053c8307a7a0800000000000000
+      internalID: -6366115647545006892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_37
+      rect:
+        serializedVersion: 2
+        x: 18949
+        y: 0
+        width: 434
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82c1b28d28365fe0800000000000000
+      internalID: -1200710482530286966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_38
+      rect:
+        serializedVersion: 2
+        x: 19461
+        y: 0
+        width: 435
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46983e274affebf20800000000000000
+      internalID: 3440468247124871524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_39
+      rect:
+        serializedVersion: 2
+        x: 19974
+        y: 0
+        width: 434
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2eef156343c9f70800000000000000
+      internalID: 9195281947092247265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_40
+      rect:
+        serializedVersion: 2
+        x: 20487
+        y: 0
+        width: 506
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4ff10b377d45110800000000000000
+      internalID: 1248859888564565193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_41
+      rect:
+        serializedVersion: 2
+        x: 20999
+        y: 0
+        width: 506
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f9356dc6930d050800000000000000
+      internalID: 5823217457805107026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_42
+      rect:
+        serializedVersion: 2
+        x: 21514
+        y: 0
+        width: 430
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c978c99131f5ea020800000000000000
+      internalID: 2354924190800054172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_43
+      rect:
+        serializedVersion: 2
+        x: 22026
+        y: 0
+        width: 431
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d675709493abec0800000000000000
+      internalID: -3550462370409648752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_44
+      rect:
+        serializedVersion: 2
+        x: 22538
+        y: 0
+        width: 431
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823e387035099bdb0800000000000000
+      internalID: -4775627243566931160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_45
+      rect:
+        serializedVersion: 2
+        x: 23050
+        y: 0
+        width: 431
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e544d1da0b21141a0800000000000000
+      internalID: -6827155010089040802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_46
+      rect:
+        serializedVersion: 2
+        x: 23562
+        y: 0
+        width: 431
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef56c5e03a3860d40800000000000000
+      internalID: 5550268327124559358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_47
+      rect:
+        serializedVersion: 2
+        x: 24070
+        y: 0
+        width: 435
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309078eadc6d725c0800000000000000
+      internalID: -4240184345261307645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_48
+      rect:
+        serializedVersion: 2
+        x: 24581
+        y: 0
+        width: 435
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb10c438bdd5e7c40800000000000000
+      internalID: 5511946191330083263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_49
+      rect:
+        serializedVersion: 2
+        x: 25093
+        y: 0
+        width: 435
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950bdd440c617f340800000000000000
+      internalID: 4897408134833614937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_50
+      rect:
+        serializedVersion: 2
+        x: 25605
+        y: 0
+        width: 435
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42aa3b1a4ad26a920800000000000000
+      internalID: 3001136386799807012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_51
+      rect:
+        serializedVersion: 2
+        x: 26117
+        y: 0
+        width: 435
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446bc439cb4e1b850800000000000000
+      internalID: 6391140844791707204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_52
+      rect:
+        serializedVersion: 2
+        x: 26629
+        y: 0
+        width: 435
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b5b8bf1c18f79c0800000000000000
+      internalID: -3927277679894897874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_53
+      rect:
+        serializedVersion: 2
+        x: 27141
+        y: 0
+        width: 435
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cb9b288cf8da570800000000000000
+      internalID: 8479591764757953638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_54
+      rect:
+        serializedVersion: 2
+        x: 27653
+        y: 0
+        width: 435
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03d0dcc6d6860f10800000000000000
+      internalID: 2235622522153390859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_55
+      rect:
+        serializedVersion: 2
+        x: 28165
+        y: 0
+        width: 436
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fd12e5e76b7dbb0800000000000000
+      internalID: -4911256214762823883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_56
+      rect:
+        serializedVersion: 2
+        x: 28677
+        y: 0
+        width: 436
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6a8653bdc45f270800000000000000
+      internalID: 8283611593995495091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_Correcto_Coche_57
+      rect:
+        serializedVersion: 2
+        x: 29189
+        y: 0
+        width: 436
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b76dac91e182c190800000000000000
+      internalID: -7943643986731898959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Millan_Correcto_Coche_0: -519600992969670546
+      Millan_Correcto_Coche_1: 8714755196336746456
+      Millan_Correcto_Coche_10: 6520634345776932960
+      Millan_Correcto_Coche_11: 8242341897460251556
+      Millan_Correcto_Coche_12: 3382467252646300493
+      Millan_Correcto_Coche_13: -6786346568476725387
+      Millan_Correcto_Coche_14: -718795757223496616
+      Millan_Correcto_Coche_15: -3420384389777867569
+      Millan_Correcto_Coche_16: 678627689785442262
+      Millan_Correcto_Coche_17: 7026296076680681876
+      Millan_Correcto_Coche_18: 8656144727036871800
+      Millan_Correcto_Coche_19: 145122609427942441
+      Millan_Correcto_Coche_2: -3085668820240634297
+      Millan_Correcto_Coche_20: 7478998468144057512
+      Millan_Correcto_Coche_21: -3877091013140386070
+      Millan_Correcto_Coche_22: 5692781992301190904
+      Millan_Correcto_Coche_23: 3741045605881060067
+      Millan_Correcto_Coche_24: 3549936525008900939
+      Millan_Correcto_Coche_25: -6534911198073801886
+      Millan_Correcto_Coche_26: 1018069406112535627
+      Millan_Correcto_Coche_27: 3832509246356421285
+      Millan_Correcto_Coche_28: 6545063307646610292
+      Millan_Correcto_Coche_29: 5082069885646753598
+      Millan_Correcto_Coche_3: 3699863888278472976
+      Millan_Correcto_Coche_30: -8701767808315282034
+      Millan_Correcto_Coche_31: -6056775577916322250
+      Millan_Correcto_Coche_32: 4993341979950995732
+      Millan_Correcto_Coche_33: 2600981236392455126
+      Millan_Correcto_Coche_34: 5599616151487838784
+      Millan_Correcto_Coche_35: -3340249269342698072
+      Millan_Correcto_Coche_36: -6366115647545006892
+      Millan_Correcto_Coche_37: -1200710482530286966
+      Millan_Correcto_Coche_38: 3440468247124871524
+      Millan_Correcto_Coche_39: 9195281947092247265
+      Millan_Correcto_Coche_4: 3648259584431449271
+      Millan_Correcto_Coche_40: 1248859888564565193
+      Millan_Correcto_Coche_41: 5823217457805107026
+      Millan_Correcto_Coche_42: 2354924190800054172
+      Millan_Correcto_Coche_43: -3550462370409648752
+      Millan_Correcto_Coche_44: -4775627243566931160
+      Millan_Correcto_Coche_45: -6827155010089040802
+      Millan_Correcto_Coche_46: 5550268327124559358
+      Millan_Correcto_Coche_47: -4240184345261307645
+      Millan_Correcto_Coche_48: 5511946191330083263
+      Millan_Correcto_Coche_49: 4897408134833614937
+      Millan_Correcto_Coche_5: -1240586911208762433
+      Millan_Correcto_Coche_50: 3001136386799807012
+      Millan_Correcto_Coche_51: 6391140844791707204
+      Millan_Correcto_Coche_52: -3927277679894897874
+      Millan_Correcto_Coche_53: 8479591764757953638
+      Millan_Correcto_Coche_54: 2235622522153390859
+      Millan_Correcto_Coche_55: -4911256214762823883
+      Millan_Correcto_Coche_56: 8283611593995495091
+      Millan_Correcto_Coche_57: -7943643986731898959
+      Millan_Correcto_Coche_6: -6828609851038113
+      Millan_Correcto_Coche_7: -8618482970274407635
+      Millan_Correcto_Coche_8: 560463248702565587
+      Millan_Correcto_Coche_9: -4873301897023537886
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

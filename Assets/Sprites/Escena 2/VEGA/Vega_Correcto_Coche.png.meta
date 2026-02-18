@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: ae97ba9b46d18114a8fbe952a478a8ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8892681820226335902
+    second: Vega_Correcto_Coche_0
+  - first:
+      213: -6511784927699194747
+    second: Vega_Correcto_Coche_1
+  - first:
+      213: 4400595459754114156
+    second: Vega_Correcto_Coche_2
+  - first:
+      213: 3718659519063845737
+    second: Vega_Correcto_Coche_3
+  - first:
+      213: -5612803214028888322
+    second: Vega_Correcto_Coche_4
+  - first:
+      213: 3864080471890974503
+    second: Vega_Correcto_Coche_5
+  - first:
+      213: -8006588269878091671
+    second: Vega_Correcto_Coche_6
+  - first:
+      213: -929450264264056546
+    second: Vega_Correcto_Coche_7
+  - first:
+      213: -730132287699446797
+    second: Vega_Correcto_Coche_8
+  - first:
+      213: 8239893070580581290
+    second: Vega_Correcto_Coche_9
+  - first:
+      213: 7221904734727234467
+    second: Vega_Correcto_Coche_10
+  - first:
+      213: 5943294423308901121
+    second: Vega_Correcto_Coche_11
+  - first:
+      213: -7741850539869786061
+    second: Vega_Correcto_Coche_12
+  - first:
+      213: 6093985482348666453
+    second: Vega_Correcto_Coche_13
+  - first:
+      213: 1922802354403908285
+    second: Vega_Correcto_Coche_14
+  - first:
+      213: 7907176489574705352
+    second: Vega_Correcto_Coche_15
+  - first:
+      213: 5034046641066892334
+    second: Vega_Correcto_Coche_16
+  - first:
+      213: 6402692384576306075
+    second: Vega_Correcto_Coche_17
+  - first:
+      213: 649872238041619057
+    second: Vega_Correcto_Coche_18
+  - first:
+      213: -7508014643993601777
+    second: Vega_Correcto_Coche_19
+  - first:
+      213: -5768780642679933384
+    second: Vega_Correcto_Coche_20
+  - first:
+      213: 8540651802424943628
+    second: Vega_Correcto_Coche_21
+  - first:
+      213: -2879752994277600708
+    second: Vega_Correcto_Coche_22
+  - first:
+      213: 444443149137042431
+    second: Vega_Correcto_Coche_23
+  - first:
+      213: 8499023708928173064
+    second: Vega_Correcto_Coche_24
+  - first:
+      213: -6360925569691661921
+    second: Vega_Correcto_Coche_25
+  - first:
+      213: -5078753306668856266
+    second: Vega_Correcto_Coche_26
+  - first:
+      213: -8428129912178890393
+    second: Vega_Correcto_Coche_27
+  - first:
+      213: -238999814786681332
+    second: Vega_Correcto_Coche_28
+  - first:
+      213: 9117433225915723012
+    second: Vega_Correcto_Coche_29
+  - first:
+      213: -1862850243067074055
+    second: Vega_Correcto_Coche_30
+  - first:
+      213: 2319539025187619472
+    second: Vega_Correcto_Coche_31
+  - first:
+      213: 8774050928219372716
+    second: Vega_Correcto_Coche_32
+  - first:
+      213: -4984695560280392727
+    second: Vega_Correcto_Coche_33
+  - first:
+      213: -6534664922938795416
+    second: Vega_Correcto_Coche_34
+  - first:
+      213: -8390729075083147381
+    second: Vega_Correcto_Coche_35
+  - first:
+      213: -6099653999321939088
+    second: Vega_Correcto_Coche_36
+  - first:
+      213: 1263911583059256789
+    second: Vega_Correcto_Coche_37
+  - first:
+      213: -7517430720543541385
+    second: Vega_Correcto_Coche_38
+  - first:
+      213: 5634844446962219245
+    second: Vega_Correcto_Coche_39
+  - first:
+      213: -5107319982906788107
+    second: Vega_Correcto_Coche_40
+  - first:
+      213: 3261320243396285595
+    second: Vega_Correcto_Coche_41
+  - first:
+      213: 2364476942776291542
+    second: Vega_Correcto_Coche_42
+  - first:
+      213: -1232264708293089140
+    second: Vega_Correcto_Coche_43
+  - first:
+      213: -3369454105548145588
+    second: Vega_Correcto_Coche_44
+  - first:
+      213: -5010761145104350761
+    second: Vega_Correcto_Coche_45
+  - first:
+      213: 6570837530741803805
+    second: Vega_Correcto_Coche_46
+  - first:
+      213: -8574511635834649497
+    second: Vega_Correcto_Coche_47
+  - first:
+      213: 3682552010031016885
+    second: Vega_Correcto_Coche_48
+  - first:
+      213: -580302789582658834
+    second: Vega_Correcto_Coche_49
+  - first:
+      213: -162777427520819404
+    second: Vega_Correcto_Coche_50
+  - first:
+      213: -4291059422584765377
+    second: Vega_Correcto_Coche_51
+  - first:
+      213: -5997440816190396670
+    second: Vega_Correcto_Coche_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 9
+        width: 316
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e943a230007296b70800000000000000
+      internalID: 8892681820226335902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_1
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 9
+        width: 316
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c2fb2fb1e71a5a0800000000000000
+      internalID: -6511784927699194747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_2
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 9
+        width: 313
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c37da514e021d30800000000000000
+      internalID: 4400595459754114156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_3
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 9
+        width: 313
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bec6a51255b9330800000000000000
+      internalID: 3718659519063845737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_4
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 9
+        width: 307
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef623a9f6315b12b0800000000000000
+      internalID: -5612803214028888322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_5
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 9
+        width: 307
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727d59667b8ff9530800000000000000
+      internalID: 3864080471890974503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_6
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 9
+        width: 309
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9606b17a362e2e090800000000000000
+      internalID: -8006588269878091671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_7
+      rect:
+        serializedVersion: 2
+        x: 3586
+        y: 8
+        width: 309
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11e52ab8ede913f0800000000000000
+      internalID: -929450264264056546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_8
+      rect:
+        serializedVersion: 2
+        x: 4097
+        y: 7
+        width: 310
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f391a08d8c0ed5f0800000000000000
+      internalID: -730132287699446797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_9
+      rect:
+        serializedVersion: 2
+        x: 4609
+        y: 7
+        width: 310
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa38823471bf95270800000000000000
+      internalID: 8239893070580581290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_10
+      rect:
+        serializedVersion: 2
+        x: 5122
+        y: 7
+        width: 309
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3e02bc71c593460800000000000000
+      internalID: 7221904734727234467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_11
+      rect:
+        serializedVersion: 2
+        x: 5635
+        y: 7
+        width: 308
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b13e00ac2da7250800000000000000
+      internalID: 5943294423308901121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_12
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 3
+        width: 305
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33035eab3fb6f8490800000000000000
+      internalID: -7741850539869786061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_13
+      rect:
+        serializedVersion: 2
+        x: 6661
+        y: 2
+        width: 306
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e97c5428f229450800000000000000
+      internalID: 6093985482348666453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_14
+      rect:
+        serializedVersion: 2
+        x: 7174
+        y: 1
+        width: 281
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba978bcd8a2faa10800000000000000
+      internalID: 1922802354403908285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_15
+      rect:
+        serializedVersion: 2
+        x: 7367
+        y: 136
+        width: 112
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8ab6d8f1febbd60800000000000000
+      internalID: 7907176489574705352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_16
+      rect:
+        serializedVersion: 2
+        x: 7687
+        y: 1
+        width: 281
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c5a8f9fb68cd540800000000000000
+      internalID: 5034046641066892334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_17
+      rect:
+        serializedVersion: 2
+        x: 7879
+        y: 136
+        width: 112
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bf4c40dceead850800000000000000
+      internalID: 6402692384576306075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_18
+      rect:
+        serializedVersion: 2
+        x: 8202
+        y: 1
+        width: 281
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17adbd97b5fc40900800000000000000
+      internalID: 649872238041619057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_19
+      rect:
+        serializedVersion: 2
+        x: 8391
+        y: 135
+        width: 112
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f099450e57c2ec790800000000000000
+      internalID: -7508014643993601777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_20
+      rect:
+        serializedVersion: 2
+        x: 8713
+        y: 1
+        width: 282
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836b9edd19c21ffa0800000000000000
+      internalID: -5768780642679933384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_21
+      rect:
+        serializedVersion: 2
+        x: 8903
+        y: 135
+        width: 112
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04a6d1609d768670800000000000000
+      internalID: 8540651802424943628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_22
+      rect:
+        serializedVersion: 2
+        x: 9227
+        y: 1
+        width: 281
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c325737c8ef0908d0800000000000000
+      internalID: -2879752994277600708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_23
+      rect:
+        serializedVersion: 2
+        x: 9415
+        y: 135
+        width: 112
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb5b2b70bafa2600800000000000000
+      internalID: 444443149137042431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_24
+      rect:
+        serializedVersion: 2
+        x: 9739
+        y: 1
+        width: 282
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8046944980992f570800000000000000
+      internalID: 8499023708928173064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_25
+      rect:
+        serializedVersion: 2
+        x: 9927
+        y: 135
+        width: 112
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9944df55e379b7a0800000000000000
+      internalID: -6360925569691661921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_26
+      rect:
+        serializedVersion: 2
+        x: 10251
+        y: 1
+        width: 285
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c8926a6c4a489b0800000000000000
+      internalID: -5078753306668856266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_27
+      rect:
+        serializedVersion: 2
+        x: 10439
+        y: 135
+        width: 112
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769abbfbf74490b80800000000000000
+      internalID: -8428129912178890393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_28
+      rect:
+        serializedVersion: 2
+        x: 10762
+        y: 4
+        width: 286
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06714a4fe6eeacf0800000000000000
+      internalID: -238999814786681332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_29
+      rect:
+        serializedVersion: 2
+        x: 10951
+        y: 135
+        width: 112
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dec067631a78e70800000000000000
+      internalID: 9117433225915723012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_30
+      rect:
+        serializedVersion: 2
+        x: 11274
+        y: 4
+        width: 286
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9ac30e293d526e0800000000000000
+      internalID: -1862850243067074055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_31
+      rect:
+        serializedVersion: 2
+        x: 11463
+        y: 135
+        width: 112
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092c6f63478a03020800000000000000
+      internalID: 2319539025187619472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_32
+      rect:
+        serializedVersion: 2
+        x: 11784
+        y: 7
+        width: 303
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacb3b115d0b3c970800000000000000
+      internalID: 8774050928219372716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_33
+      rect:
+        serializedVersion: 2
+        x: 12296
+        y: 7
+        width: 287
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb35084ccdc2dab0800000000000000
+      internalID: -4984695560280392727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_34
+      rect:
+        serializedVersion: 2
+        x: 12487
+        y: 135
+        width: 112
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a170eefd43055a0800000000000000
+      internalID: -6534664922938795416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_35
+      rect:
+        serializedVersion: 2
+        x: 12807
+        y: 7
+        width: 304
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b878029bc542e8b80800000000000000
+      internalID: -8390729075083147381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_36
+      rect:
+        serializedVersion: 2
+        x: 13319
+        y: 7
+        width: 304
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07300a5410da95ba0800000000000000
+      internalID: -6099653999321939088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_37
+      rect:
+        serializedVersion: 2
+        x: 13832
+        y: 6
+        width: 303
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5afb763e05a8110800000000000000
+      internalID: 1263911583059256789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_38
+      rect:
+        serializedVersion: 2
+        x: 14344
+        y: 7
+        width: 303
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777b466b698bca790800000000000000
+      internalID: -7517430720543541385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_39
+      rect:
+        serializedVersion: 2
+        x: 14856
+        y: 7
+        width: 303
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8f3c97b2df23e40800000000000000
+      internalID: 5634844446962219245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_40
+      rect:
+        serializedVersion: 2
+        x: 15368
+        y: 7
+        width: 303
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6369809872f19b0800000000000000
+      internalID: -5107319982906788107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_41
+      rect:
+        serializedVersion: 2
+        x: 15880
+        y: 6
+        width: 303
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b941d6e6b79824d20800000000000000
+      internalID: 3261320243396285595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_42
+      rect:
+        serializedVersion: 2
+        x: 16392
+        y: 6
+        width: 303
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d058cd704f40d020800000000000000
+      internalID: 2364476942776291542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_43
+      rect:
+        serializedVersion: 2
+        x: 16904
+        y: 6
+        width: 344
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88a0f0d6cd16eee0800000000000000
+      internalID: -1232264708293089140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_44
+      rect:
+        serializedVersion: 2
+        x: 17417
+        y: 6
+        width: 343
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c32d7d75b4d31d0800000000000000
+      internalID: -3369454105548145588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_45
+      rect:
+        serializedVersion: 2
+        x: 17930
+        y: 6
+        width: 445
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1c9b36943367ab0800000000000000
+      internalID: -5010761145104350761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_46
+      rect:
+        serializedVersion: 2
+        x: 18442
+        y: 6
+        width: 486
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b8ba0abed403b50800000000000000
+      internalID: 6570837530741803805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_47
+      rect:
+        serializedVersion: 2
+        x: 18956
+        y: 6
+        width: 501
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7644f9fc817310980800000000000000
+      internalID: -8574511635834649497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_48
+      rect:
+        serializedVersion: 2
+        x: 19468
+        y: 6
+        width: 501
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbacc8ca8d0b1330800000000000000
+      internalID: 3682552010031016885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_49
+      rect:
+        serializedVersion: 2
+        x: 19982
+        y: 7
+        width: 499
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2e1ccffa952f7f0800000000000000
+      internalID: -580302789582658834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_50
+      rect:
+        serializedVersion: 2
+        x: 20493
+        y: 7
+        width: 500
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f6b27cac2bdbdf0800000000000000
+      internalID: -162777427520819404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_51
+      rect:
+        serializedVersion: 2
+        x: 21007
+        y: 7
+        width: 498
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f340ebea0381374c0800000000000000
+      internalID: -4291059422584765377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Correcto_Coche_52
+      rect:
+        serializedVersion: 2
+        x: 21519
+        y: 6
+        width: 497
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207ea8d7a5fc4cca0800000000000000
+      internalID: -5997440816190396670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vega_Correcto_Coche_0: 8892681820226335902
+      Vega_Correcto_Coche_1: -6511784927699194747
+      Vega_Correcto_Coche_10: 7221904734727234467
+      Vega_Correcto_Coche_11: 5943294423308901121
+      Vega_Correcto_Coche_12: -7741850539869786061
+      Vega_Correcto_Coche_13: 6093985482348666453
+      Vega_Correcto_Coche_14: 1922802354403908285
+      Vega_Correcto_Coche_15: 7907176489574705352
+      Vega_Correcto_Coche_16: 5034046641066892334
+      Vega_Correcto_Coche_17: 6402692384576306075
+      Vega_Correcto_Coche_18: 649872238041619057
+      Vega_Correcto_Coche_19: -7508014643993601777
+      Vega_Correcto_Coche_2: 4400595459754114156
+      Vega_Correcto_Coche_20: -5768780642679933384
+      Vega_Correcto_Coche_21: 8540651802424943628
+      Vega_Correcto_Coche_22: -2879752994277600708
+      Vega_Correcto_Coche_23: 444443149137042431
+      Vega_Correcto_Coche_24: 8499023708928173064
+      Vega_Correcto_Coche_25: -6360925569691661921
+      Vega_Correcto_Coche_26: -5078753306668856266
+      Vega_Correcto_Coche_27: -8428129912178890393
+      Vega_Correcto_Coche_28: -238999814786681332
+      Vega_Correcto_Coche_29: 9117433225915723012
+      Vega_Correcto_Coche_3: 3718659519063845737
+      Vega_Correcto_Coche_30: -1862850243067074055
+      Vega_Correcto_Coche_31: 2319539025187619472
+      Vega_Correcto_Coche_32: 8774050928219372716
+      Vega_Correcto_Coche_33: -4984695560280392727
+      Vega_Correcto_Coche_34: -6534664922938795416
+      Vega_Correcto_Coche_35: -8390729075083147381
+      Vega_Correcto_Coche_36: -6099653999321939088
+      Vega_Correcto_Coche_37: 1263911583059256789
+      Vega_Correcto_Coche_38: -7517430720543541385
+      Vega_Correcto_Coche_39: 5634844446962219245
+      Vega_Correcto_Coche_4: -5612803214028888322
+      Vega_Correcto_Coche_40: -5107319982906788107
+      Vega_Correcto_Coche_41: 3261320243396285595
+      Vega_Correcto_Coche_42: 2364476942776291542
+      Vega_Correcto_Coche_43: -1232264708293089140
+      Vega_Correcto_Coche_44: -3369454105548145588
+      Vega_Correcto_Coche_45: -5010761145104350761
+      Vega_Correcto_Coche_46: 6570837530741803805
+      Vega_Correcto_Coche_47: -8574511635834649497
+      Vega_Correcto_Coche_48: 3682552010031016885
+      Vega_Correcto_Coche_49: -580302789582658834
+      Vega_Correcto_Coche_5: 3864080471890974503
+      Vega_Correcto_Coche_50: -162777427520819404
+      Vega_Correcto_Coche_51: -4291059422584765377
+      Vega_Correcto_Coche_52: -5997440816190396670
+      Vega_Correcto_Coche_6: -8006588269878091671
+      Vega_Correcto_Coche_7: -929450264264056546
+      Vega_Correcto_Coche_8: -730132287699446797
+      Vega_Correcto_Coche_9: 8239893070580581290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

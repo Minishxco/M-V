@@ -4616,9 +4616,10 @@ GameObject:
   - component: {fileID: 491871863}
   - component: {fileID: 491871862}
   - component: {fileID: 491871864}
+  - component: {fileID: 491871869}
+  - component: {fileID: 491871867}
   - component: {fileID: 491871865}
   - component: {fileID: 491871866}
-  - component: {fileID: 491871867}
   - component: {fileID: 491871868}
   m_Layer: 0
   m_Name: Player
@@ -4718,8 +4719,6 @@ MonoBehaviour:
   minScalePlayer: 0.9
   maxScalePlayer: 2.3
   smooth: 8
-  controllerA: {fileID: 9100000, guid: 8a2b2737217c7c741be5842ff9facded, type: 2}
-  controllerB: {fileID: 9100000, guid: 2b70feab86d1b5d4f92d9ca8fbdaf120, type: 2}
 --- !u!58 &491871865
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4855,6 +4854,20 @@ MonoBehaviour:
   tagKey: Key
   outlineKey: {fileID: 2004427566}
   ButtonKey: {fileID: 2041732578}
+--- !u!114 &491871869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491871861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3713b962b52d298489c2c48bc6c9b302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerA: {fileID: 9100000, guid: 8a2b2737217c7c741be5842ff9facded, type: 2}
+  controllerB: {fileID: 9100000, guid: 2b70feab86d1b5d4f92d9ca8fbdaf120, type: 2}
 --- !u!1 &493170435
 GameObject:
   m_ObjectHideFlags: 0
