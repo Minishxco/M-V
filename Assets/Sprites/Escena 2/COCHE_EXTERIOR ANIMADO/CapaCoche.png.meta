@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b91956d2af4e0b146a9a68206e7507a4
+guid: 64c6de141b165514093d0f827a21eac3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1862400428433955018
-    second: FONDO_COCHE _FUEGO_00053_0
+      213: -1669027106186831019
+    second: CapaCoche_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FONDO_COCHE _FUEGO_00053_0
+      name: CapaCoche_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 10
         y: 0
-        width: 1920
-        height: 1080
+        width: 983
+        height: 523
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac8575e725398d910800000000000000
-      internalID: 1862400428433955018
+      spriteID: 55b5c3790bc66d8e0800000000000000
+      internalID: -1669027106186831019
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      FONDO_COCHE _FUEGO_00053_0: 1862400428433955018
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

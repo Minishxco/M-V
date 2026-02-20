@@ -153,6 +153,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -609,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BIEN HECHO azul_0: 2510120846331115172
+      BIEN HECHO azul_1: 4022130957868273587
+      BIEN HECHO azul_10: -2771153936976605353
+      BIEN HECHO azul_11: -3217900636112253985
+      BIEN HECHO azul_12: -7612163213081191221
+      BIEN HECHO azul_13: 503133588524385450
+      BIEN HECHO azul_14: 8820448218871156627
+      BIEN HECHO azul_15: 1350014495425284029
+      BIEN HECHO azul_16: 7429475320101647655
+      BIEN HECHO azul_17: 1348409336042031847
+      BIEN HECHO azul_18: -1031436391777588920
+      BIEN HECHO azul_19: -476268281659589620
+      BIEN HECHO azul_2: -1144482337241061279
+      BIEN HECHO azul_3: 2128315379300402390
+      BIEN HECHO azul_4: 7328754579314320187
+      BIEN HECHO azul_5: -4425100837246620522
+      BIEN HECHO azul_6: -2131502536041149939
+      BIEN HECHO azul_7: -4761570021697157021
+      BIEN HECHO azul_8: -7088583473663767499
+      BIEN HECHO azul_9: 6256296648963765410
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

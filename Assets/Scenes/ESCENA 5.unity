@@ -800,7 +800,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Usa las flechas del teclado para mover al personaje.
+  m_text: "Usa las flechas del teclado \npara mover al personaje."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
