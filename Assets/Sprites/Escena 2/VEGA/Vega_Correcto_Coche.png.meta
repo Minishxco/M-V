@@ -259,12 +259,12 @@ TextureImporter:
       name: Vega_Correcto_Coche_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 9
-        width: 316
-        height: 439
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: Vega_Correcto_Coche_1
       rect:
         serializedVersion: 2
-        x: 517
-        y: 9
-        width: 316
-        height: 440
+        x: 512
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: Vega_Correcto_Coche_2
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 9
-        width: 313
-        height: 443
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -325,12 +325,12 @@ TextureImporter:
       name: Vega_Correcto_Coche_3
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 9
-        width: 313
-        height: 443
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -349,10 +349,10 @@ TextureImporter:
         serializedVersion: 2
         x: 2054
         y: 9
-        width: 307
-        height: 445
+        width: 512
+        height: 503
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -371,10 +371,10 @@ TextureImporter:
         serializedVersion: 2
         x: 2566
         y: 9
-        width: 307
-        height: 445
+        width: 512
+        height: 503
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -393,10 +393,10 @@ TextureImporter:
         serializedVersion: 2
         x: 3074
         y: 9
-        width: 309
-        height: 442
+        width: 512
+        height: 503
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -415,10 +415,10 @@ TextureImporter:
         serializedVersion: 2
         x: 3586
         y: 8
-        width: 309
-        height: 443
+        width: 512
+        height: 504
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -437,10 +437,10 @@ TextureImporter:
         serializedVersion: 2
         x: 4097
         y: 7
-        width: 310
-        height: 439
+        width: 512
+        height: 505
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -459,10 +459,10 @@ TextureImporter:
         serializedVersion: 2
         x: 4609
         y: 7
-        width: 310
-        height: 439
+        width: 512
+        height: 505
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -481,10 +481,10 @@ TextureImporter:
         serializedVersion: 2
         x: 5122
         y: 7
-        width: 309
-        height: 433
+        width: 512
+        height: 505
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -503,10 +503,10 @@ TextureImporter:
         serializedVersion: 2
         x: 5635
         y: 7
-        width: 308
-        height: 433
+        width: 512
+        height: 505
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -524,11 +524,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 6150
-        y: 3
-        width: 305
-        height: 433
+        y: 8
+        width: 512
+        height: 504
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -547,10 +547,10 @@ TextureImporter:
         serializedVersion: 2
         x: 6661
         y: 2
-        width: 306
-        height: 434
+        width: 512
+        height: 510
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -569,10 +569,10 @@ TextureImporter:
         serializedVersion: 2
         x: 7174
         y: 1
-        width: 281
-        height: 433
+        width: 512
+        height: 511
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -586,37 +586,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vega_Correcto_Coche_15
-      rect:
-        serializedVersion: 2
-        x: 7367
-        y: 136
-        width: 112
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c8ab6d8f1febbd60800000000000000
-      internalID: 7907176489574705352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vega_Correcto_Coche_16
       rect:
         serializedVersion: 2
         x: 7687
         y: 1
-        width: 281
-        height: 433
+        width: 512
+        height: 511
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -630,37 +608,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vega_Correcto_Coche_17
-      rect:
-        serializedVersion: 2
-        x: 7879
-        y: 136
-        width: 112
-        height: 157
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9bf4c40dceead850800000000000000
-      internalID: 6402692384576306075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vega_Correcto_Coche_18
       rect:
         serializedVersion: 2
         x: 8202
         y: 1
-        width: 281
-        height: 436
+        width: 512
+        height: 511
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -674,37 +630,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vega_Correcto_Coche_19
-      rect:
-        serializedVersion: 2
-        x: 8391
-        y: 135
-        width: 112
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f099450e57c2ec790800000000000000
-      internalID: -7508014643993601777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vega_Correcto_Coche_20
       rect:
         serializedVersion: 2
         x: 8713
         y: 1
-        width: 282
-        height: 437
+        width: 512
+        height: 511
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -718,37 +652,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vega_Correcto_Coche_21
-      rect:
-        serializedVersion: 2
-        x: 8903
-        y: 135
-        width: 112
-        height: 159
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c04a6d1609d768670800000000000000
-      internalID: 8540651802424943628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vega_Correcto_Coche_22
       rect:
         serializedVersion: 2
-        x: 9227
+        x: 9232
         y: 1
-        width: 281
-        height: 439
+        width: 512
+        height: 511
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -762,37 +674,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vega_Correcto_Coche_23
-      rect:
-        serializedVersion: 2
-        x: 9415
-        y: 135
-        width: 112
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ffb5b2b70bafa2600800000000000000
-      internalID: 444443149137042431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vega_Correcto_Coche_24
       rect:
         serializedVersion: 2
         x: 9739
         y: 1
-        width: 282
-        height: 439
+        width: 512
+        height: 511
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -806,37 +696,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vega_Correcto_Coche_25
-      rect:
-        serializedVersion: 2
-        x: 9927
-        y: 135
-        width: 112
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9944df55e379b7a0800000000000000
-      internalID: -6360925569691661921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vega_Correcto_Coche_26
       rect:
         serializedVersion: 2
         x: 10251
         y: 1
-        width: 285
-        height: 439
+        width: 512
+        height: 511
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -850,37 +718,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vega_Correcto_Coche_27
-      rect:
-        serializedVersion: 2
-        x: 10439
-        y: 135
-        width: 112
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 769abbfbf74490b80800000000000000
-      internalID: -8428129912178890393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vega_Correcto_Coche_28
       rect:
         serializedVersion: 2
         x: 10762
         y: 4
-        width: 286
-        height: 434
+        width: 512
+        height: 508
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -894,37 +740,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vega_Correcto_Coche_29
-      rect:
-        serializedVersion: 2
-        x: 10951
-        y: 135
-        width: 112
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 40dec067631a78e70800000000000000
-      internalID: 9117433225915723012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vega_Correcto_Coche_30
       rect:
         serializedVersion: 2
         x: 11274
         y: 4
-        width: 286
-        height: 434
+        width: 512
+        height: 508
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -938,37 +762,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vega_Correcto_Coche_31
-      rect:
-        serializedVersion: 2
-        x: 11463
-        y: 135
-        width: 112
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 092c6f63478a03020800000000000000
-      internalID: 2319539025187619472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vega_Correcto_Coche_32
       rect:
         serializedVersion: 2
         x: 11784
         y: 7
-        width: 303
-        height: 431
+        width: 512
+        height: 505
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -987,10 +789,10 @@ TextureImporter:
         serializedVersion: 2
         x: 12296
         y: 7
-        width: 287
-        height: 431
+        width: 512
+        height: 505
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1004,37 +806,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vega_Correcto_Coche_34
-      rect:
-        serializedVersion: 2
-        x: 12487
-        y: 135
-        width: 112
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86a170eefd43055a0800000000000000
-      internalID: -6534664922938795416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Vega_Correcto_Coche_35
       rect:
         serializedVersion: 2
         x: 12807
         y: 7
-        width: 304
-        height: 433
+        width: 512
+        height: 505
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1053,10 +833,10 @@ TextureImporter:
         serializedVersion: 2
         x: 13319
         y: 7
-        width: 304
-        height: 433
+        width: 512
+        height: 505
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1078,7 +858,7 @@ TextureImporter:
         width: 303
         height: 436
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1100,7 +880,7 @@ TextureImporter:
         width: 303
         height: 435
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1122,7 +902,7 @@ TextureImporter:
         width: 303
         height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1144,7 +924,7 @@ TextureImporter:
         width: 303
         height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1166,7 +946,7 @@ TextureImporter:
         width: 303
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1188,7 +968,7 @@ TextureImporter:
         width: 303
         height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1210,7 +990,7 @@ TextureImporter:
         width: 344
         height: 493
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1232,7 +1012,7 @@ TextureImporter:
         width: 343
         height: 492
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1254,7 +1034,7 @@ TextureImporter:
         width: 445
         height: 490
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1276,7 +1056,7 @@ TextureImporter:
         width: 486
         height: 481
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1298,7 +1078,7 @@ TextureImporter:
         width: 501
         height: 486
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1320,7 +1100,7 @@ TextureImporter:
         width: 501
         height: 486
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1342,7 +1122,7 @@ TextureImporter:
         width: 499
         height: 490
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1364,7 +1144,7 @@ TextureImporter:
         width: 500
         height: 490
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1383,10 +1163,10 @@ TextureImporter:
         serializedVersion: 2
         x: 21007
         y: 7
-        width: 498
-        height: 492
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1406,9 +1186,9 @@ TextureImporter:
         x: 21519
         y: 6
         width: 497
-        height: 493
+        height: 500
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1425,7 +1205,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ad8223ba5b80c654c8cfb3ce0a1de0ee
     internalID: 0
     vertices: []
     indices: 

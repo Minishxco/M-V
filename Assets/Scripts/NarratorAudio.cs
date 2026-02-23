@@ -4,6 +4,7 @@ public class NarratorAudio : MonoBehaviour
 {
     public GameObject targetObject;
     public AudioClip player1, player2;
+    public bool enable = false;
 
     private bool played;
 
@@ -15,7 +16,7 @@ public class NarratorAudio : MonoBehaviour
 
             int character = UserDataLoader.LoadCharacter();
             AudioClip clip = character == 1 ? player1 : player2;
-            gameObject.SetActive(false);
+            gameObject.SetActive(enable);
             AudioManager.Instance.PlayNarrator(clip);
         }
     }

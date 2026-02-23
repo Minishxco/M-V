@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 64c6de141b165514093d0f827a21eac3
+guid: dfed1c3f1aa8fda4a9a1b8f6b934af04
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1669027106186831019
-    second: CapaCoche_0
+      213: 6677714214607714298
+    second: guante-vega-cursor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 7
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CapaCoche_0
+      name: guante-vega-cursor_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 0
-        width: 983
-        height: 523
+        x: 74
+        y: 148
+        width: 1622
+        height: 2190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55b5c3790bc66d8e0800000000000000
-      internalID: -1669027106186831019
+      spriteID: af7f449b2b10cac50800000000000000
+      internalID: 6677714214607714298
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CapaCoche_0: -1669027106186831019
+      guante-vega-cursor_0: 6677714214607714298
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
