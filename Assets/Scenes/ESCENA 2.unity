@@ -2706,7 +2706,7 @@ RectTransform:
   m_GameObject: {fileID: 757567763}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1368003364}
@@ -5589,7 +5589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controllerA: {fileID: 9100000, guid: 6b8ee840b9b78c74297cf8aff91d1049, type: 2}
-  controllerB: {fileID: 9100000, guid: 57b66854df2676348beeb47c5290f900, type: 2}
+  controllerB: {fileID: 9100000, guid: 2a1294562a6b9944cab00812c86e4356, type: 2}
 --- !u!95 &1334047531
 Animator:
   serializedVersion: 7
@@ -5811,7 +5811,7 @@ RectTransform:
   m_GameObject: {fileID: 1368003363}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 217621236}
@@ -5822,7 +5822,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 189, y: 7}
   m_SizeDelta: {x: 182.10999, y: 63.255}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1368003365
