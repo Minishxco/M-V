@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.Video;
-using UnityEngine.SceneManagement;
 using System.IO;
 using System.Collections;
 
@@ -9,13 +8,14 @@ public class PlayerIntroVideo : MonoBehaviour
     public VideoPlayer videoPlayer;
     public string videoPersonaje1;
     public string videoPersonaje2;
-    public GameObject PanelVideo;
+
     private string selectedVideoPath;
 
     void Awake()
     {
         videoPlayer.source = VideoSource.Url;
-        videoPlayer.loopPointReached += OnVideoFinished;
+        videoPlayer.isLooping = true;
+        videoPlayer.playOnAwake = false;
 
         int character = UserDataLoader.LoadCharacter();
 
@@ -48,10 +48,5 @@ public class PlayerIntroVideo : MonoBehaviour
             yield return null;
 
         videoPlayer.Play();
-    }
-
-    void OnVideoFinished(VideoPlayer vp)
-    {
-        PanelVideo.SetActive(false);
     }
 }

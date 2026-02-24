@@ -6,10 +6,12 @@ public class CarLevelController : MonoBehaviour
 {
     public Animator carAnimator;
 
-    [Header("Fade")]
     public GameObject fadeObject;
     public Animator fadeAnimator;
+
     public float correctAnimDuration = 2f;
+    public float delayBeforeFade = 1f;
+
     public float fadeDuration = 1f;
 
     public void RespuestaCorrecta()
@@ -29,6 +31,8 @@ public class CarLevelController : MonoBehaviour
     IEnumerator SecuenciaCorrecta()
     {
         yield return new WaitForSeconds(correctAnimDuration);
+
+        yield return new WaitForSeconds(delayBeforeFade);
 
         fadeObject.SetActive(true);
 
