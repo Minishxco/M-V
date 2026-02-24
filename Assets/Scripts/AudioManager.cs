@@ -31,16 +31,6 @@ public class AudioManager : MonoBehaviour
         {
             PlayNarrator(narrationVega);
         }
-
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
 
     public void PlayNarrator(AudioClip clip)

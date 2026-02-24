@@ -2189,6 +2189,8 @@ MonoBehaviour:
   videoPlayer: {fileID: 526904609}
   videoPersonaje1: "TOTAL DE MILLA\u0301N_INTRO_V2.mp4"
   videoPersonaje2: TOTAL DE VEGA_INTRO_V2.mp4
+  videoExtraP1: "TRANSICIO\u0301N MILLA\u0301N.mov"
+  videoExtraP2: "TRANSICIO\u0301N VEGA.mov"
   videoCabecera: "Video_Introduccio\u0301n_Misio\u0301n Prevencio\u0301n_v3.mov"
   videoLoop: LOOP SELECCION DE PERSONAJE V3.mov
   video1: {fileID: 526904608}

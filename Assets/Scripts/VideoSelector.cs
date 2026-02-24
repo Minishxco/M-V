@@ -8,9 +8,11 @@ public class VideoSelector : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
 
-    // RUTAS RELATIVAS DENTRO DE StreamingAssets
     public string videoPersonaje1;
     public string videoPersonaje2;
+    public string videoExtraP1;
+    public string videoExtraP2;
+
     public string videoCabecera;
     public string videoLoop;
 
@@ -18,24 +20,21 @@ public class VideoSelector : MonoBehaviour
     public GameObject panelSeleccionar;
     public GameObject panelNombre;
 
-    private bool personajeSeleccionado = false;
+    private enum VideoState
+    {
+        Cabecera,
+        Loop,
+        Personaje,
+        Extra
+    }
+
+    private VideoState currentState;
+    private int jugadorSeleccionado = 0;
 
     void Awake()
     {
         videoPlayer.loopPointReached += OnVideoFinished;
         videoPlayer.source = VideoSource.Url;
-    }
-
-    void Start()
-    {
-        /*if (UserDataLoader.LoadGame() == 1)
-        {
-            SceneManager.LoadScene(1);
-        }
-        else
-        {
-            panelNombre.SetActive(true);
-        }*/
     }
 
     void Update()
@@ -49,10 +48,8 @@ public class VideoSelector : MonoBehaviour
     string GetVideoURL(string relativePath)
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
-        // WebGL 
         return Application.streamingAssetsPath + "/" + relativePath;
 #else
-        // Windows
         return "file://" + Path.Combine(Application.streamingAssetsPath, relativePath);
 #endif
     }
@@ -62,21 +59,22 @@ public class VideoSelector : MonoBehaviour
         panelNombre.SetActive(false);
         video1.SetActive(true);
 
+        currentState = VideoState.Cabecera;
         videoPlayer.url = GetVideoURL("Video/" + videoCabecera);
         StartCoroutine(PlayPrepared());
     }
 
-    // BOTÓN PERSONAJE 1
     public void PlayPersonaje1()
     {
-        personajeSeleccionado = true;
+        jugadorSeleccionado = 1;
+        currentState = VideoState.Personaje;
         PlayVideo("Video/" + videoPersonaje1);
     }
 
-    // BOTÓN PERSONAJE 2
     public void PlayPersonaje2()
     {
-        personajeSeleccionado = true;
+        jugadorSeleccionado = 2;
+        currentState = VideoState.Personaje;
         PlayVideo("Video/" + videoPersonaje2);
     }
 
@@ -91,15 +89,31 @@ public class VideoSelector : MonoBehaviour
 
     void OnVideoFinished(VideoPlayer vp)
     {
-        if (personajeSeleccionado)
+        switch (currentState)
         {
-            SceneManager.LoadScene(1);
-        }
-        else
-        {
-            panelSeleccionar.SetActive(true);
-            videoPlayer.url = GetVideoURL("Video/" + videoLoop);
-            StartCoroutine(PlayPrepared());
+            case VideoState.Cabecera:
+                panelSeleccionar.SetActive(true);
+                currentState = VideoState.Loop;
+                videoPlayer.url = GetVideoURL("Video/" + videoLoop);
+                StartCoroutine(PlayPrepared());
+                break;
+
+            case VideoState.Personaje:
+
+                // Después del video del personaje, reproducir video extra
+                currentState = VideoState.Extra;
+
+                if (jugadorSeleccionado == 1)
+                    PlayVideo("Video/" + videoExtraP1);
+                else
+                    PlayVideo("Video/" + videoExtraP2);
+
+                break;
+
+            case VideoState.Extra:
+                // Después del video extra, ir a escena 1
+                SceneManager.LoadScene(1);
+                break;
         }
     }
 

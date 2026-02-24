@@ -1,9 +1,9 @@
 using UnityEngine;
-using static Interactable;
 
 public class ResponseManager : MonoBehaviour
 {
     public GameObject panelIncorrecto1, panelIncorrecto2, panelIncorrecto3;
+    public GameObject ButtonA, ButtonB, ButtonC;
     public GameObject panelCorrecto;
     public GameObject panelA, panelB, panelC, panelD;
     public AudioManager audioManager;
@@ -34,6 +34,11 @@ public class ResponseManager : MonoBehaviour
         panelB.SetActive(false);
         panelC.SetActive(false);
         panelD.SetActive(false);
+
+        ButtonB.SetActive(false);
+        ButtonC.SetActive(false);
+        ButtonA.SetActive(false);
+
         panelCorrecto.SetActive(true);
     }
 
