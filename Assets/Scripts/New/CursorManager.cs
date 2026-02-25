@@ -18,32 +18,20 @@ public class CursorManager : MonoBehaviour
     [SerializeField] EventSystem eventSystem;
     [SerializeField] Camera uiCamera;
 
-    bool keyboardMode = false;
-
     RectTransform canvasRect;
 
     private void Awake()
     {
         ChangeCursorBasedOnCharacter();
-
         canvasRect = cursorImg.canvas.GetComponent<RectTransform>();
-        cursorImg.gameObject.SetActive(false);
+        EnableKeyboardCursor();
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
-            ToggleInputMode();
-
-        if (!keyboardMode) return;
-
         MoveCursor();
-        UpdateHover();
-
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
-            TryClickUI();
+        TryClickUI();
     }
-
 
     private void ChangeCursorBasedOnCharacter()
     {
@@ -84,67 +72,39 @@ public class CursorManager : MonoBehaviour
         cursorImg.rectTransform.position = newPos;
     }
 
-    void UpdateHover()
-    {
-        PointerEventData pointerData = new PointerEventData(eventSystem);
-
-        Vector2 screenPos = RectTransformUtility.WorldToScreenPoint(uiCamera, cursorImg.rectTransform.position);
-        pointerData.position = screenPos;
-
-        List<RaycastResult> results = new List<RaycastResult>();
-        graphicRaycaster.Raycast(pointerData, results);
-
-        if (results.Count > 0)
-            eventSystem.SetSelectedGameObject(results[0].gameObject);
-        else
-            eventSystem.SetSelectedGameObject(null);
-    }
-
-
     void TryClickUI()
     {
-        PointerEventData pointerData = new PointerEventData(eventSystem);
-
-        Vector2 screenPos = RectTransformUtility.WorldToScreenPoint(uiCamera, cursorImg.rectTransform.position);
-        pointerData.position = screenPos;
-
-        List<RaycastResult> results = new List<RaycastResult>();
-        graphicRaycaster.Raycast(pointerData, results);
-
-        foreach (RaycastResult result in results)
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
         {
-            Button button = result.gameObject.GetComponent<Button>();
+            List<RaycastResult> results = new List<RaycastResult>();
+            PointerEventData pointerData = new PointerEventData(eventSystem);
 
-            if (button != null)
+            Vector2 screenPos = RectTransformUtility.WorldToScreenPoint(uiCamera, cursorImg.rectTransform.position);
+            pointerData.position = screenPos;
+
+            graphicRaycaster.Raycast(pointerData, results);
+
+            foreach (RaycastResult result in results)
             {
-                button.onClick.Invoke();
-                break;
+                Button button = result.gameObject.GetComponent<Button>();
+                if (button != null)
+                {
+                    button.onClick.Invoke();
+                    break;
+                }
             }
         }
-    }
-
-    void ToggleInputMode()
-    {
-        keyboardMode = !keyboardMode;
-
-        if (keyboardMode)
-            EnableKeyboardCursor();
-        else
-            EnableMouseCursor();
     }
 
     void EnableKeyboardCursor()
     {
         Cursor.visible = false;
         cursorImg.gameObject.SetActive(true);
-
         cursorImg.rectTransform.position = canvasRect.position;
     }
 
-    void EnableMouseCursor()
+    public Image GetCursorImage()
     {
-        Cursor.visible = true;
-        cursorImg.gameObject.SetActive(false);
-        eventSystem.SetSelectedGameObject(null);
+        return cursorImg;
     }
 }
