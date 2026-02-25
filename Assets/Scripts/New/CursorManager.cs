@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
+using System.Collections.Generic;
 
 public class CursorManager : MonoBehaviour
 {
@@ -9,82 +11,140 @@ public class CursorManager : MonoBehaviour
     public Vector2 hotSpot = Vector2.zero;
     public CursorMode cursorMode = CursorMode.Auto;
 
-
+    [Header("UI References")]
     [SerializeField] Image cursorImg;
-    [SerializeField] float movementSpeed = 10;
+    [SerializeField] float movementSpeed = 2f;
+    [SerializeField] GraphicRaycaster graphicRaycaster;
+    [SerializeField] EventSystem eventSystem;
+    [SerializeField] Camera uiCamera;
 
-    bool wasdMode = false;
+    bool keyboardMode = false;
+
+    RectTransform canvasRect;
 
     private void Awake()
     {
         ChangeCursorBasedOnCharacter();
+
+        canvasRect = cursorImg.canvas.GetComponent<RectTransform>();
+        cursorImg.gameObject.SetActive(false);
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+            ToggleInputMode();
+
+        if (!keyboardMode) return;
+
+        MoveCursor();
+        UpdateHover();
+
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+            TryClickUI();
+    }
+
 
     private void ChangeCursorBasedOnCharacter()
     {
         int character = UserDataLoader.LoadCharacter();
 
         if (character == 1 && cursorSpriteCharacter1 != null)
-        {
             Cursor.SetCursor(cursorSpriteCharacter1, hotSpot, cursorMode);
-            Debug.Log("Cursor cambiado al del Personaje 1");
-        }
         else if (character == 2 && cursorSpriteCharacter2 != null)
-        {
             Cursor.SetCursor(cursorSpriteCharacter2, hotSpot, cursorMode);
-            Debug.Log("Cursor cambiado al del Personaje 2");
-        }
-        else if (character != 1 && character != 2)
-        {
-            Debug.LogWarning($"Personaje {character} no reconocido. Usando cursor por defecto.");
+        else
             Cursor.SetCursor(null, Vector2.zero, cursorMode);
-        }
+    }
+
+    void MoveCursor()
+    {
+        Vector3 move = Vector3.zero;
+
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+            move += Vector3.up;
+
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+            move += Vector3.down;
+
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            move += Vector3.left;
+
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+            move += Vector3.right;
+
+        Vector3 newPos = cursorImg.rectTransform.position + move * movementSpeed * Time.deltaTime;
+
+        Vector3 min = canvasRect.TransformPoint(canvasRect.rect.min);
+        Vector3 max = canvasRect.TransformPoint(canvasRect.rect.max);
+
+        newPos.x = Mathf.Clamp(newPos.x, min.x, max.x);
+        newPos.y = Mathf.Clamp(newPos.y, min.y, max.y);
+
+        cursorImg.rectTransform.position = newPos;
+    }
+
+    void UpdateHover()
+    {
+        PointerEventData pointerData = new PointerEventData(eventSystem);
+
+        Vector2 screenPos = RectTransformUtility.WorldToScreenPoint(uiCamera, cursorImg.rectTransform.position);
+        pointerData.position = screenPos;
+
+        List<RaycastResult> results = new List<RaycastResult>();
+        graphicRaycaster.Raycast(pointerData, results);
+
+        if (results.Count > 0)
+            eventSystem.SetSelectedGameObject(results[0].gameObject);
         else
+            eventSystem.SetSelectedGameObject(null);
+    }
+
+
+    void TryClickUI()
+    {
+        PointerEventData pointerData = new PointerEventData(eventSystem);
+
+        Vector2 screenPos = RectTransformUtility.WorldToScreenPoint(uiCamera, cursorImg.rectTransform.position);
+        pointerData.position = screenPos;
+
+        List<RaycastResult> results = new List<RaycastResult>();
+        graphicRaycaster.Raycast(pointerData, results);
+
+        foreach (RaycastResult result in results)
         {
-            Debug.LogWarning("No se pudo cambiar el cursor. Verifica los sprites asignados.");
+            Button button = result.gameObject.GetComponent<Button>();
+
+            if (button != null)
+            {
+                button.onClick.Invoke();
+                break;
+            }
         }
     }
 
-    private void Update()
+    void ToggleInputMode()
     {
-        if (Input.GetKeyDown(KeyCode.C))
-            ChangeMouseInput();
+        keyboardMode = !keyboardMode;
 
-        if (wasdMode)
-            WASD_Movement();
-    }
-
-    void WASD_Movement()
-    {
-        if (Input.GetKey(KeyCode.W))
-            cursorImg.rectTransform.position = cursorImg.rectTransform.position + Vector3.up * Time.deltaTime * movementSpeed;
-        if (Input.GetKey(KeyCode.A))
-            cursorImg.rectTransform.position = cursorImg.rectTransform.position + Vector3.left * Time.deltaTime * movementSpeed;
-        if (Input.GetKey(KeyCode.S))
-            cursorImg.rectTransform.position = cursorImg.rectTransform.position + Vector3.down * Time.deltaTime * movementSpeed;
-        if (Input.GetKey(KeyCode.D))
-            cursorImg.rectTransform.position = cursorImg.rectTransform.position + Vector3.right * Time.deltaTime * movementSpeed;
-    }
-
-    void ChangeMouseInput()
-    {
-        wasdMode = !wasdMode;
-
-        if (wasdMode)
-            ChangeToWASD();
+        if (keyboardMode)
+            EnableKeyboardCursor();
         else
-            ChangeToNormalCursor();
+            EnableMouseCursor();
     }
-    void ChangeToWASD()
+
+    void EnableKeyboardCursor()
     {
         Cursor.visible = false;
         cursorImg.gameObject.SetActive(true);
-        cursorImg.rectTransform.position = Input.mousePosition;
+
+        cursorImg.rectTransform.position = canvasRect.position;
     }
 
-    void ChangeToNormalCursor()
+    void EnableMouseCursor()
     {
         Cursor.visible = true;
         cursorImg.gameObject.SetActive(false);
+        eventSystem.SetSelectedGameObject(null);
     }
 }
