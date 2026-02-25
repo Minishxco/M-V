@@ -2,9 +2,8 @@ using UnityEngine;
 using UnityEngine.Video;
 using System.IO;
 using System.Collections;
-using UnityEngine.SceneManagement;
 
-public class PlayVideo : MonoBehaviour
+public class PlayerIntroVideo : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     public string videoPersonaje1;
@@ -12,15 +11,11 @@ public class PlayVideo : MonoBehaviour
 
     private string selectedVideoPath;
 
-    public GameObject[] disableObjects;
-
     void Awake()
     {
         videoPlayer.source = VideoSource.Url;
-        videoPlayer.isLooping = false;
+        videoPlayer.isLooping = true;
         videoPlayer.playOnAwake = false;
-
-        videoPlayer.loopPointReached += OnVideoFinished;
 
         int character = UserDataLoader.LoadCharacter();
 
@@ -31,11 +26,6 @@ public class PlayVideo : MonoBehaviour
 
     public void PlayVideoFromButton()
     {
-        foreach (var obj in disableObjects)
-        {
-            obj.SetActive(false);
-        }
-
         string fullPath = GetVideoURL("Video/" + selectedVideoPath);
         videoPlayer.url = fullPath;
 
@@ -58,10 +48,5 @@ public class PlayVideo : MonoBehaviour
             yield return null;
 
         videoPlayer.Play();
-    }
-
-    void OnVideoFinished(VideoPlayer vp)
-    {
-        SceneManager.LoadScene(2);
     }
 }

@@ -5,7 +5,7 @@ using System.Collections;
 public class CarLevelController : MonoBehaviour
 {
     public Animator carAnimator;
-    public PlayVideo playVideo;
+
     public GameObject fadeObject;
     public Animator fadeAnimator;
 
@@ -38,7 +38,7 @@ public class CarLevelController : MonoBehaviour
 
         yield return new WaitForSeconds(fadeDuration);
 
-        playVideo.PlayVideoFromButton();
+        SceneManager.LoadScene(2);
     }
 
     public void ResetEstado()

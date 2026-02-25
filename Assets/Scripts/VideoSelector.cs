@@ -10,6 +10,8 @@ public class VideoSelector : MonoBehaviour
 
     public string videoPersonaje1;
     public string videoPersonaje2;
+    public string videoExtraP1;
+    public string videoExtraP2;
 
     public string videoCabecera;
     public string videoLoop;
@@ -22,10 +24,12 @@ public class VideoSelector : MonoBehaviour
     {
         Cabecera,
         Loop,
-        Personaje
+        Personaje,
+        Extra
     }
 
     private VideoState currentState;
+    private int jugadorSeleccionado = 0;
 
     void Awake()
     {
@@ -62,12 +66,14 @@ public class VideoSelector : MonoBehaviour
 
     public void PlayPersonaje1()
     {
+        jugadorSeleccionado = 1;
         currentState = VideoState.Personaje;
         PlayVideo("Video/" + videoPersonaje1);
     }
 
     public void PlayPersonaje2()
     {
+        jugadorSeleccionado = 2;
         currentState = VideoState.Personaje;
         PlayVideo("Video/" + videoPersonaje2);
     }
@@ -93,6 +99,19 @@ public class VideoSelector : MonoBehaviour
                 break;
 
             case VideoState.Personaje:
+
+                // Después del video del personaje, reproducir video extra
+                currentState = VideoState.Extra;
+
+                if (jugadorSeleccionado == 1)
+                    PlayVideo("Video/" + videoExtraP1);
+                else
+                    PlayVideo("Video/" + videoExtraP2);
+
+                break;
+
+            case VideoState.Extra:
+                // Después del video extra, ir a escena 1
                 SceneManager.LoadScene(1);
                 break;
         }

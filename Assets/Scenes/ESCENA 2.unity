@@ -2490,7 +2490,7 @@ GameObject:
   - component: {fileID: 712991196}
   - component: {fileID: 712991199}
   m_Layer: 0
-  m_Name: VideoLoop
+  m_Name: Video
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2728,97 +2728,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764980860}
   m_CullTransparentMesh: 1
---- !u!1 &829656283
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 829656286}
-  - component: {fileID: 829656285}
-  - component: {fileID: 829656284}
-  m_Layer: 0
-  m_Name: PlayVideo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &829656284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829656283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f37cabf35bc91514297a3079bfb776fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 829656285}
-  videoPersonaje1: "TRANSICIO\u0301N MILLA\u0301N.mov"
-  videoPersonaje2: "TRANSICIO\u0301N VEGA.mov"
-  disableObjects:
-  - {fileID: 857119278}
-  - {fileID: 1028601968}
-  - {fileID: 1334047527}
-  - {fileID: 1386661824}
-  - {fileID: 218018850}
-  - {fileID: 712991195}
---- !u!328 &829656285
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829656283}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 0}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 1186589200}
-  m_TargetTexture: {fileID: 0}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 0
-  m_AspectRatio: 2
-  m_DataSource: 1
-  m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []
---- !u!4 &829656286
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829656283}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &835027211
 GameObject:
   m_ObjectHideFlags: 0
@@ -5429,7 +5338,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carAnimator: {fileID: 1334047531}
-  playVideo: {fileID: 829656284}
   fadeObject: {fileID: 1371428084}
   fadeAnimator: {fileID: 1458173281}
   correctAnimDuration: 2
@@ -5444,13 +5352,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1334047527}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da4cb708d6a12e747be2d48c3f736cdd, type: 3}
+  m_Script: {fileID: 11500000, guid: 2041264f3f87a6d49865f62028ad366a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorManager
   cursorSpriteCharacter1: {fileID: 2800000, guid: e57afa6cd866c424198f33c4f3138736, type: 3}
   cursorSpriteCharacter2: {fileID: 2800000, guid: dfed1c3f1aa8fda4a9a1b8f6b934af04, type: 3}
   hotSpot: {x: 0, y: 0}
   cursorMode: 0
+  cursorImg: {fileID: 1471104562}
+  movementSpeed: 15
+  graphicRaycaster: {fileID: 1386661825}
+  eventSystem: {fileID: 938157500}
+  uiCamera: {fileID: 1186589200}
 --- !u!1 &1358675931
 GameObject:
   m_ObjectHideFlags: 0
@@ -6553,7 +6466,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1471104561
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6570,7 +6483,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -143, y: 12}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1471104562
@@ -8585,4 +8498,3 @@ SceneRoots:
   - {fileID: 938157501}
   - {fileID: 218018852}
   - {fileID: 712991198}
-  - {fileID: 829656286}
