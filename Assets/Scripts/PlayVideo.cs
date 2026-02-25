@@ -19,7 +19,7 @@ public class PlayVideo : MonoBehaviour
         videoPlayer.source = VideoSource.Url;
         videoPlayer.isLooping = false;
         videoPlayer.playOnAwake = false;
-
+        //
         videoPlayer.loopPointReached += OnVideoFinished;
 
         int character = UserDataLoader.LoadCharacter();
