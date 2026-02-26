@@ -1,18 +1,22 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class MouseHoverPanel : MonoBehaviour
+public class MouseHoverPanel : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public GameObject panel;
 
-    private Image buttonImage;
+    [Header("Hover Settings")]
+    private float extraHoverRange = 15f;
+
     private RectTransform rectTransform;
-    private bool isHovering = false;
+    private CursorManager cursorManager;
+    private bool isHoveringVirtual = false;
 
     private void Start()
     {
-        buttonImage = GetComponent<Image>();
         rectTransform = GetComponent<RectTransform>();
+        cursorManager = FindFirstObjectByType<CursorManager>();
 
         if (panel != null)
             panel.SetActive(false);
@@ -20,50 +24,66 @@ public class MouseHoverPanel : MonoBehaviour
 
     private void Update()
     {
-        CursorManager cursorManager = FindObjectOfType<CursorManager>();
+        if (cursorManager == null) return;
 
-        if (cursorManager != null)
+        if (!cursorManager.GetCursorImage().gameObject.activeSelf)
         {
-            Image cursorImg = cursorManager.GetComponent<CursorManager>().GetCursorImage();
-
-            if (cursorImg != null)
+            if (isHoveringVirtual)
             {
-                bool mouseOverButton = RectTransformUtility.RectangleContainsScreenPoint(
-                    rectTransform,
-                    cursorImg.rectTransform.position,
-                    null
-                );
-
-                if (mouseOverButton && !isHovering)
-                {
-                    isHovering = true;
-                    OnPointerEnter();
-                }
-
-                else if (!mouseOverButton && isHovering)
-                {
-                    isHovering = false;
-                    OnPointerExit();
-                }
+                isHoveringVirtual = false;
+                HidePanel();
             }
+            return;
+        }
+
+        Image cursorImg = cursorManager.GetCursorImage();
+
+        Rect expandedRect = rectTransform.rect;
+        expandedRect.xMin -= extraHoverRange;
+        expandedRect.xMax += extraHoverRange;
+        expandedRect.yMin -= extraHoverRange;
+        expandedRect.yMax += extraHoverRange;
+
+        Vector2 localPoint;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            rectTransform,
+            cursorImg.rectTransform.position,
+            null,
+            out localPoint
+        );
+
+        bool over = expandedRect.Contains(localPoint);
+
+        if (over && !isHoveringVirtual)
+        {
+            isHoveringVirtual = true;
+            ShowPanel();
+        }
+        else if (!over && isHoveringVirtual)
+        {
+            isHoveringVirtual = false;
+            HidePanel();
         }
     }
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        ShowPanel();
+    }
 
-    private void OnPointerEnter()
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        HidePanel();
+    }
+
+    void ShowPanel()
     {
         if (panel != null)
-        {
             panel.SetActive(true);
-            Debug.Log("Panel activado: " + gameObject.name);
-        }
     }
 
-    private void OnPointerExit()
+    void HidePanel()
     {
         if (panel != null)
-        {
             panel.SetActive(false);
-            Debug.Log("Panel desactivado: " + gameObject.name);
-        }
     }
 }

@@ -5,63 +5,93 @@ using System.Collections.Generic;
 
 public class CursorManager : MonoBehaviour
 {
-    [Header("Cursor Settings")]
-    public Texture2D cursorSpriteCharacter1;
-    public Texture2D cursorSpriteCharacter2;
-    public Vector2 hotSpot = Vector2.zero;
-    public CursorMode cursorMode = CursorMode.Auto;
+    [Header("Virtual Cursor Sprites")]
+    public Sprite cursorSpriteCharacter1;
+    public Sprite cursorSpriteCharacter2;
 
     [Header("UI References")]
     [SerializeField] Image cursorImg;
-    [SerializeField] float movementSpeed = 2f;
+    [SerializeField] float movementSpeed = 800f;
+    [SerializeField] float acceleration = 2000f;
+    [SerializeField] float deceleration = 3000f;
     [SerializeField] GraphicRaycaster graphicRaycaster;
     [SerializeField] EventSystem eventSystem;
     [SerializeField] Camera uiCamera;
 
     RectTransform canvasRect;
 
+    Vector3 currentVelocity;
+    bool usingKeyboard = true;
+
     private void Awake()
     {
-        ChangeCursorBasedOnCharacter();
         canvasRect = cursorImg.canvas.GetComponent<RectTransform>();
+        ChangeVirtualCursorSprite();
         EnableKeyboardCursor();
     }
 
     private void Update()
     {
+        DetectInputMethod();
         MoveCursor();
         TryClickUI();
     }
 
-    private void ChangeCursorBasedOnCharacter()
+    void DetectInputMethod()
     {
-        int character = UserDataLoader.LoadCharacter();
+        if (Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
+        {
+            usingKeyboard = false;
 
-        if (character == 1 && cursorSpriteCharacter1 != null)
-            Cursor.SetCursor(cursorSpriteCharacter1, hotSpot, cursorMode);
-        else if (character == 2 && cursorSpriteCharacter2 != null)
-            Cursor.SetCursor(cursorSpriteCharacter2, hotSpot, cursorMode);
-        else
-            Cursor.SetCursor(null, Vector2.zero, cursorMode);
+            cursorImg.gameObject.SetActive(false);
+            Cursor.visible = true;
+        }
+
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) ||
+            Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) ||
+            Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow) ||
+            Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
+        {
+            if (!usingKeyboard)
+            {
+                EnableKeyboardCursor();
+            }
+
+            usingKeyboard = true;
+        }
     }
 
     void MoveCursor()
     {
-        Vector3 move = Vector3.zero;
+        if (!usingKeyboard) return;
+
+        Vector3 inputDir = Vector3.zero;
 
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
-            move += Vector3.up;
+            inputDir += Vector3.up;
 
         if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-            move += Vector3.down;
+            inputDir += Vector3.down;
 
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-            move += Vector3.left;
+            inputDir += Vector3.left;
 
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-            move += Vector3.right;
+            inputDir += Vector3.right;
 
-        Vector3 newPos = cursorImg.rectTransform.position + move * movementSpeed * Time.deltaTime;
+        inputDir = inputDir.normalized;
+
+        if (inputDir != Vector3.zero)
+        {
+            currentVelocity += inputDir * acceleration * Time.deltaTime;
+            currentVelocity = Vector3.ClampMagnitude(currentVelocity, movementSpeed);
+        }
+        else
+        {
+            currentVelocity = Vector3.MoveTowards(currentVelocity, Vector3.zero, deceleration * Time.deltaTime);
+        }
+
+        Vector3 newPos = cursorImg.rectTransform.position + currentVelocity * Time.deltaTime;
 
         Vector3 min = canvasRect.TransformPoint(canvasRect.rect.min);
         Vector3 max = canvasRect.TransformPoint(canvasRect.rect.max);
@@ -74,6 +104,8 @@ public class CursorManager : MonoBehaviour
 
     void TryClickUI()
     {
+        if (!usingKeyboard) return;
+
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
         {
             List<RaycastResult> results = new List<RaycastResult>();
@@ -100,7 +132,28 @@ public class CursorManager : MonoBehaviour
     {
         Cursor.visible = false;
         cursorImg.gameObject.SetActive(true);
-        cursorImg.rectTransform.position = canvasRect.position;
+
+        Vector3 mousePos = Input.mousePosition;
+        Vector3 worldPos;
+        RectTransformUtility.ScreenPointToWorldPointInRectangle(
+            cursorImg.canvas.GetComponent<RectTransform>(),
+            mousePos,
+            cursorImg.canvas.worldCamera,
+            out worldPos
+        );
+
+        cursorImg.rectTransform.position = worldPos;
+        currentVelocity = Vector3.zero;
+    }
+
+    void ChangeVirtualCursorSprite()
+    {
+        int character = UserDataLoader.LoadCharacter();
+
+        if (character == 1 && cursorSpriteCharacter1 != null)
+            cursorImg.sprite = cursorSpriteCharacter1;
+        else if (character == 2 && cursorSpriteCharacter2 != null)
+            cursorImg.sprite = cursorSpriteCharacter2;
     }
 
     public Image GetCursorImage()

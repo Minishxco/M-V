@@ -5386,12 +5386,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2041264f3f87a6d49865f62028ad366a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorManager
-  cursorSpriteCharacter1: {fileID: 2800000, guid: e57afa6cd866c424198f33c4f3138736, type: 3}
-  cursorSpriteCharacter2: {fileID: 2800000, guid: dfed1c3f1aa8fda4a9a1b8f6b934af04, type: 3}
-  hotSpot: {x: 0, y: 0}
-  cursorMode: 0
+  cursorSpriteCharacter1: {fileID: -8702611705281061202, guid: e57afa6cd866c424198f33c4f3138736, type: 3}
+  cursorSpriteCharacter2: {fileID: 6677714214607714298, guid: dfed1c3f1aa8fda4a9a1b8f6b934af04, type: 3}
   cursorImg: {fileID: 1471104562}
-  movementSpeed: 15
+  movementSpeed: 10
+  acceleration: 4000
+  deceleration: 5000
   graphicRaycaster: {fileID: 1386661825}
   eventSystem: {fileID: 938157500}
   uiCamera: {fileID: 1186589200}
@@ -6518,8 +6518,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 144, y: 100}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1471104562
 MonoBehaviour:
