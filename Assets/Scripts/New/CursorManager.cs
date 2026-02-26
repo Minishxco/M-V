@@ -5,9 +5,13 @@ using System.Collections.Generic;
 
 public class CursorManager : MonoBehaviour
 {
-    [Header("Virtual Cursor Sprites")]
+    [Header("Cursor Sprites")]
+    public Texture2D systemCursorCharacter1;
+    public Texture2D systemCursorCharacter2;
     public Sprite cursorSpriteCharacter1;
     public Sprite cursorSpriteCharacter2;
+    public Vector2 hotSpot = Vector2.zero;
+    public CursorMode cursorMode = CursorMode.Auto;
 
     [Header("UI References")]
     [SerializeField] Image cursorImg;
@@ -19,14 +23,13 @@ public class CursorManager : MonoBehaviour
     [SerializeField] Camera uiCamera;
 
     RectTransform canvasRect;
-
     Vector3 currentVelocity;
     bool usingKeyboard = true;
 
     private void Awake()
     {
         canvasRect = cursorImg.canvas.GetComponent<RectTransform>();
-        ChangeVirtualCursorSprite();
+        ChangeCursorSprites();
         EnableKeyboardCursor();
     }
 
@@ -41,10 +44,14 @@ public class CursorManager : MonoBehaviour
     {
         if (Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
         {
-            usingKeyboard = false;
-
-            cursorImg.gameObject.SetActive(false);
-            Cursor.visible = true;
+            if (usingKeyboard)
+            {
+                usingKeyboard = false;
+                cursorImg.gameObject.SetActive(false);
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+                ChangeSystemCursorSprite();
+            }
         }
 
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) ||
@@ -58,26 +65,20 @@ public class CursorManager : MonoBehaviour
             }
 
             usingKeyboard = true;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            cursorImg.gameObject.SetActive(true);
         }
     }
-
     void MoveCursor()
     {
         if (!usingKeyboard) return;
 
         Vector3 inputDir = Vector3.zero;
-
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
-            inputDir += Vector3.up;
-
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-            inputDir += Vector3.down;
-
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-            inputDir += Vector3.left;
-
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-            inputDir += Vector3.right;
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) inputDir += Vector3.up;
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) inputDir += Vector3.down;
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) inputDir += Vector3.left;
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) inputDir += Vector3.right;
 
         inputDir = inputDir.normalized;
 
@@ -110,7 +111,6 @@ public class CursorManager : MonoBehaviour
         {
             List<RaycastResult> results = new List<RaycastResult>();
             PointerEventData pointerData = new PointerEventData(eventSystem);
-
             Vector2 screenPos = RectTransformUtility.WorldToScreenPoint(uiCamera, cursorImg.rectTransform.position);
             pointerData.position = screenPos;
 
@@ -130,23 +130,24 @@ public class CursorManager : MonoBehaviour
 
     void EnableKeyboardCursor()
     {
-        Cursor.visible = false;
         cursorImg.gameObject.SetActive(true);
+        currentVelocity = Vector3.zero;
 
         Vector3 mousePos = Input.mousePosition;
         Vector3 worldPos;
         RectTransformUtility.ScreenPointToWorldPointInRectangle(
-            cursorImg.canvas.GetComponent<RectTransform>(),
+            canvasRect,
             mousePos,
             cursorImg.canvas.worldCamera,
             out worldPos
         );
-
         cursorImg.rectTransform.position = worldPos;
-        currentVelocity = Vector3.zero;
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
-    void ChangeVirtualCursorSprite()
+    void ChangeCursorSprites()
     {
         int character = UserDataLoader.LoadCharacter();
 
@@ -154,6 +155,20 @@ public class CursorManager : MonoBehaviour
             cursorImg.sprite = cursorSpriteCharacter1;
         else if (character == 2 && cursorSpriteCharacter2 != null)
             cursorImg.sprite = cursorSpriteCharacter2;
+
+        ChangeSystemCursorSprite();
+    }
+
+    void ChangeSystemCursorSprite()
+    {
+        int character = UserDataLoader.LoadCharacter();
+
+        if (character == 1 && systemCursorCharacter1 != null)
+            Cursor.SetCursor(systemCursorCharacter1, hotSpot, cursorMode);
+        else if (character == 2 && systemCursorCharacter2 != null)
+            Cursor.SetCursor(systemCursorCharacter2, hotSpot, cursorMode);
+        else
+            Cursor.SetCursor(null, Vector2.zero, cursorMode);
     }
 
     public Image GetCursorImage()

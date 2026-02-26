@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 33ab228ba5cb02d4e9083343585c7069
+guid: e3ab630c2645da843a42774108e3343c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3263911044515804409
-    second: GENIAL rosa_0
+      213: 7498656954354639092
+    second: GENIAL morado_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,28 +96,15 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GENIAL rosa_0
+      name: GENIAL morado_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 19
+        x: 47
+        y: 47
         width: 1165
         height: 691
       alignment: 0
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f4b6d25dcdbb4d20800000000000000
-      internalID: 3263911044515804409
+      spriteID: 4f022d835c4901860800000000000000
+      internalID: 7498656954354639092
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GENIAL rosa_0: 3263911044515804409
+      GENIAL morado_0: 7498656954354639092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
