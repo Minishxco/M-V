@@ -1,163 +1,148 @@
 fileFormatVersion: 2
-guid: f64a14b7aa174704098b5e9dbacade91
+guid: d830f52f91708a14eac049f73df94bad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6179509808192746194
-    second: VegaCorrecto_0
+      213: 4495284789520990160
+    second: Vega_Incorrecto_0
   - first:
-      213: -4208645485101352633
-    second: VegaCorrecto_1
+      213: -6350470519809333850
+    second: Vega_Incorrecto_1
   - first:
-      213: 4727973207857162068
-    second: VegaCorrecto_2
+      213: -6362567212338783558
+    second: Vega_Incorrecto_2
   - first:
-      213: 8623082946612408149
-    second: VegaCorrecto_3
+      213: -2484355795315764799
+    second: Vega_Incorrecto_3
   - first:
-      213: 7093143417703676900
-    second: VegaCorrecto_4
+      213: -1482483814245005449
+    second: Vega_Incorrecto_4
   - first:
-      213: -8252028705785148008
-    second: VegaCorrecto_5
+      213: 640394654891866091
+    second: Vega_Incorrecto_5
   - first:
-      213: 6292631650505135667
-    second: VegaCorrecto_6
+      213: -976905104259753923
+    second: Vega_Incorrecto_6
   - first:
-      213: 1759112676411011107
-    second: VegaCorrecto_7
+      213: 6396098540924362908
+    second: Vega_Incorrecto_7
   - first:
-      213: 631636047246173309
-    second: VegaCorrecto_8
+      213: 1169870559256048632
+    second: Vega_Incorrecto_8
   - first:
-      213: 7085420256333602190
-    second: VegaCorrecto_9
+      213: 741189395459722787
+    second: Vega_Incorrecto_9
   - first:
-      213: 2334305704793162830
-    second: VegaCorrecto_10
+      213: -5840152322907735579
+    second: Vega_Incorrecto_10
   - first:
-      213: -6153496954235918244
-    second: VegaCorrecto_11
+      213: -59845090578412151
+    second: Vega_Incorrecto_11
   - first:
-      213: -8382505998929850719
-    second: VegaCorrecto_12
+      213: -7137357199340914319
+    second: Vega_Incorrecto_12
   - first:
-      213: 7838578568046559166
-    second: VegaCorrecto_13
+      213: 1344223142427816055
+    second: Vega_Incorrecto_13
   - first:
-      213: -1391881412415025655
-    second: VegaCorrecto_14
+      213: -8837765632071832109
+    second: Vega_Incorrecto_14
   - first:
-      213: 456310857651171356
-    second: VegaCorrecto_15
+      213: -1169647574500460269
+    second: Vega_Incorrecto_15
   - first:
-      213: -2334649707287909416
-    second: VegaCorrecto_16
+      213: 2931990094056691238
+    second: Vega_Incorrecto_16
   - first:
-      213: -4363067817268125056
-    second: VegaCorrecto_17
+      213: -8898293729599182916
+    second: Vega_Incorrecto_17
   - first:
-      213: 8461007214543416265
-    second: VegaCorrecto_18
+      213: -8459083352200299003
+    second: Vega_Incorrecto_18
   - first:
-      213: -2140813108233458546
-    second: VegaCorrecto_19
+      213: 2084094639941358346
+    second: Vega_Incorrecto_19
   - first:
-      213: -8164158671411995713
-    second: VegaCorrecto_20
+      213: 2964187898601661305
+    second: Vega_Incorrecto_20
   - first:
-      213: -3591661549110188806
-    second: VegaCorrecto_21
+      213: -2824947434301453151
+    second: Vega_Incorrecto_21
   - first:
-      213: -7592448233307337832
-    second: VegaCorrecto_22
+      213: -1278839211563827244
+    second: Vega_Incorrecto_22
   - first:
-      213: -3576620419195046426
-    second: VegaCorrecto_23
+      213: -601839481280197772
+    second: Vega_Incorrecto_23
   - first:
-      213: 4908402640975705735
-    second: VegaCorrecto_24
+      213: -3429143526986041701
+    second: Vega_Incorrecto_24
   - first:
-      213: -3698498441529231072
-    second: VegaCorrecto_25
+      213: 7925259061223324581
+    second: Vega_Incorrecto_25
   - first:
-      213: 4835262236828268760
-    second: VegaCorrecto_26
+      213: 4921372577267584691
+    second: Vega_Incorrecto_26
   - first:
-      213: 5230889179255364776
-    second: VegaCorrecto_27
+      213: 5869117076271902268
+    second: Vega_Incorrecto_27
   - first:
-      213: -5275506284719306960
-    second: VegaCorrecto_28
+      213: -8377861248538756477
+    second: Vega_Incorrecto_28
   - first:
-      213: 8077253592514285536
-    second: VegaCorrecto_29
+      213: 5916260272857732621
+    second: Vega_Incorrecto_29
   - first:
-      213: 7137758470194841282
-    second: VegaCorrecto_30
+      213: -4854562354657307278
+    second: Vega_Incorrecto_30
   - first:
-      213: 3782265621823279148
-    second: VegaCorrecto_31
+      213: 876178236698930974
+    second: Vega_Incorrecto_31
   - first:
-      213: 4979458304072769294
-    second: VegaCorrecto_32
+      213: -2434735981861548806
+    second: Vega_Incorrecto_32
   - first:
-      213: 8220772643615341579
-    second: VegaCorrecto_33
+      213: 4143877754105990146
+    second: Vega_Incorrecto_33
   - first:
-      213: -4369955705778617793
-    second: VegaCorrecto_34
+      213: 8587763386133948948
+    second: Vega_Incorrecto_34
   - first:
-      213: -6538297367089704146
-    second: VegaCorrecto_35
+      213: -1931856017354779956
+    second: Vega_Incorrecto_35
   - first:
-      213: 5630417066099797234
-    second: VegaCorrecto_36
+      213: -8268154509398406104
+    second: Vega_Incorrecto_36
   - first:
-      213: 759540038269811940
-    second: VegaCorrecto_37
+      213: -156000653210842486
+    second: Vega_Incorrecto_37
   - first:
-      213: -5922352280377113912
-    second: VegaCorrecto_38
+      213: 6496128114211858881
+    second: Vega_Incorrecto_38
   - first:
-      213: 7760227405682401940
-    second: VegaCorrecto_39
+      213: -4511828172580612300
+    second: Vega_Incorrecto_39
   - first:
-      213: 4628551588761872041
-    second: VegaCorrecto_40
+      213: -2667857131298985872
+    second: Vega_Incorrecto_40
   - first:
-      213: -6989225933813579145
-    second: VegaCorrecto_41
+      213: -1749212531557799696
+    second: Vega_Incorrecto_41
   - first:
-      213: -5431325082046724719
-    second: VegaCorrecto_42
+      213: 6207721690049478981
+    second: Vega_Incorrecto_42
   - first:
-      213: -7125471810077851005
-    second: VegaCorrecto_43
+      213: -2936249034339360546
+    second: Vega_Incorrecto_43
   - first:
-      213: -1429800607512489542
-    second: VegaCorrecto_44
+      213: 8168186303328145823
+    second: Vega_Incorrecto_44
   - first:
-      213: 3912375497074794893
-    second: VegaCorrecto_45
+      213: 8037819050246060715
+    second: Vega_Incorrecto_45
   - first:
-      213: -8316918396400763028
-    second: VegaCorrecto_46
-  - first:
-      213: -8393152667656564153
-    second: VegaCorrecto_47
-  - first:
-      213: 3458430163980565009
-    second: VegaCorrecto_48
-  - first:
-      213: 5210137117397059357
-    second: VegaCorrecto_49
-  - first:
-      213: -89958048292196220
-    second: VegaCorrecto_50
-  - first:
-      213: 2011527080149474403
-    second: VegaCorrecto_51
+      213: -5270584337720358
+    second: Vega_Incorrecto_46
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -253,13 +238,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: VegaCorrecto_0
+      name: Vega_Incorrecto_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d2fe5b1e6702c550800000000000000
-      internalID: 6179509808192746194
+      spriteID: 0df7d93f2b5726e30800000000000000
+      internalID: 4495284789520990160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_1
+      name: Vega_Incorrecto_1
       rect:
         serializedVersion: 2
         x: 512
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7497bfaca33e795c0800000000000000
-      internalID: -4208645485101352633
+      spriteID: 6a5ac2e55b89ed7a0800000000000000
+      internalID: -6350470519809333850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_2
+      name: Vega_Incorrecto_2
       rect:
         serializedVersion: 2
         x: 1024
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,20 +297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 457e3e925922d9140800000000000000
-      internalID: 4727973207857162068
+      spriteID: abadff8a4de93b7a0800000000000000
+      internalID: -6362567212338783558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_3
+      name: Vega_Incorrecto_3
       rect:
         serializedVersion: 2
         x: 1536
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55faf8db0485ba770800000000000000
-      internalID: 8623082946612408149
+      spriteID: 1c1558c119bc58dd0800000000000000
+      internalID: -2484355795315764799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_4
+      name: Vega_Incorrecto_4
       rect:
         serializedVersion: 2
         x: 2048
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,20 +341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ebb0297b58ef6260800000000000000
-      internalID: 7093143417703676900
+      spriteID: 77709a253d82d6be0800000000000000
+      internalID: -1482483814245005449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_5
+      name: Vega_Incorrecto_5
       rect:
         serializedVersion: 2
         x: 2560
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,20 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89d895bfc97ea7d80800000000000000
-      internalID: -8252028705785148008
+      spriteID: be773e0bb8323e800800000000000000
+      internalID: 640394654891866091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_6
+      name: Vega_Incorrecto_6
       rect:
         serializedVersion: 2
         x: 3072
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,20 +385,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3361db6752be35750800000000000000
-      internalID: 6292631650505135667
+      spriteID: d38d459cbf55172f0800000000000000
+      internalID: -976905104259753923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_7
+      name: Vega_Incorrecto_7
       rect:
         serializedVersion: 2
         x: 3584
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,20 +407,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3207d55b8af996810800000000000000
-      internalID: 1759112676411011107
+      spriteID: c90e0382cb183c850800000000000000
+      internalID: 6396098540924362908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_8
+      name: Vega_Incorrecto_8
       rect:
         serializedVersion: 2
         x: 4096
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,20 +429,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d74a07f63a504c800800000000000000
-      internalID: 631636047246173309
+      spriteID: 8f3f4ad43173c3010800000000000000
+      internalID: 1169870559256048632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_9
+      name: Vega_Incorrecto_9
       rect:
         serializedVersion: 2
         x: 4608
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,20 +451,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8d1f17de28745260800000000000000
-      internalID: 7085420256333602190
+      spriteID: 32ec9a304db394a00800000000000000
+      internalID: 741189395459722787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_10
+      name: Vega_Incorrecto_10
       rect:
         serializedVersion: 2
         x: 5120
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e444d5bbbae156020800000000000000
-      internalID: 2334305704793162830
+      spriteID: 5e979ee976c93fea0800000000000000
+      internalID: -5840152322907735579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_11
+      name: Vega_Incorrecto_11
       rect:
         serializedVersion: 2
         x: 5632
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,20 +495,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c58e15c6f136a9aa0800000000000000
-      internalID: -6153496954235918244
+      spriteID: 98dc58a05336b2ff0800000000000000
+      internalID: -59845090578412151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_12
+      name: Vega_Incorrecto_12
       rect:
         serializedVersion: 2
         x: 6144
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,20 +517,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ae8436d43b5bab80800000000000000
-      internalID: -8382505998929850719
+      spriteID: 179353a417303fc90800000000000000
+      internalID: -7137357199340914319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_13
+      name: Vega_Incorrecto_13
       rect:
         serializedVersion: 2
         x: 6656
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,20 +539,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebfb7645da938cc60800000000000000
-      internalID: 7838578568046559166
+      spriteID: 770f44773d3a7a210800000000000000
+      internalID: 1344223142427816055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_14
+      name: Vega_Incorrecto_14
       rect:
         serializedVersion: 2
         x: 7168
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,20 +561,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90e888bda3b0face0800000000000000
-      internalID: -1391881412415025655
+      spriteID: 3dde33c6bf2f95580800000000000000
+      internalID: -8837765632071832109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_15
+      name: Vega_Incorrecto_15
       rect:
         serializedVersion: 2
         x: 7680
-        y: 512
+        y: 576
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -598,20 +583,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c10b371be44255600800000000000000
-      internalID: 456310857651171356
+      spriteID: 319b0816ab394cfe0800000000000000
+      internalID: -1169647574500460269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_16
+      name: Vega_Incorrecto_16
       rect:
         serializedVersion: 2
-        x: 8192
-        y: 512
+        x: 0
+        y: 288
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,20 +605,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8db6222f578a99fd0800000000000000
-      internalID: -2334649707287909416
+      spriteID: 6269639c47580b820800000000000000
+      internalID: 2931990094056691238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_17
+      name: Vega_Incorrecto_17
       rect:
         serializedVersion: 2
-        x: 8704
-        y: 512
+        x: 512
+        y: 288
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -642,20 +627,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0826bcccfe44373c0800000000000000
-      internalID: -4363067817268125056
+      spriteID: cb7a7248ff8e28480800000000000000
+      internalID: -8898293729599182916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_18
+      name: Vega_Incorrecto_18
       rect:
         serializedVersion: 2
-        x: 9216
-        y: 512
+        x: 1024
+        y: 288
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -664,20 +649,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cba0e8bb398b6570800000000000000
-      internalID: 8461007214543416265
+      spriteID: 50e3ea2628c4b9a80800000000000000
+      internalID: -8459083352200299003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_19
+      name: Vega_Incorrecto_19
       rect:
         serializedVersion: 2
-        x: 9728
-        y: 512
+        x: 1536
+        y: 288
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -686,20 +671,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8cae3112dd4a42e0800000000000000
-      internalID: -2140813108233458546
+      spriteID: a03100478013cec10800000000000000
+      internalID: 2084094639941358346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_20
+      name: Vega_Incorrecto_20
       rect:
         serializedVersion: 2
-        x: 10240
-        y: 512
+        x: 2048
+        y: 288
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -708,20 +693,262 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbb1094a1f413be80800000000000000
-      internalID: -8164158671411995713
+      spriteID: 973e9a75039e22920800000000000000
+      internalID: 2964187898601661305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_21
+      name: Vega_Incorrecto_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac8f459645cbc8d0800000000000000
+      internalID: -2824947434301453151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Incorrecto_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfb5ed3386a04ee0800000000000000
+      internalID: -1278839211563827244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Incorrecto_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b0d723e26d5a7f0800000000000000
+      internalID: -601839481280197772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Incorrecto_24
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96ba2e612c3960d0800000000000000
+      internalID: -3429143526986041701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Incorrecto_25
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab7929502d2cfd60800000000000000
+      internalID: 7925259061223324581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Incorrecto_26
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be0263d84a3c4440800000000000000
+      internalID: 4921372577267584691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Incorrecto_27
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ead5c82ea437150800000000000000
+      internalID: 5869117076271902268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Incorrecto_28
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a365f059bdbbb80800000000000000
+      internalID: -8377861248538756477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Incorrecto_29
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06d07a5f57ca1250800000000000000
+      internalID: 5916260272857732621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Incorrecto_30
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275daae424121acb0800000000000000
+      internalID: -4854562354657307278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Incorrecto_31
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 288
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f2e5ec67fc82c00800000000000000
+      internalID: 876178236698930974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vega_Incorrecto_32
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -730,20 +957,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af4abdbb9dad72ec0800000000000000
-      internalID: -3591661549110188806
+      spriteID: afcc7473684163ed0800000000000000
+      internalID: -2434735981861548806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_22
+      name: Vega_Incorrecto_33
       rect:
         serializedVersion: 2
         x: 512
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -752,20 +979,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89b8c2eee8432a690800000000000000
-      internalID: -7592448233307337832
+      spriteID: 20c8126bcd2028930800000000000000
+      internalID: 4143877754105990146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_23
+      name: Vega_Incorrecto_34
       rect:
         serializedVersion: 2
         x: 1024
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -774,20 +1001,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e57871bdaa4d5ec0800000000000000
-      internalID: -3576620419195046426
+      spriteID: 41aae9dbc4ddd2770800000000000000
+      internalID: 8587763386133948948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_24
+      name: Vega_Incorrecto_35
       rect:
         serializedVersion: 2
         x: 1536
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,20 +1023,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78632f532362e1440800000000000000
-      internalID: 4908402640975705735
+      spriteID: cc21e58003ba035e0800000000000000
+      internalID: -1931856017354779956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_25
+      name: Vega_Incorrecto_36
       rect:
         serializedVersion: 2
         x: 2048
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -818,20 +1045,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 029705e434b4cacc0800000000000000
-      internalID: -3698498441529231072
+      spriteID: 82c834fb74d914d80800000000000000
+      internalID: -8268154509398406104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_26
+      name: Vega_Incorrecto_37
       rect:
         serializedVersion: 2
         x: 2560
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -840,20 +1067,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d87206d26d4a1340800000000000000
-      internalID: 4835262236828268760
+      spriteID: a8a83a08b36c5ddf0800000000000000
+      internalID: -156000653210842486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_27
+      name: Vega_Incorrecto_38
       rect:
         serializedVersion: 2
         x: 3072
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -862,20 +1089,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ac53fc7ef9d79840800000000000000
-      internalID: 5230889179255364776
+      spriteID: 1c9a6071a12e62a50800000000000000
+      internalID: 6496128114211858881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_28
+      name: Vega_Incorrecto_39
       rect:
         serializedVersion: 2
         x: 3584
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -884,20 +1111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03707f02cf2a9c6b0800000000000000
-      internalID: -5275506284719306960
+      spriteID: 4379bb58e24c261c0800000000000000
+      internalID: -4511828172580612300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_29
+      name: Vega_Incorrecto_40
       rect:
         serializedVersion: 2
         x: 4096
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -906,20 +1133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0efcf86e85b281070800000000000000
-      internalID: 8077253592514285536
+      spriteID: 0786e61f21ed9fad0800000000000000
+      internalID: -2667857131298985872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_30
+      name: Vega_Incorrecto_41
       rect:
         serializedVersion: 2
         x: 4608
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -928,20 +1155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c6cf7cd2896e0360800000000000000
-      internalID: 7137758470194841282
+      spriteID: 0f8e5d3687c89b7e0800000000000000
+      internalID: -1749212531557799696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_31
+      name: Vega_Incorrecto_42
       rect:
         serializedVersion: 2
         x: 5120
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -950,20 +1177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c20d2f23b8e4d7430800000000000000
-      internalID: 3782265621823279148
+      spriteID: 54103e7bcf1462650800000000000000
+      internalID: 6207721690049478981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_32
+      name: Vega_Incorrecto_43
       rect:
         serializedVersion: 2
         x: 5632
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -972,20 +1199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0f502cf1f69a1540800000000000000
-      internalID: 4979458304072769294
+      spriteID: ed06e186f095047d0800000000000000
+      internalID: -2936249034339360546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_33
+      name: Vega_Incorrecto_44
       rect:
         serializedVersion: 2
         x: 6144
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -994,20 +1221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0cf0f1f92d061270800000000000000
-      internalID: 8220772643615341579
+      spriteID: f91d51d7a2a3b5170800000000000000
+      internalID: 8168186303328145823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_34
+      name: Vega_Incorrecto_45
       rect:
         serializedVersion: 2
         x: 6656
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1016,20 +1243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f32cfd8407cca53c0800000000000000
-      internalID: -4369955705778617793
+      spriteID: baab8ca07d11c8f60800000000000000
+      internalID: 8037819050246060715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: VegaCorrecto_35
+      name: Vega_Incorrecto_46
       rect:
         serializedVersion: 2
         x: 7168
         y: 0
         width: 512
-        height: 512
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1038,140 +1265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e231fbe9f2d4345a0800000000000000
-      internalID: -6538297367089704146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VegaCorrecto_36
-      rect:
-        serializedVersion: 2
-        x: 7680
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2fcec2a8d72432e40800000000000000
-      internalID: 5630417066099797234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VegaCorrecto_37
-      rect:
-        serializedVersion: 2
-        x: 8192
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ec32cdf3ad6a8a00800000000000000
-      internalID: 759540038269811940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VegaCorrecto_38
-      rect:
-        serializedVersion: 2
-        x: 8704
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c2c56d9af39fcda0800000000000000
-      internalID: -5922352280377113912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VegaCorrecto_39
-      rect:
-        serializedVersion: 2
-        x: 9216
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49263f3c5bdd1bb60800000000000000
-      internalID: 7760227405682401940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VegaCorrecto_40
-      rect:
-        serializedVersion: 2
-        x: 9728
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a6a8b8952beb3040800000000000000
-      internalID: 4628551588761872041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VegaCorrecto_41
-      rect:
-        serializedVersion: 2
-        x: 10240
-        y: 0
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77208103b08410f90800000000000000
-      internalID: -6989225933813579145
+      spriteID: adb9ac47e664deff0800000000000000
+      internalID: -5270584337720358
       vertices: []
       indices: 
       edges: []
@@ -1180,7 +1275,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1a2edac2394c9fc4a93a8b6880c02cc3
+    spriteID: d3aa31835c216814d9dc90e8a4d3ad69
     internalID: 0
     vertices: []
     indices: 
@@ -1190,48 +1285,53 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      VegaCorrecto_0: 6179509808192746194
-      VegaCorrecto_1: -4208645485101352633
-      VegaCorrecto_10: 2334305704793162830
-      VegaCorrecto_11: -6153496954235918244
-      VegaCorrecto_12: -8382505998929850719
-      VegaCorrecto_13: 7838578568046559166
-      VegaCorrecto_14: -1391881412415025655
-      VegaCorrecto_15: 456310857651171356
-      VegaCorrecto_16: -2334649707287909416
-      VegaCorrecto_17: -4363067817268125056
-      VegaCorrecto_18: 8461007214543416265
-      VegaCorrecto_19: -2140813108233458546
-      VegaCorrecto_2: 4727973207857162068
-      VegaCorrecto_20: -8164158671411995713
-      VegaCorrecto_21: -3591661549110188806
-      VegaCorrecto_22: -7592448233307337832
-      VegaCorrecto_23: -3576620419195046426
-      VegaCorrecto_24: 4908402640975705735
-      VegaCorrecto_25: -3698498441529231072
-      VegaCorrecto_26: 4835262236828268760
-      VegaCorrecto_27: 5230889179255364776
-      VegaCorrecto_28: -5275506284719306960
-      VegaCorrecto_29: 8077253592514285536
-      VegaCorrecto_3: 8623082946612408149
-      VegaCorrecto_30: 7137758470194841282
-      VegaCorrecto_31: 3782265621823279148
-      VegaCorrecto_32: 4979458304072769294
-      VegaCorrecto_33: 8220772643615341579
-      VegaCorrecto_34: -4369955705778617793
-      VegaCorrecto_35: -6538297367089704146
-      VegaCorrecto_36: 5630417066099797234
-      VegaCorrecto_37: 759540038269811940
-      VegaCorrecto_38: -5922352280377113912
-      VegaCorrecto_39: 7760227405682401940
-      VegaCorrecto_4: 7093143417703676900
-      VegaCorrecto_40: 4628551588761872041
-      VegaCorrecto_41: -6989225933813579145
-      VegaCorrecto_5: -8252028705785148008
-      VegaCorrecto_6: 6292631650505135667
-      VegaCorrecto_7: 1759112676411011107
-      VegaCorrecto_8: 631636047246173309
-      VegaCorrecto_9: 7085420256333602190
+      Vega_Incorrecto_0: 4495284789520990160
+      Vega_Incorrecto_1: -6350470519809333850
+      Vega_Incorrecto_10: -5840152322907735579
+      Vega_Incorrecto_11: -59845090578412151
+      Vega_Incorrecto_12: -7137357199340914319
+      Vega_Incorrecto_13: 1344223142427816055
+      Vega_Incorrecto_14: -8837765632071832109
+      Vega_Incorrecto_15: -1169647574500460269
+      Vega_Incorrecto_16: 2931990094056691238
+      Vega_Incorrecto_17: -8898293729599182916
+      Vega_Incorrecto_18: -8459083352200299003
+      Vega_Incorrecto_19: 2084094639941358346
+      Vega_Incorrecto_2: -6362567212338783558
+      Vega_Incorrecto_20: 2964187898601661305
+      Vega_Incorrecto_21: -2824947434301453151
+      Vega_Incorrecto_22: -1278839211563827244
+      Vega_Incorrecto_23: -601839481280197772
+      Vega_Incorrecto_24: -3429143526986041701
+      Vega_Incorrecto_25: 7925259061223324581
+      Vega_Incorrecto_26: 4921372577267584691
+      Vega_Incorrecto_27: 5869117076271902268
+      Vega_Incorrecto_28: -8377861248538756477
+      Vega_Incorrecto_29: 5916260272857732621
+      Vega_Incorrecto_3: -2484355795315764799
+      Vega_Incorrecto_30: -4854562354657307278
+      Vega_Incorrecto_31: 876178236698930974
+      Vega_Incorrecto_32: -2434735981861548806
+      Vega_Incorrecto_33: 4143877754105990146
+      Vega_Incorrecto_34: 8587763386133948948
+      Vega_Incorrecto_35: -1931856017354779956
+      Vega_Incorrecto_36: -8268154509398406104
+      Vega_Incorrecto_37: -156000653210842486
+      Vega_Incorrecto_38: 6496128114211858881
+      Vega_Incorrecto_39: -4511828172580612300
+      Vega_Incorrecto_4: -1482483814245005449
+      Vega_Incorrecto_40: -2667857131298985872
+      Vega_Incorrecto_41: -1749212531557799696
+      Vega_Incorrecto_42: 6207721690049478981
+      Vega_Incorrecto_43: -2936249034339360546
+      Vega_Incorrecto_44: 8168186303328145823
+      Vega_Incorrecto_45: 8037819050246060715
+      Vega_Incorrecto_46: -5270584337720358
+      Vega_Incorrecto_5: 640394654891866091
+      Vega_Incorrecto_6: -976905104259753923
+      Vega_Incorrecto_7: 6396098540924362908
+      Vega_Incorrecto_8: 1169870559256048632
+      Vega_Incorrecto_9: 741189395459722787
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
