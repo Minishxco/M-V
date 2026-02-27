@@ -22,54 +22,127 @@ public class CursorManager : MonoBehaviour
     [SerializeField] EventSystem eventSystem;
     [SerializeField] Camera uiCamera;
 
+    [Header("Mouse Switch")]
+    [SerializeField] float mouseSwitchDistancePx = 50f;
+    [SerializeField] int mouseSwitchStableFrames = 2;
+
     RectTransform canvasRect;
     Vector3 currentVelocity;
+
     bool usingKeyboard = true;
 
-    private void Awake()
+    Vector2 lastMousePos;
+    int mouseMovedFrames;
+
+    readonly List<RaycastResult> raycastResults = new List<RaycastResult>(32);
+    PointerEventData pointerData;
+
+    void Awake()
     {
+        if (cursorImg == null)
+        {
+            Debug.LogError("CursorManager: cursorImg no asignado.");
+            enabled = false;
+            return;
+        }
+
+        if (eventSystem == null) eventSystem = EventSystem.current;
+        if (eventSystem == null)
+        {
+            Debug.LogError("CursorManager: EventSystem no asignado y no existe EventSystem en escena.");
+            enabled = false;
+            return;
+        }
+
+        if (graphicRaycaster == null) graphicRaycaster = cursorImg.canvas.GetComponent<GraphicRaycaster>();
+        if (graphicRaycaster == null)
+        {
+            Debug.LogError("CursorManager: GraphicRaycaster no asignado y no se encontr  en el Canvas.");
+            enabled = false;
+            return;
+        }
+
+        if (uiCamera == null) uiCamera = cursorImg.canvas.worldCamera;
+
         canvasRect = cursorImg.canvas.GetComponent<RectTransform>();
+        pointerData = new PointerEventData(eventSystem);
+
         ChangeCursorSprites();
         EnableKeyboardCursor();
     }
 
-    private void Update()
+    void Update()
     {
         DetectInputMethod();
         MoveCursor();
         TryClickUI();
     }
 
+    void OnApplicationFocus(bool hasFocus)
+    {
+        if (!hasFocus) return;
+        if (!usingKeyboard) ChangeSystemCursorSprite();
+    }
+
+    void OnApplicationPause(bool pause)
+    {
+        if (pause) return;
+        if (!usingKeyboard) ChangeSystemCursorSprite();
+    }
+
     void DetectInputMethod()
     {
-        if (Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
-        {
-            if (usingKeyboard)
-            {
-                usingKeyboard = false;
-                cursorImg.gameObject.SetActive(false);
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;
-                ChangeSystemCursorSprite();
-            }
-        }
-
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) ||
+        bool anyMoveKey =
+            Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) ||
             Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) ||
             Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow) ||
-            Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
+            Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow);
+
+        if (anyMoveKey)
         {
-            if (!usingKeyboard)
-            {
-                EnableKeyboardCursor();
-            }
+            if (!usingKeyboard) EnableKeyboardCursor();
 
             usingKeyboard = true;
+
             Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.lockState = CursorLockMode.None;
             cursorImg.gameObject.SetActive(true);
+
+            lastMousePos = Input.mousePosition;
+            mouseMovedFrames = 0;
+            return;
+        }
+
+        if (usingKeyboard)
+        {
+            Vector2 cur = (Vector2)Input.mousePosition;
+            float dist = Vector2.Distance(cur, lastMousePos);
+
+            if (dist >= mouseSwitchDistancePx)
+                mouseMovedFrames++;
+            else
+                mouseMovedFrames = 0;
+
+            if (mouseMovedFrames >= mouseSwitchStableFrames)
+            {
+                SwitchToMouse();
+                lastMousePos = cur;
+                mouseMovedFrames = 0;
+            }
         }
     }
+
+    void SwitchToMouse()
+    {
+        usingKeyboard = false;
+        cursorImg.gameObject.SetActive(false);
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        ChangeSystemCursorSprite();
+    }
+
     void MoveCursor()
     {
         if (!usingKeyboard) return;
@@ -109,19 +182,19 @@ public class CursorManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
         {
-            List<RaycastResult> results = new List<RaycastResult>();
-            PointerEventData pointerData = new PointerEventData(eventSystem);
+            raycastResults.Clear();
+
             Vector2 screenPos = RectTransformUtility.WorldToScreenPoint(uiCamera, cursorImg.rectTransform.position);
             pointerData.position = screenPos;
 
-            graphicRaycaster.Raycast(pointerData, results);
+            graphicRaycaster.Raycast(pointerData, raycastResults);
 
-            foreach (RaycastResult result in results)
+            for (int i = 0; i < raycastResults.Count; i++)
             {
-                Button button = result.gameObject.GetComponent<Button>();
-                if (button != null)
+                var btn = raycastResults[i].gameObject.GetComponentInParent<Button>();
+                if (btn != null)
                 {
-                    button.onClick.Invoke();
+                    btn.onClick.Invoke();
                     break;
                 }
             }
@@ -144,7 +217,10 @@ public class CursorManager : MonoBehaviour
         cursorImg.rectTransform.position = worldPos;
 
         Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.lockState = CursorLockMode.None;
+
+        lastMousePos = Input.mousePosition;
+        mouseMovedFrames = 0;
     }
 
     void ChangeCursorSprites()
@@ -171,8 +247,5 @@ public class CursorManager : MonoBehaviour
             Cursor.SetCursor(null, Vector2.zero, cursorMode);
     }
 
-    public Image GetCursorImage()
-    {
-        return cursorImg;
-    }
+    public Image GetCursorImage() => cursorImg;
 }
