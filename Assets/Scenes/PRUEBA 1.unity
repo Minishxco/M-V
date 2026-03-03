@@ -5399,6 +5399,8 @@ MonoBehaviour:
   graphicRaycaster: {fileID: 1386661825}
   eventSystem: {fileID: 938157500}
   uiCamera: {fileID: 1186589200}
+  mouseSwitchDistancePx: 50
+  mouseSwitchStableFrames: 2
 --- !u!1 &1358675931
 GameObject:
   m_ObjectHideFlags: 0
@@ -8032,6 +8034,7 @@ MonoBehaviour:
   - {fileID: 218018850}
   - {fileID: 712991195}
   - {fileID: 1509407586}
+  sceneName: PRUEBA 2
 --- !u!4 &1937743014
 Transform:
   m_ObjectHideFlags: 0

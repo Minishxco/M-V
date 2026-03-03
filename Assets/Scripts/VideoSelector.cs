@@ -18,6 +18,8 @@ public class VideoSelector : MonoBehaviour
     public GameObject panelSeleccionar;
     public GameObject panelNombre;
 
+    public string sceneName;
+
     private enum VideoState
     {
         Cabecera,
@@ -93,7 +95,7 @@ public class VideoSelector : MonoBehaviour
                 break;
 
             case VideoState.Personaje:
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(sceneName);
                 break;
         }
     }

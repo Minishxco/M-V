@@ -14,6 +14,8 @@ public class PlayVideo : MonoBehaviour
 
     public GameObject[] disableObjects;
 
+    public string sceneName;
+
     void Awake()
     {
         videoPlayer.source = VideoSource.Url;
@@ -62,6 +64,6 @@ public class PlayVideo : MonoBehaviour
 
     void OnVideoFinished(VideoPlayer vp)
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(sceneName);
     }
 }

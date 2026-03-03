@@ -15,6 +15,8 @@ public class Interactable : MonoBehaviour
     [Header("Herramientas")]
     public List<Herramienta> herramientas = new List<Herramienta>();
 
+    public bool herramientas_ = true;
+
     [Header("Panels de Respuesta")]
     public GameObject panelCorrecto;
     public GameObject imageLettersCorrecto;
@@ -38,9 +40,12 @@ public class Interactable : MonoBehaviour
 
     private void Start()
     {
-        foreach (Herramienta h in herramientas)
+        if(herramientas_)
         {
-            h.imagenButton.GetComponent<CircleCollider2D>().enabled = false;
+            foreach (Herramienta h in herramientas)
+            {
+                h.imagenButton.GetComponent<CircleCollider2D>().enabled = false;
+            }
         }
     }
 
@@ -131,11 +136,15 @@ public class Interactable : MonoBehaviour
             panel.SetActive(false);
         }
 
-        foreach (Herramienta h in herramientas)
+        if(herramientas_)
         {
-            h.imagenButton.GetComponent<SpriteRenderer>().enabled = true;
-            h.imagenButton.GetComponent<CircleCollider2D>().enabled = true;
+            foreach (Herramienta h in herramientas)
+            {
+                h.imagenButton.GetComponent<SpriteRenderer>().enabled = true;
+                h.imagenButton.GetComponent<CircleCollider2D>().enabled = true;
+            }
         }
+        
     }
     private void RespuestaIncorrecta(GameObject panelIncorrecto)
     {
