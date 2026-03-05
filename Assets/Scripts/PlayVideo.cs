@@ -15,6 +15,7 @@ public class PlayVideo : MonoBehaviour
     public GameObject[] disableObjects;
 
     public GameObject[] disableAfterVideo;
+    public GameObject[] enableAfterVideo;
 
     public string sceneName;
     public bool goToSceneOnFinish = true;
@@ -100,7 +101,15 @@ public class PlayVideo : MonoBehaviour
                     obj.SetActive(false);
                 }
             }
-            
+
+            if (enableAfterVideo != null)
+            {
+                foreach (var obj in enableAfterVideo)
+                {
+                    obj.SetActive(true);
+                }
+            }
+
         }
     }
 }

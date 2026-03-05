@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Interactable : MonoBehaviour
 {
@@ -37,6 +39,10 @@ public class Interactable : MonoBehaviour
     public string tagKey;
     public GameObject outlineKey;
     public GameObject ButtonKey;
+
+    public string sceneName;
+    public bool goToSceneOnFinish = true;
+    public float waitTimeBeforeScene = 0.5f;
 
     private void Start()
     {
@@ -107,6 +113,11 @@ public class Interactable : MonoBehaviour
         llave.SetActive(false);
         keyManager.updateKey();
         Debug.Log("Juego Terminado");
+
+        if (goToSceneOnFinish)
+        {
+            StartCoroutine(LoadSceneAfterDelay(sceneName));
+        }
     }
 
     public void RespuestaIncorrecta1()
@@ -188,5 +199,11 @@ public class Interactable : MonoBehaviour
         }
 
         llave.SetActive(true);
+    }
+
+    IEnumerator LoadSceneAfterDelay(string sceneName)
+    {
+        yield return new WaitForSeconds(waitTimeBeforeScene);
+        SceneManager.LoadScene(sceneName);
     }
 }

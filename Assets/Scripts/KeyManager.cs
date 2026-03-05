@@ -7,16 +7,30 @@ public class KeyManager : MonoBehaviour
     public GameObject fadeOut;
     public GameObject[] fullKeyImage;
     public AudioManager audioManager;
-    public int key;
+
+    public int initialKeys = 0;
+    private int key;
+
+    void Start()
+    {
+        key = initialKeys;
+
+        for (int i = 0; i < key && i < fullKeyImage.Length; i++)
+        {
+            fullKeyImage[i].SetActive(true);
+        }
+    }
 
     public void updateKey()
     {
+        if (key >= fullKeyImage.Length) return;
+
         audioManager.PlayKeyCollected();
-        for (int i = 0; i < fullKeyImage.Length; i++)
-        {
-            fullKeyImage[key].SetActive(true);
-        }
-        if(fadeOut != null)
+
+        fullKeyImage[key].SetActive(true);
+        key++;
+
+        if (fadeOut != null)
         {
             fadeOut.SetActive(true);
         }

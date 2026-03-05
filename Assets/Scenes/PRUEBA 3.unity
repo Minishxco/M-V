@@ -4979,6 +4979,7 @@ MonoBehaviour:
     panelNivel2: {fileID: 2101867730}
     imagenButton: {fileID: 1169689562}
     spriteMostrar: {fileID: 1334224634}
+  herramientas_: 1
   panelCorrecto: {fileID: 1963760362}
   imageLettersCorrecto: {fileID: 1807175485}
   panelIncorrecto1: {fileID: 225998969}
@@ -5000,6 +5001,8 @@ MonoBehaviour:
   tagKey: Key
   outlineKey: {fileID: 2004427566}
   ButtonKey: {fileID: 2041732578}
+  sceneName: PRUEBA 4
+  goToSceneOnFinish: 1
 --- !u!114 &491871869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10624,7 +10627,7 @@ MonoBehaviour:
   - {fileID: 1954034586}
   - {fileID: 1519817629}
   audioManager: {fileID: 1747134629}
-  key: 1
+  initialKeys: 2
 --- !u!1 &1334224634
 GameObject:
   m_ObjectHideFlags: 0
