@@ -8026,15 +8026,18 @@ MonoBehaviour:
   videoPersonaje1: "TRANSICIO\u0301N MILLA\u0301N.mov"
   videoPersonaje2: "TRANSICIO\u0301N VEGA.mov"
   disableObjects:
-  - {fileID: 857119278}
-  - {fileID: 1028601968}
-  - {fileID: 1334047527}
+  - {fileID: 1371428084}
   - {fileID: 1386661824}
-  - {fileID: 938157498}
+  - {fileID: 1509407586}
   - {fileID: 218018850}
   - {fileID: 712991195}
-  - {fileID: 1509407586}
+  - {fileID: 1028601968}
+  - {fileID: 1334047527}
+  - {fileID: 857119278}
+  disableAfterVideo: []
   sceneName: PRUEBA 2
+  goToSceneOnFinish: 1
+  canvasVideo: {fileID: 0}
 --- !u!4 &1937743014
 Transform:
   m_ObjectHideFlags: 0

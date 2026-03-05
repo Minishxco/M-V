@@ -19,6 +19,8 @@ public class PlayVideo : MonoBehaviour
     public string sceneName;
     public bool goToSceneOnFinish = true;
 
+    public GameObject canvasVideo;
+
     void Awake()
     {
         videoPlayer.source = VideoSource.Url;
@@ -36,10 +38,18 @@ public class PlayVideo : MonoBehaviour
 
     public void PlayVideoFromButton()
     {
-        foreach (var obj in disableObjects)
+        if (disableObjects != null)
         {
-            obj.SetActive(false);
+            foreach (var obj in disableObjects)
+            {
+                obj.SetActive(false);
+            }
         }
+
+        if(canvasVideo != null)
+        {
+            canvasVideo.SetActive(true);
+        }        
 
         string fullPath = GetVideoURL("Video/" + selectedVideoPath);
         videoPlayer.url = fullPath;
@@ -76,15 +86,21 @@ public class PlayVideo : MonoBehaviour
             videoPlayer.Stop();
             videoPlayer.gameObject.SetActive(false);
 
-            foreach (var obj in disableObjects)
+            if (disableObjects != null)
             {
-                obj.SetActive(true);
+                foreach (var obj in disableObjects)
+                {
+                    obj.SetActive(true);
+                }
             }
 
-            foreach (var obj in disableAfterVideo)
-            {
-                obj.SetActive(false);
+            if(disableAfterVideo != null) {
+                foreach (var obj in disableAfterVideo)
+                {
+                    obj.SetActive(false);
+                }
             }
+            
         }
     }
 }
