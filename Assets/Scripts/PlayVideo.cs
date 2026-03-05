@@ -14,7 +14,10 @@ public class PlayVideo : MonoBehaviour
 
     public GameObject[] disableObjects;
 
+    public GameObject[] disableAfterVideo;
+
     public string sceneName;
+    public bool goToSceneOnFinish = true;
 
     void Awake()
     {
@@ -64,6 +67,24 @@ public class PlayVideo : MonoBehaviour
 
     void OnVideoFinished(VideoPlayer vp)
     {
-        SceneManager.LoadScene(sceneName);
+        if (goToSceneOnFinish)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
+        else
+        {
+            videoPlayer.Stop();
+            videoPlayer.gameObject.SetActive(false);
+
+            foreach (var obj in disableObjects)
+            {
+                obj.SetActive(true);
+            }
+
+            foreach (var obj in disableAfterVideo)
+            {
+                obj.SetActive(false);
+            }
+        }
     }
 }
