@@ -454,6 +454,7 @@ GameObject:
   - component: {fileID: 34792163}
   - component: {fileID: 34792164}
   - component: {fileID: 34792165}
+  - component: {fileID: 34792166}
   m_Layer: 0
   m_Name: B
   m_TagString: Object2
@@ -471,7 +472,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 8.8, y: -8.53, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1651344103}
@@ -526,7 +527,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -195179393, guid: 2a2429003d2a44947a2541bbd7b57363, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0fabf4fadf3d5c74db93438ff759aaeb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -607,7 +608,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.49, y: 4.53}
+    oldSize: {x: 6, y: 6}
     newSize: {x: 4.49, y: 4.53}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -615,6 +616,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.49, y: 33.129463}
   m_EdgeRadius: 0
+--- !u!114 &34792166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34792159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
+  characterA: {fileID: 21300000, guid: ddb52b4ae72be35499c682731e63c18d, type: 3}
+  characterB: {fileID: 21300000, guid: 0fabf4fadf3d5c74db93438ff759aaeb, type: 3}
 --- !u!1 &61991708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,7 +1575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: -191}
+  m_AnchoredPosition: {x: 0, y: -191}
   m_SizeDelta: {x: 366.12305, y: 79.561}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &153846635
@@ -3227,6 +3242,7 @@ GameObject:
   - component: {fileID: 338660565}
   - component: {fileID: 338660566}
   - component: {fileID: 338660567}
+  - component: {fileID: 338660568}
   m_Layer: 0
   m_Name: A
   m_TagString: Object1
@@ -3244,7 +3260,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.13, y: -2.63, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 276773444}
@@ -3299,7 +3315,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1968689841, guid: 65b5cb9a2e5150840b9411b5ec598be9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 98b375281f4140341b479166ea3f5f8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3381,7 +3397,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.88, y: 4.3}
+    oldSize: {x: 6, y: 6}
     newSize: {x: 4.88, y: 4.3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3389,6 +3405,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.88, y: 30.197746}
   m_EdgeRadius: 0
+--- !u!114 &338660568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338660561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
+  characterA: {fileID: 21300000, guid: 98b375281f4140341b479166ea3f5f8a, type: 3}
+  characterB: {fileID: 21300000, guid: 770468404b4b72042baf60a9f09e26c1, type: 3}
 --- !u!1 &383763754
 GameObject:
   m_ObjectHideFlags: 0
@@ -6776,6 +6806,7 @@ GameObject:
   - component: {fileID: 729641214}
   - component: {fileID: 729641215}
   - component: {fileID: 729641216}
+  - component: {fileID: 729641217}
   m_Layer: 0
   m_Name: C
   m_TagString: Object3
@@ -6793,7 +6824,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.78, y: -8.03, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1211592852}
@@ -6848,7 +6879,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1232506842, guid: d36716672d6551844910698fae0e0cb3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ba4ed9d8a1893948aef86f7ad3ba501, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6929,7 +6960,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.59, y: 4.75}
+    oldSize: {x: 6, y: 6}
     newSize: {x: 4.59, y: 4.75}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6937,6 +6968,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.59, y: 31.653845}
   m_EdgeRadius: 0
+--- !u!114 &729641217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729641210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
+  characterA: {fileID: 21300000, guid: 6ba4ed9d8a1893948aef86f7ad3ba501, type: 3}
+  characterB: {fileID: 21300000, guid: ea11dee5f61d60a4ea263835d1785e86, type: 3}
 --- !u!1 &745681729
 GameObject:
   m_ObjectHideFlags: 0
@@ -11798,6 +11843,7 @@ GameObject:
   - component: {fileID: 1738167011}
   - component: {fileID: 1738167012}
   - component: {fileID: 1738167013}
+  - component: {fileID: 1738167014}
   m_Layer: 0
   m_Name: D
   m_TagString: Object4
@@ -11815,7 +11861,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.82, y: -1.39, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 633035153}
@@ -11870,7 +11916,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 561630066, guid: aca11435c5be6ea44a569ff06c4629e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9d21649f6c6da2642bde9d7618130c83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11951,7 +11997,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.58, y: 4.95}
+    oldSize: {x: 6, y: 6}
     newSize: {x: 4.58, y: 4.95}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -11959,6 +12005,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.58, y: 32.19578}
   m_EdgeRadius: 0
+--- !u!114 &1738167014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738167007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
+  characterA: {fileID: 21300000, guid: 9d21649f6c6da2642bde9d7618130c83, type: 3}
+  characterB: {fileID: 21300000, guid: 01746855d53187f409cb3a063e5deda4, type: 3}
 --- !u!1 &1747134628
 GameObject:
   m_ObjectHideFlags: 0
