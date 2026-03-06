@@ -454,7 +454,6 @@ GameObject:
   - component: {fileID: 34792163}
   - component: {fileID: 34792164}
   - component: {fileID: 34792165}
-  - component: {fileID: 34792166}
   m_Layer: 0
   m_Name: B
   m_TagString: Object2
@@ -472,9 +471,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 8.8, y: -8.53, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1458307668}
   - {fileID: 1651344103}
   m_Father: {fileID: 725673418}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -527,7 +527,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 0fabf4fadf3d5c74db93438ff759aaeb, type: 3}
+  m_Sprite: {fileID: -195179393, guid: 2a2429003d2a44947a2541bbd7b57363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -552,6 +552,8 @@ MonoBehaviour:
   audioManager: {fileID: 1747134629}
   panel: {fileID: 678974568}
   buttonLetter: {fileID: 493170435}
+  iconObject: {fileID: 1458307665}
+  showIcon: 1
   dialogueText: COGIENDO UN OBJETO QUE NOS SIRVA PARA GOLPEARLA Y ABRIRNOS CAMINO
   TMP_dialogueText: {fileID: 1173892490}
 --- !u!114 &34792164
@@ -608,7 +610,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6, y: 6}
+    oldSize: {x: 4.49, y: 4.53}
     newSize: {x: 4.49, y: 4.53}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -616,20 +618,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.49, y: 33.129463}
   m_EdgeRadius: 0
---- !u!114 &34792166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34792159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
-  characterA: {fileID: 21300000, guid: ddb52b4ae72be35499c682731e63c18d, type: 3}
-  characterB: {fileID: 21300000, guid: 0fabf4fadf3d5c74db93438ff759aaeb, type: 3}
 --- !u!1 &61991708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3242,7 +3230,6 @@ GameObject:
   - component: {fileID: 338660565}
   - component: {fileID: 338660566}
   - component: {fileID: 338660567}
-  - component: {fileID: 338660568}
   m_Layer: 0
   m_Name: A
   m_TagString: Object1
@@ -3260,9 +3247,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.13, y: -2.63, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1133587276}
   - {fileID: 276773444}
   m_Father: {fileID: 725673418}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3315,7 +3303,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 98b375281f4140341b479166ea3f5f8a, type: 3}
+  m_Sprite: {fileID: -1968689841, guid: 65b5cb9a2e5150840b9411b5ec598be9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3340,6 +3328,8 @@ MonoBehaviour:
   audioManager: {fileID: 1747134629}
   panel: {fileID: 1978327179}
   buttonLetter: {fileID: 854997240}
+  iconObject: {fileID: 1133587273}
+  showIcon: 1
   dialogueText: "AGACH\xC1NDONOS CON LA ESPALDA RECTA Y COGI\xC9NDOLA CON AMBAS MANOS
     POR LOS LADOS"
   TMP_dialogueText: {fileID: 472163384}
@@ -3397,7 +3387,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6, y: 6}
+    oldSize: {x: 4.88, y: 4.3}
     newSize: {x: 4.88, y: 4.3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3405,20 +3395,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.88, y: 30.197746}
   m_EdgeRadius: 0
---- !u!114 &338660568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338660561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
-  characterA: {fileID: 21300000, guid: 98b375281f4140341b479166ea3f5f8a, type: 3}
-  characterB: {fileID: 21300000, guid: 770468404b4b72042baf60a9f09e26c1, type: 3}
 --- !u!1 &383763754
 GameObject:
   m_ObjectHideFlags: 0
@@ -4928,8 +4904,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -375.44, y: -215.23}
-  m_SizeDelta: {x: 2.3952, y: 1.9247}
+  m_AnchoredPosition: {x: -377.14197, y: -213.29669}
+  m_SizeDelta: {x: 5.7991, y: 5.1965}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &493170437
 MonoBehaviour:
@@ -5060,8 +5036,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -368.04, y: -213.2}
-  m_SizeDelta: {x: 2.3952, y: 1.9247}
+  m_AnchoredPosition: {x: -366.87277, y: -212.3959}
+  m_SizeDelta: {x: 4.0034, y: 3.5329}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497392807
 MonoBehaviour:
@@ -5192,8 +5168,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -379.58, y: -209.28}
-  m_SizeDelta: {x: 2.3952, y: 1.9247}
+  m_AnchoredPosition: {x: -378.38678, y: -208.39809}
+  m_SizeDelta: {x: 3.744, y: 3.2735}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508127689
 MonoBehaviour:
@@ -6224,6 +6200,112 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &656255293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 656255296}
+  - component: {fileID: 656255295}
+  - component: {fileID: 656255294}
+  m_Layer: 0
+  m_Name: '[OFF]Iconos'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &656255294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656255293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
+  characterA: {fileID: 21300000, guid: 98b375281f4140341b479166ea3f5f8a, type: 3}
+  characterB: {fileID: 21300000, guid: 770468404b4b72042baf60a9f09e26c1, type: 3}
+--- !u!212 &656255295
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656255293}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 98b375281f4140341b479166ea3f5f8a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &656255296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656255293}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7, y: 5.3333335, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1738167008}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &658026216
 GameObject:
   m_ObjectHideFlags: 0
@@ -6806,7 +6888,6 @@ GameObject:
   - component: {fileID: 729641214}
   - component: {fileID: 729641215}
   - component: {fileID: 729641216}
-  - component: {fileID: 729641217}
   m_Layer: 0
   m_Name: C
   m_TagString: Object3
@@ -6824,9 +6905,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.78, y: -8.03, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1086864133}
   - {fileID: 1211592852}
   m_Father: {fileID: 725673418}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6879,7 +6961,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 6ba4ed9d8a1893948aef86f7ad3ba501, type: 3}
+  m_Sprite: {fileID: 1232506842, guid: d36716672d6551844910698fae0e0cb3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6904,6 +6986,8 @@ MonoBehaviour:
   audioManager: {fileID: 1747134629}
   panel: {fileID: 753444880}
   buttonLetter: {fileID: 497392805}
+  iconObject: {fileID: 1086864130}
+  showIcon: 1
   dialogueText: "DE UNA PATADA, ES LA FORMA M\xC1S R\xC1PIDA"
   TMP_dialogueText: {fileID: 1716937488}
 --- !u!114 &729641215
@@ -6960,7 +7044,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6, y: 6}
+    oldSize: {x: 4.59, y: 4.75}
     newSize: {x: 4.59, y: 4.75}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6968,20 +7052,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.59, y: 31.653845}
   m_EdgeRadius: 0
---- !u!114 &729641217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729641210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
-  characterA: {fileID: 21300000, guid: 6ba4ed9d8a1893948aef86f7ad3ba501, type: 3}
-  characterB: {fileID: 21300000, guid: ea11dee5f61d60a4ea263835d1785e86, type: 3}
 --- !u!1 &745681729
 GameObject:
   m_ObjectHideFlags: 0
@@ -7965,8 +8035,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -368.79953, y: -207.54346}
-  m_SizeDelta: {x: 2.3952, y: 1.9247}
+  m_AnchoredPosition: {x: -367.90805, y: -206.97418}
+  m_SizeDelta: {x: 3.233, y: 2.5046}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854997242
 MonoBehaviour:
@@ -8631,6 +8701,218 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078068174}
   m_CullTransparentMesh: 1
+--- !u!1 &1086864130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1086864133}
+  - component: {fileID: 1086864132}
+  - component: {fileID: 1086864131}
+  m_Layer: 0
+  m_Name: '[OFF]Iconos'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1086864131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086864130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
+  characterA: {fileID: 21300000, guid: 6ba4ed9d8a1893948aef86f7ad3ba501, type: 3}
+  characterB: {fileID: 21300000, guid: ea11dee5f61d60a4ea263835d1785e86, type: 3}
+--- !u!212 &1086864132
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086864130}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 6ba4ed9d8a1893948aef86f7ad3ba501, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &1086864133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086864130}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.833332, y: 5.9333324, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 729641211}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1133587273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1133587276}
+  - component: {fileID: 1133587275}
+  - component: {fileID: 1133587274}
+  m_Layer: 0
+  m_Name: '[OFF]Iconos'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1133587274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133587273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
+  characterA: {fileID: 21300000, guid: 9d21649f6c6da2642bde9d7618130c83, type: 3}
+  characterB: {fileID: 21300000, guid: 01746855d53187f409cb3a063e5deda4, type: 3}
+--- !u!212 &1133587275
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133587273}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 9d21649f6c6da2642bde9d7618130c83, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &1133587276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133587273}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.8, y: 4.74, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 338660562}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1137527619
 GameObject:
   m_ObjectHideFlags: 0
@@ -10177,6 +10459,112 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449101514}
   m_CullTransparentMesh: 1
+--- !u!1 &1458307665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1458307668}
+  - component: {fileID: 1458307667}
+  - component: {fileID: 1458307666}
+  m_Layer: 0
+  m_Name: '[OFF]Iconos'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1458307666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458307665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
+  characterA: {fileID: 21300000, guid: 0fabf4fadf3d5c74db93438ff759aaeb, type: 3}
+  characterB: {fileID: 21300000, guid: ddb52b4ae72be35499c682731e63c18d, type: 3}
+--- !u!212 &1458307667
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458307665}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 0fabf4fadf3d5c74db93438ff759aaeb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &1458307668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458307665}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.200001, y: 10.466666, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 34792160}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1462519075
 GameObject:
   m_ObjectHideFlags: 0
@@ -11843,7 +12231,6 @@ GameObject:
   - component: {fileID: 1738167011}
   - component: {fileID: 1738167012}
   - component: {fileID: 1738167013}
-  - component: {fileID: 1738167014}
   m_Layer: 0
   m_Name: D
   m_TagString: Object4
@@ -11861,9 +12248,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.82, y: -1.39, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 656255296}
   - {fileID: 633035153}
   m_Father: {fileID: 725673418}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11916,7 +12304,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 9d21649f6c6da2642bde9d7618130c83, type: 3}
+  m_Sprite: {fileID: 561630066, guid: aca11435c5be6ea44a569ff06c4629e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11941,6 +12329,8 @@ MonoBehaviour:
   audioManager: {fileID: 1747134629}
   panel: {fileID: 2030914707}
   buttonLetter: {fileID: 508127687}
+  iconObject: {fileID: 656255293}
+  showIcon: 1
   dialogueText: "EMPUJ\xC1NDOLA CON LAS MANOS"
   TMP_dialogueText: {fileID: 211288294}
 --- !u!114 &1738167012
@@ -11997,7 +12387,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6, y: 6}
+    oldSize: {x: 4.58, y: 4.95}
     newSize: {x: 4.58, y: 4.95}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12005,20 +12395,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.58, y: 32.19578}
   m_EdgeRadius: 0
---- !u!114 &1738167014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738167007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
-  characterA: {fileID: 21300000, guid: 9d21649f6c6da2642bde9d7618130c83, type: 3}
-  characterB: {fileID: 21300000, guid: 01746855d53187f409cb3a063e5deda4, type: 3}
 --- !u!1 &1747134628
 GameObject:
   m_ObjectHideFlags: 0

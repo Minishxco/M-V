@@ -4,10 +4,13 @@ using UnityEngine;
 public class ShowPanel : MonoBehaviour
 {
     public AudioManager audioManager;
-    public GameObject panel, buttonLetter;
+    public GameObject panel, buttonLetter, iconObject;
+    public bool showIcon = false;
     [TextArea(3, 10)]
     public string dialogueText;
     public TextMeshProUGUI TMP_dialogueText;
+
+
 
     private void Awake()
     {
@@ -18,6 +21,11 @@ public class ShowPanel : MonoBehaviour
         audioManager.PlayOptionsBox();
         buttonLetter.SetActive(true);
         panel.SetActive(true);
+
+        if(iconObject != null && showIcon)
+        {
+            iconObject.SetActive(true);
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
@@ -26,6 +34,11 @@ public class ShowPanel : MonoBehaviour
         {
             panel.SetActive(false);
             buttonLetter.SetActive(false);
+
+            if (iconObject != null && showIcon)
+            {
+                iconObject.SetActive(false);
+            }
         }
     }
 }
