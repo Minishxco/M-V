@@ -5,9 +5,13 @@ public class YSort : MonoBehaviour
     public Transform player;
     private SpriteRenderer playerRenderer;
 
-    public float yPosition;
+    public bool useThreeZones = false;
+
+    public float yPositionFront;
+    public float yPositionBack;
 
     public int playerFrontOrder = 3;
+    public int playerMiddleOrder = 1;
     public int playerBackOrder = 0;
 
     void Start()
@@ -20,13 +24,33 @@ public class YSort : MonoBehaviour
     {
         if (player == null || playerRenderer == null) return;
 
-        if (player.position.y < yPosition)
+        float playerY = player.position.y;
+
+        if (useThreeZones)
         {
-            playerRenderer.sortingOrder = playerFrontOrder;
+            if (playerY < yPositionFront)
+            {
+                playerRenderer.sortingOrder = playerFrontOrder;
+            }
+            else if (playerY < yPositionBack)
+            {
+                playerRenderer.sortingOrder = playerMiddleOrder;
+            }
+            else
+            {
+                playerRenderer.sortingOrder = playerBackOrder;
+            }
         }
         else
         {
-            playerRenderer.sortingOrder = playerBackOrder;
+            if (playerY < yPositionFront)
+            {
+                playerRenderer.sortingOrder = playerFrontOrder;
+            }
+            else
+            {
+                playerRenderer.sortingOrder = playerBackOrder;
+            }
         }
     }
 }
