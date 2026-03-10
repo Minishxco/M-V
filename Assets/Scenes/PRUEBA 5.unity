@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2363320
 Transform:
   m_ObjectHideFlags: 0
@@ -257,8 +257,8 @@ Transform:
   m_GameObject: {fileID: 34792159}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.8, y: -8.53, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalPosition: {x: -3.52, y: 2.4, z: 0}
+  m_LocalScale: {x: 0.19, y: 0.19, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1458307668}
@@ -341,7 +341,7 @@ MonoBehaviour:
   buttonLetter: {fileID: 493170435}
   iconObject: {fileID: 1458307665}
   showIcon: 1
-  dialogueText: COGIENDO UN OBJETO QUE NOS SIRVA PARA GOLPEARLA Y ABRIRNOS CAMINO
+  dialogueText: PUERTA 2
   TMP_dialogueText: {fileID: 1173892490}
 --- !u!114 &34792164
 MonoBehaviour:
@@ -356,8 +356,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetObject: {fileID: 1276618498}
-  player1: {fileID: 8300000, guid: 6a0e59f922294e14ca590cdf704653a9, type: 3}
-  player2: {fileID: 8300000, guid: 2eeb4ba0a97868b499706d3cc01cb5f0, type: 3}
+  player1: {fileID: 8300000, guid: 0cee4d6646198c14da919dd222d6b8c8, type: 3}
+  player2: {fileID: 8300000, guid: 6ac7e05226db39849a6833f996f2963a, type: 3}
   enable: 0
 --- !u!61 &34792165
 BoxCollider2D:
@@ -393,7 +393,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -14.299734}
+  m_Offset: {x: -0.44413567, y: -30.401333}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -403,7 +403,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.49, y: 33.129463}
+  m_Size: {x: 19.590572, y: 8.039314}
   m_EdgeRadius: 0
 --- !u!1 &61991708
 GameObject:
@@ -967,7 +967,7 @@ MonoBehaviour:
   videoPersonaje2: VEGA_LEVANTA CAJA_VIDEO_ok.mov
   disableObjects: []
   disableAfterVideo:
-  - {fileID: 2066526542}
+  - {fileID: 0}
   - {fileID: 2363319}
   - {fileID: 745681729}
   - {fileID: 2120208207}
@@ -1026,11 +1026,11 @@ RectTransform:
   - {fileID: 1716937487}
   m_Father: {fileID: 753444881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -191}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -144}
   m_SizeDelta: {x: 366.12305, y: 79.561}
-  m_Pivot: {x: 1, y: 1}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &153846635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1077,7 +1077,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 491871868}
         m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
-        m_MethodName: RespuestaIncorrecta3
+        m_MethodName: RespuestaCorrecta
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1276,7 +1276,7 @@ GameObject:
   - component: {fileID: 225998973}
   - component: {fileID: 225998974}
   m_Layer: 5
-  m_Name: '[OFF]PanelA_Correct'
+  m_Name: '[OFF]PanelA_Incorrect1'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1323,7 +1323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 064689269986e9544a9e8a1ab858da48, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4d148a04114951f4bac5fabdde0c2b61, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1852,7 +1852,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.91, y: 0.91, z: 1}
+  m_LocalScale: {x: 1.36, y: 1.31, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1280050896}
@@ -1906,12 +1906,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4878858780648740232, guid: 5fc78f2d76b26234a94d5b6df6591302, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2de2cbb378523ef4b8c609f8beea3c30, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 40.96, y: 22.98}
+  m_Size: {x: 26.886564, y: 15.36}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2312,15 +2312,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338660561}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.13, y: -2.63, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalRotation: {x: 0.004996389, y: 0.028198848, z: -0.049007405, w: 0.99838775}
+  m_LocalPosition: {x: -14.04, y: 4.7, z: -0.06}
+  m_LocalScale: {x: 0.26, y: 0.26, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1133587276}
   - {fileID: 276773444}
   m_Father: {fileID: 725673418}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.73, y: 3.2, z: -5.6}
 --- !u!212 &338660563
 SpriteRenderer:
   serializedVersion: 2
@@ -2397,8 +2397,7 @@ MonoBehaviour:
   buttonLetter: {fileID: 854997240}
   iconObject: {fileID: 1133587273}
   showIcon: 1
-  dialogueText: "AGACH\xC1NDONOS CON LA ESPALDA RECTA Y COGI\xC9NDOLA CON AMBAS MANOS
-    POR LOS LADOS"
+  dialogueText: 'PUERTA 1 '
   TMP_dialogueText: {fileID: 472163384}
 --- !u!114 &338660566
 MonoBehaviour:
@@ -2413,8 +2412,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetObject: {fileID: 225998969}
-  player1: {fileID: 8300000, guid: 1bb57dcfb14376e48ac24d0f06d7f026, type: 3}
-  player2: {fileID: 8300000, guid: be2e12fea91d1fb4f891d54514e20826, type: 3}
+  player1: {fileID: 8300000, guid: 78e878336d8b6074a9b25b6e82e11ed4, type: 3}
+  player2: {fileID: 8300000, guid: ef69fdad2cc633c459628b7918072142, type: 3}
   enable: 0
 --- !u!61 &338660567
 BoxCollider2D:
@@ -2450,7 +2449,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -12.948872}
+  m_Offset: {x: 2.4555283, y: -39.112816}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2460,7 +2459,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.88, y: 30.197746}
+  m_Size: {x: 22.144691, y: 21.257656}
   m_EdgeRadius: 0
 --- !u!1 &383763754
 GameObject:
@@ -3461,8 +3460,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "ERROR, siempre tenemos que tener mucho cuidado con cajas que no sabemos
-    lo que contienen, por no estropear el contenido y porque nos podemos hacer da\xF1o."
+  m_text: "CORRECTO, esta se\xF1al indica salida, dise\xF1ada para guiar a las personas
+    hacia zonas seguras o al exterior durante una evacuaci\xF3n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -3567,7 +3566,7 @@ Transform:
   m_GameObject: {fileID: 486817436}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -6.22, z: 0}
+  m_LocalPosition: {x: 0, y: -4.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3664,7 +3663,7 @@ Transform:
   m_GameObject: {fileID: 491871861}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.96, y: -9.86, z: 0}
+  m_LocalPosition: {x: -8.67, y: -9.86, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3688,8 +3687,8 @@ MonoBehaviour:
   canPlayerMove: 1
   minY: {fileID: 2110225371}
   maxY: {fileID: 486817436}
-  minScalePlayer: 1.6
-  maxScalePlayer: 2.5
+  minScalePlayer: 1.2
+  maxScalePlayer: 2.86
   smooth: 8
 --- !u!58 &491871865
 CircleCollider2D:
@@ -3806,11 +3805,11 @@ MonoBehaviour:
     imagenButton: {fileID: 0}
     spriteMostrar: {fileID: 0}
   herramientas_: 0
-  panelCorrecto: {fileID: 225998969}
+  panelCorrecto: {fileID: 705879653}
   imageLettersCorrecto: {fileID: 0}
-  panelIncorrecto1: {fileID: 1963760362}
+  panelIncorrecto1: {fileID: 225998969}
   panelIncorrecto2: {fileID: 1276618498}
-  panelIncorrecto3: {fileID: 705879653}
+  panelIncorrecto3: {fileID: 1963760362}
   llave: {fileID: 1686143688}
   dialoguePanel:
   - {fileID: 1978327179}
@@ -3879,8 +3878,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -376.18878, y: -214.24988}
-  m_SizeDelta: {x: 3.8927, y: 3.2901}
+  m_AnchoredPosition: {x: -375.36188, y: -216.51854}
+  m_SizeDelta: {x: 4.0199, y: 5.4528}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &493170437
 MonoBehaviour:
@@ -4011,8 +4010,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -366.87277, y: -212.3959}
-  m_SizeDelta: {x: 4.0034, y: 3.5329}
+  m_AnchoredPosition: {x: -368.33063, y: -214.41566}
+  m_SizeDelta: {x: 2.667, y: 3.8062}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497392807
 MonoBehaviour:
@@ -4135,7 +4134,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508127687}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4143,8 +4142,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -378.38678, y: -208.39809}
-  m_SizeDelta: {x: 3.744, y: 3.2735}
+  m_AnchoredPosition: {x: -379.74957, y: -211.2424}
+  m_SizeDelta: {x: 2.8855, y: 5.3761}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508127689
 MonoBehaviour:
@@ -4618,9 +4617,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "CORRECTO, dobla las rodillas, no la cintura, mant\xE9n la espalda recta,
-    acerca la caja al cuerpo y usa la fuerza de tus piernas para levantarte \xA1nunca
-    uses la espalda!"
+  m_text: "ERROR, esta puerta con una se\xF1al de forma triangular de color amarillo
+    y con un rayo de color negro indica la posibilidad de riesgo el\xE9ctrico, por
+    lo que es mejor no cruzarla."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -5152,12 +5151,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.27800274, y: 19.14975}
-      - {x: 0.3711176, y: -5.662248}
-      - {x: 4.717842, y: -6.350033}
-      - {x: 8.30897, y: -7.69293}
-      - {x: 13.722964, y: -10.807126}
-      - {x: 20.258877, y: -17.910334}
+    - - {x: 1.8725815, y: 19.247917}
+      - {x: 1.6061549, y: -4.7947645}
+      - {x: 19.551361, y: -12.7278805}
       - {x: 38.347923, y: 7.1544123}
   m_UseDelaunayMesh: 1
 --- !u!4 &652883211
@@ -5185,7 +5181,6 @@ GameObject:
   m_Component:
   - component: {fileID: 656255296}
   - component: {fileID: 656255295}
-  - component: {fileID: 656255294}
   m_Layer: 0
   m_Name: '[OFF]Iconos'
   m_TagString: Untagged
@@ -5193,20 +5188,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &656255294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656255293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
-  characterA: {fileID: 21300000, guid: 9d21649f6c6da2642bde9d7618130c83, type: 3}
-  characterB: {fileID: 21300000, guid: 01746855d53187f409cb3a063e5deda4, type: 3}
 --- !u!212 &656255295
 SpriteRenderer:
   serializedVersion: 2
@@ -5256,7 +5237,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 98b375281f4140341b479166ea3f5f8a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99a9900696046cc46acd39684387fdcb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5274,13 +5255,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656255293}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7, y: 5.3333335, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalRotation: {x: 0.0041485946, y: -0.0013384186, z: -0.08569723, w: 0.9963117}
+  m_LocalPosition: {x: -0.98999804, y: -12.71899, z: 0.001000043}
+  m_LocalScale: {x: 2.3903997, y: 3.77388, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1738167008}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.461, y: -0.194, z: -9.833}
 --- !u!1 &658026216
 GameObject:
   m_ObjectHideFlags: 0
@@ -5710,7 +5691,7 @@ GameObject:
   - component: {fileID: 705879656}
   - component: {fileID: 705879655}
   m_Layer: 5
-  m_Name: '[OFF]PanelC_Incorrect3'
+  m_Name: '[OFF]PanelC_Correct'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5792,7 +5773,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4d148a04114951f4bac5fabdde0c2b61, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 064689269986e9544a9e8a1ab858da48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5875,8 +5856,8 @@ Transform:
   m_GameObject: {fileID: 729641210}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.78, y: -8.03, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalPosition: {x: 3.58, y: 2.32, z: 0}
+  m_LocalScale: {x: 0.19, y: 0.19, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1086864133}
@@ -5959,7 +5940,7 @@ MonoBehaviour:
   buttonLetter: {fileID: 497392805}
   iconObject: {fileID: 1086864130}
   showIcon: 1
-  dialogueText: "DE UNA PATADA, ES LA FORMA M\xC1S R\xC1PIDA"
+  dialogueText: 'PUERTA 3 '
   TMP_dialogueText: {fileID: 1716937488}
 --- !u!114 &729641215
 MonoBehaviour:
@@ -5974,8 +5955,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetObject: {fileID: 705879653}
-  player1: {fileID: 8300000, guid: b4a498c7a28a50943aee864a6cdee777, type: 3}
-  player2: {fileID: 8300000, guid: 6c4dfd91d41c6fb478f4105255b04198, type: 3}
+  player1: {fileID: 8300000, guid: d2b8022372907964e9b9e282c147c604, type: 3}
+  player2: {fileID: 8300000, guid: 79affbdcc2c445045a99bf5c130f4937, type: 3}
   enable: 0
 --- !u!61 &729641216
 BoxCollider2D:
@@ -6011,7 +5992,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -13.451924}
+  m_Offset: {x: -1.35392, y: -29.698956}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6021,7 +6002,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.59, y: 31.653845}
+  m_Size: {x: 18.902855, y: 7.2832966}
   m_EdgeRadius: 0
 --- !u!1 &745681729
 GameObject:
@@ -6140,11 +6121,11 @@ RectTransform:
   - {fileID: 1173892489}
   m_Father: {fileID: 678974569}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -0.000061035156, y: 0.00000047683716}
-  m_SizeDelta: {x: 366.123, y: 112.552}
-  m_Pivot: {x: 0, y: 0.5}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0.00000049035435}
+  m_SizeDelta: {x: 366.12305, y: 112.552}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &748033054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6453,7 +6434,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 491871868}
         m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
-        m_MethodName: RespuestaIncorrecta3
+        m_MethodName: RespuestaCorrecta
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6995,7 +6976,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854997240}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7003,8 +6984,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -367.90805, y: -206.97418}
-  m_SizeDelta: {x: 3.233, y: 2.5046}
+  m_AnchoredPosition: {x: -368.7021, y: -208.1497}
+  m_SizeDelta: {x: 3.1109, y: 4.8557}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854997242
 MonoBehaviour:
@@ -7157,7 +7138,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5173030315006359061, guid: 677a15629ee2fac4aaac2175215362cc, type: 3}
+  m_Sprite: {fileID: 4366967762893324793, guid: ec9e17c75a7facf41b239d6414fdd0df, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -7587,7 +7568,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1086864133}
   - component: {fileID: 1086864132}
-  - component: {fileID: 1086864131}
   m_Layer: 0
   m_Name: '[OFF]Iconos'
   m_TagString: Untagged
@@ -7595,20 +7575,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1086864131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086864130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
-  characterA: {fileID: 21300000, guid: 6ba4ed9d8a1893948aef86f7ad3ba501, type: 3}
-  characterB: {fileID: 21300000, guid: ea11dee5f61d60a4ea263835d1785e86, type: 3}
 --- !u!212 &1086864132
 SpriteRenderer:
   serializedVersion: 2
@@ -7658,7 +7624,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 6ba4ed9d8a1893948aef86f7ad3ba501, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f116d46337af80f43993e3c1a7e397e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7677,8 +7643,8 @@ Transform:
   m_GameObject: {fileID: 1086864130}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.833332, y: 5.9333324, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: -1.096, y: -8.879, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 729641211}
@@ -7693,7 +7659,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1133587276}
   - component: {fileID: 1133587275}
-  - component: {fileID: 1133587274}
   m_Layer: 0
   m_Name: '[OFF]Iconos'
   m_TagString: Untagged
@@ -7701,20 +7666,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1133587274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1133587273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
-  characterA: {fileID: 21300000, guid: 98b375281f4140341b479166ea3f5f8a, type: 3}
-  characterB: {fileID: 21300000, guid: 770468404b4b72042baf60a9f09e26c1, type: 3}
 --- !u!212 &1133587275
 SpriteRenderer:
   serializedVersion: 2
@@ -7764,7 +7715,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 9d21649f6c6da2642bde9d7618130c83, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7d4b584b14737db49b20f7e86112f03c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7783,8 +7734,8 @@ Transform:
   m_GameObject: {fileID: 1133587273}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.8, y: 4.74, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 0.004, y: -8.603, z: 0}
+  m_LocalScale: {x: 1.1227332, y: 1.4251566, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 338660562}
@@ -8149,10 +8100,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 705879653}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 491871868}
+        m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+        m_MethodName: RespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 135226704}
+        m_TargetAssemblyTypeName: PlayVideo, Assembly-CSharp
+        m_MethodName: PlayVideoFromButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8214,10 +8177,22 @@ MonoBehaviour:
   onEnterPressed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 705879653}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 491871868}
+        m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
+        m_MethodName: RespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 135226704}
+        m_TargetAssemblyTypeName: PlayVideo, Assembly-CSharp
+        m_MethodName: PlayVideoFromButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8619,7 +8594,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 312499955}
-  - {fileID: 2066526543}
   - {fileID: 2363320}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8854,22 +8828,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 491871868}
-        m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
-        m_MethodName: CerrarCorrecto
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 135226704}
-        m_TargetAssemblyTypeName: PlayVideo, Assembly-CSharp
-        m_MethodName: PlayVideoFromButton
-        m_Mode: 1
+      - m_Target: {fileID: 225998969}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8931,22 +8893,10 @@ MonoBehaviour:
   onEnterPressed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 491871868}
-        m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
-        m_MethodName: CerrarCorrecto
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 135226704}
-        m_TargetAssemblyTypeName: PlayVideo, Assembly-CSharp
-        m_MethodName: PlayVideoFromButton
-        m_Mode: 1
+      - m_Target: {fileID: 225998969}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9011,7 +8961,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1458307668}
   - component: {fileID: 1458307667}
-  - component: {fileID: 1458307666}
   m_Layer: 0
   m_Name: '[OFF]Iconos'
   m_TagString: Untagged
@@ -9019,20 +8968,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1458307666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1458307665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fb7c02d2fde1ca448287f47f397b1e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ButtonSpritePlayer
-  characterA: {fileID: 21300000, guid: 0fabf4fadf3d5c74db93438ff759aaeb, type: 3}
-  characterB: {fileID: 21300000, guid: ddb52b4ae72be35499c682731e63c18d, type: 3}
 --- !u!212 &1458307667
 SpriteRenderer:
   serializedVersion: 2
@@ -9082,7 +9017,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 0fabf4fadf3d5c74db93438ff759aaeb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 96129da5230bd984cbfd453bb2c6b332, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9101,8 +9036,8 @@ Transform:
   m_GameObject: {fileID: 1458307665}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.72, y: 3.23, z: 0}
-  m_LocalScale: {x: 2.294364, y: 2.1988957, z: 1}
+  m_LocalPosition: {x: -0.406, y: -9.049, z: 0}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 34792160}
@@ -9173,7 +9108,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.010447413, y: 2.4342446}
+  m_Offset: {x: -0.04743728, y: 0.52687943}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9183,7 +9118,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.0208943, y: 5.241644}
+  m_Size: {x: 1.1366637, y: 0.8252697}
   m_EdgeRadius: 0
 --- !u!1 &1466833823
 GameObject:
@@ -9242,10 +9177,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Esta planta parece un almac\xE9n, para continuar nuestra aventura vemos
-    que la puerta por la que debemos pasar est\xE1 bloqueada por una caja que nos
-    impide el paso. \xBFC\xF3mo debemos actuar para liberar el paso?\r\nPara conseguir
-    la llave. Encuentra las opciones y elige la correcta."
+  m_text: "Esto parece un laberinto, hay que elegir bien la puerta por la que entraremos,
+    puede que si nos equivocamos no lleguemos hasta el doctor Descuido y terminar
+    con el caos que ha tra\xEDdo a la ciudad. Solo una de las puertas nos permite
+    continuar nuestra aventura. \xBFCu\xE1l es?\r\nPara conseguir la llave elige
+    la puerta correcta."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -10291,15 +10227,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738167007}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.82, y: -1.39, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalRotation: {x: 0.0077242693, y: 0.027576702, z: 0.048652086, w: 0.99840516}
+  m_LocalPosition: {x: 14.12, y: 5.62, z: 0}
+  m_LocalScale: {x: 0.26, y: 0.26, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 656255296}
   - {fileID: 633035153}
   m_Father: {fileID: 725673418}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.73, y: 3.2, z: 5.6}
 --- !u!212 &1738167009
 SpriteRenderer:
   serializedVersion: 2
@@ -10376,7 +10312,7 @@ MonoBehaviour:
   buttonLetter: {fileID: 508127687}
   iconObject: {fileID: 656255293}
   showIcon: 1
-  dialogueText: "EMPUJ\xC1NDOLA CON LAS MANOS"
+  dialogueText: PUERTA 4
   TMP_dialogueText: {fileID: 211288294}
 --- !u!114 &1738167012
 MonoBehaviour:
@@ -10391,8 +10327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetObject: {fileID: 1963760362}
-  player1: {fileID: 8300000, guid: 67b3ff6d198dcd44bb9bea7256c3cf84, type: 3}
-  player2: {fileID: 8300000, guid: f858a40ce0097bd41900653d28a0ff58, type: 3}
+  player1: {fileID: 8300000, guid: 6bbcd8a95cbfffd4c941118fa0074fb9, type: 3}
+  player2: {fileID: 8300000, guid: b8fe905dbe4aa4e46ade58245588f44c, type: 3}
   enable: 0
 --- !u!61 &1738167013
 BoxCollider2D:
@@ -10428,7 +10364,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -13.622889}
+  m_Offset: {x: -3.639452, y: -45.318214}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10438,7 +10374,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.58, y: 32.19578}
+  m_Size: {x: 25.410854, y: 19.982468}
   m_EdgeRadius: 0
 --- !u!1 &1747134628
 GameObject:
@@ -10480,8 +10416,8 @@ MonoBehaviour:
   keyCollected: {fileID: 8300000, guid: c102e8fe9171a12459c906066799bca3, type: 3}
   selectTools: {fileID: 8300000, guid: 6a6170a7f3343d34bb3d1af99085f730, type: 3}
   keyboard: {fileID: 8300000, guid: 9642f599152e887418d7e8c3202fff7e, type: 3}
-  narrationVega: {fileID: 8300000, guid: c2cd0fbf1166b04439f9c03d3c7e9f8e, type: 3}
-  narrationMillan: {fileID: 8300000, guid: a2c5d1209b820834585e533e8f8e1282, type: 3}
+  narrationVega: {fileID: 8300000, guid: 6d9f872847fbb57489d1394877a1f52d, type: 3}
+  narrationMillan: {fileID: 8300000, guid: d44548cbb6ceb5042be020b60f5a16aa, type: 3}
 --- !u!4 &1747134630
 Transform:
   m_ObjectHideFlags: 0
@@ -11156,7 +11092,7 @@ GameObject:
   - component: {fileID: 1963760366}
   - component: {fileID: 1963760367}
   m_Layer: 5
-  m_Name: '[OFF]PanelD_Incorrect1'
+  m_Name: '[OFF]PanelD_Incorrect3'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11341,7 +11277,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 491871868}
         m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
-        m_MethodName: RespuestaCorrecta
+        m_MethodName: RespuestaIncorrecta1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11744,11 +11680,11 @@ RectTransform:
   - {fileID: 211288293}
   m_Father: {fileID: 2030914708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -4.487}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -0.00000047683716}
   m_SizeDelta: {x: 366.123, y: 106.483}
-  m_Pivot: {x: 1, y: 0.5}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2012466831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11795,7 +11731,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 491871868}
         m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
-        m_MethodName: RespuestaIncorrecta1
+        m_MethodName: RespuestaIncorrecta3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11877,11 +11813,11 @@ RectTransform:
   - {fileID: 472163383}
   m_Father: {fileID: 1978327180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -24.27295, y: -145}
-  m_SizeDelta: {x: 366.123, y: 79.561}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -116}
+  m_SizeDelta: {x: 366.12305, y: 79.561005}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &2018444955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11966,7 +11902,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 491871868}
         m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
-        m_MethodName: RespuestaCorrecta
+        m_MethodName: RespuestaIncorrecta1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12061,7 +11997,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 491871868}
         m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
-        m_MethodName: RespuestaIncorrecta1
+        m_MethodName: RespuestaIncorrecta3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12129,8 +12065,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ERROR, al retirarla de esta manera forzamos la parte baja de la espalda,
-    aumentamos el riesgo de lesiones lumbares. '
+  m_text: "ERROR, esta se\xF1al informa que no tiene salida. Si continuamos por ella
+    tendremos que dar la vuelta."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -12503,13 +12439,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -7.580583, y: 21.853123}
-      - {x: -7.9751725, y: -5.24855}
-      - {x: -11.060356, y: -6.532588}
-      - {x: -14.274263, y: -7.1017466}
-      - {x: -22.993443, y: -10.521898}
-      - {x: -30.853943, y: -15.834217}
-      - {x: -40.900406, y: -0.21930504}
+    - - {x: -10.522301, y: 21.853123}
+      - {x: -10.470859, y: -4.941069}
+      - {x: -33.221935, y: -15.210585}
+      - {x: -38.807663, y: 0.34964466}
   m_UseDelaunayMesh: 1
 --- !u!4 &2043149337
 Transform:
@@ -12583,9 +12516,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "ERROR, golpear la caja puede romper objetos fr\xE1giles u objetos valiosos
-    que contenga, adem\xE1s, si la caja pesa m\xE1s de lo que parece, podr\xEDamos
-    lesionarnos."
+  m_text: "ERROR, esta se\xF1al se usa para restringir el acceso a peatones en \xE1reas
+    de riesgo o privadas, as\xED que no debemos abrirla, no sabemos lo que nos podemos
+    encontrar al otro lado."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -12665,97 +12598,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065154010}
   m_CullTransparentMesh: 1
---- !u!1 &2066526542
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2066526543}
-  - component: {fileID: 2066526544}
-  m_Layer: 0
-  m_Name: MAZA_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2066526543
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066526542}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.79, y: -7.55, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1280050896}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2066526544
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066526542}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: -5021545036719704734, guid: 50c19cde06f9c6f45883d202efaf41ab, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.03, y: 0.89}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
 --- !u!1 &2110225371
 GameObject:
   m_ObjectHideFlags: 0

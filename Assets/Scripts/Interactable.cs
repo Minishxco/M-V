@@ -185,7 +185,10 @@ public class Interactable : MonoBehaviour
             imgLetters.SetActive(false);
         }
         panelCorrecto.SetActive(false);
-        imageLettersCorrecto.SetActive(true);
+        if(imageLettersCorrecto != null)
+        {
+            imageLettersCorrecto.SetActive(true);
+        }
     }
 
     public void VerificarSpritesActivos()
