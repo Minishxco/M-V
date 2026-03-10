@@ -967,7 +967,6 @@ MonoBehaviour:
   videoPersonaje2: VEGA_LEVANTA CAJA_VIDEO_ok.mov
   disableObjects: []
   disableAfterVideo:
-  - {fileID: 0}
   - {fileID: 2363319}
   - {fileID: 745681729}
   - {fileID: 2120208207}
@@ -3826,7 +3825,7 @@ MonoBehaviour:
   tagKey: Key
   outlineKey: {fileID: 2004427566}
   ButtonKey: {fileID: 2041732578}
-  sceneName: PRUEBA 3
+  sceneName: PRUEBA 6
   goToSceneOnFinish: 1
   waitTimeBeforeScene: 0.9
 --- !u!114 &491871869
@@ -4059,7 +4058,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 491871868}
         m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
-        m_MethodName: RespuestaIncorrecta3
+        m_MethodName: RespuestaCorrecta
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4191,7 +4190,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 491871868}
         m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
-        m_MethodName: RespuestaIncorrecta1
+        m_MethodName: RespuestaIncorrecta3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7033,7 +7032,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 491871868}
         m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
-        m_MethodName: RespuestaCorrecta
+        m_MethodName: RespuestaIncorrecta1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
