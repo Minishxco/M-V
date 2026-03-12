@@ -17,5 +17,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PRUEBA 3.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/PRUEBA 4.unity
+    guid: 91ced17d3d91a3145bb0d6cb1d923b9c
+  - enabled: 1
+    path: Assets/Scenes/PRUEBA 5.unity
+    guid: d6050c734028fca4f8bb53763211d523
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

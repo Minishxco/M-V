@@ -496,6 +496,8 @@ MonoBehaviour:
   audioManager: {fileID: 1747134629}
   panel: {fileID: 678974568}
   buttonLetter: {fileID: 493170435}
+  iconObject: {fileID: 0}
+  showIcon: 0
   dialogueText: DIRECTAMENTE BUSCAR LA LLAVE ENTRE TODO EL DESORDEN PARA GANAR TIEMPO
   TMP_dialogueText: {fileID: 1173892490}
 --- !u!114 &34792164
@@ -3434,6 +3436,8 @@ MonoBehaviour:
   audioManager: {fileID: 1747134629}
   panel: {fileID: 1978327179}
   buttonLetter: {fileID: 854997240}
+  iconObject: {fileID: 0}
+  showIcon: 0
   dialogueText: APAGAR LA LUZ PARA QUE NO SE VEA EL DESORDEN
   TMP_dialogueText: {fileID: 472163384}
 --- !u!114 &338660566
@@ -5003,6 +5007,7 @@ MonoBehaviour:
   ButtonKey: {fileID: 2041732578}
   sceneName: PRUEBA 4
   goToSceneOnFinish: 1
+  waitTimeBeforeScene: 0.5
 --- !u!114 &491871869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7156,6 +7161,8 @@ MonoBehaviour:
   audioManager: {fileID: 1747134629}
   panel: {fileID: 753444880}
   buttonLetter: {fileID: 497392805}
+  iconObject: {fileID: 0}
+  showIcon: 0
   dialogueText: SALTAR ESQUIVANDO TODAS LAS HERRAMIENTAS
   TMP_dialogueText: {fileID: 1716937488}
 --- !u!114 &729641215
@@ -7927,7 +7934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &812444374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8430,7 +8437,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -46, y: 62.799988}
+  m_AnchoredPosition: {x: -46, y: 62.800003}
   m_SizeDelta: {x: 387.854, y: 242.542}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &920914847
@@ -12989,6 +12996,8 @@ MonoBehaviour:
   audioManager: {fileID: 1747134629}
   panel: {fileID: 2030914707}
   buttonLetter: {fileID: 508127687}
+  iconObject: {fileID: 0}
+  showIcon: 0
   dialogueText: "ORDENARLAS PARA QUE AS\xCD PUEDA ENCONTRAR LA LLAVE"
   TMP_dialogueText: {fileID: 211288294}
 --- !u!114 &1738167012

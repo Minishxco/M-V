@@ -225,8 +225,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::YSort
   player: {fileID: 491871863}
-  yPosition: -8.15
+  useThreeZones: 0
+  yPositionFront: 0
+  yPositionBack: 0
   playerFrontOrder: 3
+  playerMiddleOrder: 1
   playerBackOrder: 0
 --- !u!1 &34792159
 GameObject:
@@ -393,7 +396,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.44413567, y: -30.401333}
+  m_Offset: {x: 2.4006124, y: -31.20142}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -403,7 +406,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 19.590572, y: 8.039314}
+  m_Size: {x: 25.280067, y: 9.639488}
   m_EdgeRadius: 0
 --- !u!1 &61991708
 GameObject:
@@ -963,17 +966,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 135226703}
-  videoPersonaje1: MILLAN_LEVANTA CAJA_VIDEO_ok.mov
-  videoPersonaje2: VEGA_LEVANTA CAJA_VIDEO_ok.mov
+  videoPersonaje1: MILLAN_SALIENDO.mp4
+  videoPersonaje2: VEGA_SALIENDO.mov
   disableObjects: []
   disableAfterVideo:
   - {fileID: 2363319}
   - {fileID: 745681729}
   - {fileID: 2120208207}
-  enableAfterVideo:
-  - {fileID: 1686143688}
-  sceneName: PRUEBA 3
-  goToSceneOnFinish: 0
+  enableAfterVideo: []
+  sceneName: MENU
+  goToSceneOnFinish: 1
   canvasVideo: {fileID: 2120208207}
 --- !u!4 &135226705
 Transform:
@@ -1851,7 +1853,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.36, y: 1.31, z: 1}
+  m_LocalScale: {x: 1.14, y: 1.14, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1280050896}
@@ -1905,7 +1907,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 2de2cbb378523ef4b8c609f8beea3c30, type: 3}
+  m_Sprite: {fileID: 6715464364005801210, guid: d4521852f0a8f7f4cb0c26a2a6bde32a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2448,7 +2450,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 2.4555283, y: -39.112816}
+  m_Offset: {x: 4.4214993, y: -40.846725}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2458,7 +2460,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 22.144691, y: 21.257656}
+  m_Size: {x: 26.076633, y: 24.725483}
   m_EdgeRadius: 0
 --- !u!1 &383763754
 GameObject:
@@ -5991,7 +5993,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -1.35392, y: -29.698956}
+  m_Offset: {x: -3.9840584, y: -30.373352}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6001,7 +6003,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 18.902855, y: 7.2832966}
+  m_Size: {x: 24.163132, y: 8.632088}
   m_EdgeRadius: 0
 --- !u!1 &745681729
 GameObject:
@@ -6702,7 +6704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &812444374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8742,7 +8744,7 @@ MonoBehaviour:
   - {fileID: 1954034586}
   - {fileID: 1519817629}
   audioManager: {fileID: 1747134629}
-  initialKeys: 1
+  initialKeys: 3
 --- !u!1 &1371803083
 GameObject:
   m_ObjectHideFlags: 0
@@ -10363,7 +10365,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -3.639452, y: -45.318214}
+  m_Offset: {x: -5.741419, y: -45.83532}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10373,7 +10375,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 25.410854, y: 19.982468}
+  m_Size: {x: 29.614788, y: 21.016674}
   m_EdgeRadius: 0
 --- !u!1 &1747134628
 GameObject:
@@ -11019,7 +11021,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1954034587
 RectTransform:
   m_ObjectHideFlags: 0
