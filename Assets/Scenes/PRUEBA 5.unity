@@ -966,7 +966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 135226703}
-  videoPersonaje1: MILLAN_SALIENDO.mp4
+  videoPersonaje1: MILLAN_SALIENDO.mov
   videoPersonaje2: VEGA_SALIENDO.mov
   disableObjects: []
   disableAfterVideo:
