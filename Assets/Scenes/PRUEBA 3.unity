@@ -10596,10 +10596,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 463719400}
+  - {fileID: 1807175486}
   - {fileID: 80061828}
   - {fileID: 986279872}
   - {fileID: 246861033}
-  - {fileID: 1807175486}
   - {fileID: 1978327180}
   - {fileID: 678974569}
   - {fileID: 753444881}
@@ -10635,6 +10635,11 @@ MonoBehaviour:
   - {fileID: 1519817629}
   audioManager: {fileID: 1747134629}
   initialKeys: 2
+  enableVideo: 0
+  playVideo: {fileID: 0}
+  correctAnimDuration: 2
+  delayBeforeFade: 1
+  fadeDuration: 1
 --- !u!1 &1334224634
 GameObject:
   m_ObjectHideFlags: 0

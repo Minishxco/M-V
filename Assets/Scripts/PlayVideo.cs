@@ -30,6 +30,14 @@ public class PlayVideo : MonoBehaviour
 
         videoPlayer.loopPointReached += OnVideoFinished;
 
+        // LIMPIAR RENDER TEXTURE
+        if (videoPlayer.targetTexture != null)
+        {
+            RenderTexture.active = videoPlayer.targetTexture;
+            GL.Clear(true, true, Color.clear);
+            RenderTexture.active = null;
+        }
+
         int character = UserDataLoader.LoadCharacter();
 
         selectedVideoPath = character == 1

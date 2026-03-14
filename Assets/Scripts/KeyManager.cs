@@ -11,6 +11,12 @@ public class KeyManager : MonoBehaviour
     public int initialKeys = 0;
     private int key;
 
+    public bool enableVideo = false;
+    public PlayVideo playVideo;
+    public float correctAnimDuration = 2f;
+    public float delayBeforeFade = 1f;
+    public float fadeDuration = 1f;
+
     void Start()
     {
         key = initialKeys;
@@ -33,6 +39,24 @@ public class KeyManager : MonoBehaviour
         if (fadeOut != null)
         {
             fadeOut.SetActive(true);
+
+            if(enableVideo)
+            {
+                StartCoroutine(SecuenciaCorrecta());
+            }
         }
+    }
+
+    IEnumerator SecuenciaCorrecta()
+    {
+        yield return new WaitForSeconds(correctAnimDuration);
+
+        yield return new WaitForSeconds(delayBeforeFade);
+
+        fadeOut.SetActive(true);
+
+        yield return new WaitForSeconds(fadeDuration);
+
+        playVideo.PlayVideoFromButton();
     }
 }
