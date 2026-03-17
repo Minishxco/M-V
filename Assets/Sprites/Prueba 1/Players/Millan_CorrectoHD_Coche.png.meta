@@ -1,124 +1,115 @@
 fileFormatVersion: 2
-guid: 264cdd6cdd0170a44b7c4055be21e383
+guid: 4b0dabfdb258b164da2ed36eb88d4e4b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7918432503015837896
-    second: Millan_Error_0
+      213: 5358055052535983109
+    second: Millan_IncorrectoHD_Coche_0
   - first:
-      213: -3635797255886837240
-    second: Millan_Error_1
+      213: -4286377300667958522
+    second: Millan_IncorrectoHD_Coche_1
   - first:
-      213: -2061246162181270791
-    second: Millan_Error_2
+      213: -3408133901769784791
+    second: Millan_IncorrectoHD_Coche_2
   - first:
-      213: 7577810062965466232
-    second: Millan_Error_3
+      213: -2263116170824148800
+    second: Millan_IncorrectoHD_Coche_3
   - first:
-      213: 7573420305722688322
-    second: Millan_Error_4
+      213: 8734253607644010095
+    second: Millan_IncorrectoHD_Coche_4
   - first:
-      213: -1270437149067123592
-    second: Millan_Error_5
+      213: 391806553422019512
+    second: Millan_IncorrectoHD_Coche_5
   - first:
-      213: 8322125864388032897
-    second: Millan_Error_6
+      213: 1342297872808858691
+    second: Millan_IncorrectoHD_Coche_6
   - first:
-      213: -1113090159951283776
-    second: Millan_Error_7
+      213: -8171136252624845976
+    second: Millan_IncorrectoHD_Coche_7
   - first:
-      213: 8758602482629774746
-    second: Millan_Error_8
+      213: -7807027508132454776
+    second: Millan_IncorrectoHD_Coche_8
   - first:
-      213: 4975822381450015610
-    second: Millan_Error_9
+      213: -8069653360811578539
+    second: Millan_IncorrectoHD_Coche_9
   - first:
-      213: -4480652001245788642
-    second: Millan_Error_10
+      213: -9207906092728483025
+    second: Millan_IncorrectoHD_Coche_10
   - first:
-      213: -5282916275996046137
-    second: Millan_Error_11
+      213: 6157123976198095450
+    second: Millan_IncorrectoHD_Coche_11
   - first:
-      213: -7855025852628436476
-    second: Millan_Error_12
+      213: -9013778769764446679
+    second: Millan_IncorrectoHD_Coche_12
   - first:
-      213: 796053416132926357
-    second: Millan_Error_13
+      213: 3376049433965416980
+    second: Millan_IncorrectoHD_Coche_13
   - first:
-      213: -4122937587673686601
-    second: Millan_Error_14
+      213: 8764187127752050326
+    second: Millan_IncorrectoHD_Coche_14
   - first:
-      213: 6862895079912943836
-    second: Millan_Error_15
+      213: 1753701196758992835
+    second: Millan_IncorrectoHD_Coche_15
   - first:
-      213: 6357656547037772314
-    second: Millan_Error_16
+      213: 948982906636765657
+    second: Millan_IncorrectoHD_Coche_16
   - first:
-      213: 1928039370607265044
-    second: Millan_Error_17
+      213: 5379503782643093285
+    second: Millan_IncorrectoHD_Coche_17
   - first:
-      213: -2731786724447250365
-    second: Millan_Error_18
+      213: 1175738221660752168
+    second: Millan_IncorrectoHD_Coche_18
   - first:
-      213: -3037637062873804431
-    second: Millan_Error_19
+      213: -3908421072313819031
+    second: Millan_IncorrectoHD_Coche_19
   - first:
-      213: 2982963085032159961
-    second: Millan_Error_20
+      213: -3146549171690427529
+    second: Millan_IncorrectoHD_Coche_20
   - first:
-      213: -4259655097295660934
-    second: Millan_Error_21
+      213: -6559502007045370980
+    second: Millan_IncorrectoHD_Coche_21
   - first:
-      213: -7667129303530214768
-    second: Millan_Error_22
+      213: 2020646943866105754
+    second: Millan_IncorrectoHD_Coche_22
   - first:
-      213: 5007468151785979872
-    second: Millan_Error_23
+      213: -8737613188159396060
+    second: Millan_IncorrectoHD_Coche_23
   - first:
-      213: -590999722168291165
-    second: Millan_Error_24
+      213: 5548885007199888852
+    second: Millan_IncorrectoHD_Coche_24
   - first:
-      213: 2612543961068311968
-    second: Millan_Error_25
+      213: -316555323805604623
+    second: Millan_IncorrectoHD_Coche_25
   - first:
-      213: -4777561978641237776
-    second: Millan_Error_26
+      213: 4775746882362428436
+    second: Millan_IncorrectoHD_Coche_26
   - first:
-      213: -1446245302061777466
-    second: Millan_Error_27
+      213: 4563581772104938823
+    second: Millan_IncorrectoHD_Coche_27
   - first:
-      213: 6368382772467654021
-    second: Millan_Error_28
+      213: -6520252687685430307
+    second: Millan_IncorrectoHD_Coche_28
   - first:
-      213: 8872680551884761837
-    second: Millan_Error_29
+      213: 5316203518779113288
+    second: Millan_IncorrectoHD_Coche_29
   - first:
-      213: 1341691444909527881
-    second: Millan_Error_30
+      213: -4825094903316461366
+    second: Millan_IncorrectoHD_Coche_30
   - first:
-      213: 2228486753872704443
-    second: Millan_Error_31
+      213: 6344172401738744618
+    second: Millan_IncorrectoHD_Coche_31
   - first:
-      213: 9144375452813143637
-    second: Millan_Error_32
+      213: -2605096550694309248
+    second: Millan_IncorrectoHD_Coche_32
   - first:
-      213: -611805915214350877
-    second: Millan_Error_33
+      213: 7049124494379381064
+    second: Millan_IncorrectoHD_Coche_33
   - first:
-      213: -7201543126772019466
-    second: Millan_Error_34
+      213: -6773043348999398114
+    second: Millan_IncorrectoHD_Coche_34
   - first:
-      213: 8323917144421615014
-    second: Millan_Error_35
-  - first:
-      213: 916603745631973099
-    second: Millan_Error_36
-  - first:
-      213: -3030840606474299726
-    second: Millan_Error_37
-  - first:
-      213: 986714531561120526
-    second: Millan_Error_38
+      213: -1320284165678007713
+    second: Millan_IncorrectoHD_Coche_35
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -214,13 +205,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Millan_Error_0
+      name: Millan_IncorrectoHD_Coche_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 576
-        width: 512
-        height: 288
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c09a28686ce3ed60800000000000000
-      internalID: 7918432503015837896
+      spriteID: 50ce46d9ea2ab5a40800000000000000
+      internalID: 5358055052535983109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_1
+      name: Millan_IncorrectoHD_Coche_1
       rect:
         serializedVersion: 2
-        x: 512
-        y: 576
-        width: 512
-        height: 288
+        x: 720
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80a6687b8ad0b8dc0800000000000000
-      internalID: -3635797255886837240
+      spriteID: 60b73642e8ab384c0800000000000000
+      internalID: -4286377300667958522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_2
+      name: Millan_IncorrectoHD_Coche_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 576
-        width: 512
-        height: 288
+        x: 1440
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,20 +264,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f25c84598bf463e0800000000000000
-      internalID: -2061246162181270791
+      spriteID: 922cb0ef540e3b0d0800000000000000
+      internalID: -3408133901769784791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_3
+      name: Millan_IncorrectoHD_Coche_3
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 576
-        width: 512
-        height: 288
+        x: 2160
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,20 +286,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 874ef627a1ac92960800000000000000
-      internalID: 7577810062965466232
+      spriteID: 0c8959845dbc790e0800000000000000
+      internalID: -2263116170824148800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_4
+      name: Millan_IncorrectoHD_Coche_4
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 576
-        width: 512
-        height: 288
+        x: 2880
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 243c45174a13a1960800000000000000
-      internalID: 7573420305722688322
+      spriteID: f669bcd416d463970800000000000000
+      internalID: 8734253607644010095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_5
+      name: Millan_IncorrectoHD_Coche_5
       rect:
         serializedVersion: 2
-        x: 2560
-        y: 576
-        width: 512
-        height: 288
+        x: 3600
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,20 +330,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 874e46cd4208e5ee0800000000000000
-      internalID: -1270437149067123592
+      spriteID: 8bbb3650cf9ff6500800000000000000
+      internalID: 391806553422019512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_6
+      name: Millan_IncorrectoHD_Coche_6
       rect:
         serializedVersion: 2
-        x: 3072
-        y: 576
-        width: 512
-        height: 288
+        x: 4320
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,20 +352,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18970f291612e7370800000000000000
-      internalID: 8322125864388032897
+      spriteID: 344d883bdccc0a210800000000000000
+      internalID: 1342297872808858691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_7
+      name: Millan_IncorrectoHD_Coche_7
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 576
-        width: 512
-        height: 288
+        x: 5040
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +374,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c9fe1d95628d80f0800000000000000
-      internalID: -1113090159951283776
+      spriteID: 863cafaeeda4a9e80800000000000000
+      internalID: -8171136252624845976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_8
+      name: Millan_IncorrectoHD_Coche_8
       rect:
         serializedVersion: 2
-        x: 4096
-        y: 576
-        width: 512
-        height: 288
+        x: 5760
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,20 +396,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9d800a8d8ecc8970800000000000000
-      internalID: 8758602482629774746
+      spriteID: 88edf0248ddd7a390800000000000000
+      internalID: -7807027508132454776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_9
+      name: Millan_IncorrectoHD_Coche_9
       rect:
         serializedVersion: 2
-        x: 4608
-        y: 576
-        width: 512
-        height: 288
+        x: 6480
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7334c7c71cad0540800000000000000
-      internalID: 4975822381450015610
+      spriteID: 55be940f505d20090800000000000000
+      internalID: -8069653360811578539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_10
+      name: Millan_IncorrectoHD_Coche_10
       rect:
         serializedVersion: 2
-        x: 5120
-        y: 576
-        width: 512
-        height: 288
+        x: 7200
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,20 +440,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e160a9f8eb681d1c0800000000000000
-      internalID: -4480652001245788642
+      spriteID: f2383c9b132f63080800000000000000
+      internalID: -9207906092728483025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_11
+      name: Millan_IncorrectoHD_Coche_11
       rect:
         serializedVersion: 2
-        x: 5632
-        y: 576
-        width: 512
-        height: 288
+        x: 7920
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -471,20 +462,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7cc402713af4fa6b0800000000000000
-      internalID: -5282916275996046137
+      spriteID: a52045f62af727550800000000000000
+      internalID: 6157123976198095450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_12
+      name: Millan_IncorrectoHD_Coche_12
       rect:
         serializedVersion: 2
-        x: 6144
-        y: 576
-        width: 512
-        height: 288
+        x: 8640
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,20 +484,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40a7290da975df290800000000000000
-      internalID: -7855025852628436476
+      spriteID: 92e8b3847ff98e280800000000000000
+      internalID: -9013778769764446679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_13
+      name: Millan_IncorrectoHD_Coche_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 288
-        width: 512
-        height: 288
+        x: 9360
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,20 +506,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59bd6d24d562c0b00800000000000000
-      internalID: 796053416132926357
+      spriteID: 412daa7b2132ade20800000000000000
+      internalID: 3376049433965416980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_14
+      name: Millan_IncorrectoHD_Coche_14
       rect:
         serializedVersion: 2
-        x: 512
-        y: 288
-        width: 512
-        height: 288
+        x: 10080
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -537,20 +528,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bd9a97bb1268c6c0800000000000000
-      internalID: -4122937587673686601
+      spriteID: 69646be02c5a0a970800000000000000
+      internalID: 8764187127752050326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_15
+      name: Millan_IncorrectoHD_Coche_15
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 288
-        width: 512
-        height: 288
+        x: 10800
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,20 +550,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd0bcf8c6b6ed3f50800000000000000
-      internalID: 6862895079912943836
+      spriteID: 3c74ffa62f5665810800000000000000
+      internalID: 1753701196758992835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_16
+      name: Millan_IncorrectoHD_Coche_16
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 288
-        width: 512
-        height: 288
+        x: 11520
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,20 +572,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1a7f1af1feea3850800000000000000
-      internalID: 6357656547037772314
+      spriteID: 9d98008fce67b2d00800000000000000
+      internalID: 948982906636765657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_17
+      name: Millan_IncorrectoHD_Coche_17
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 288
-        width: 512
-        height: 288
+        x: 12240
+        y: 720
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,196 +594,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4158306a795c1ca10800000000000000
-      internalID: 1928039370607265044
+      spriteID: 52fcf404036d7aa40800000000000000
+      internalID: 5379503782643093285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_18
-      rect:
-        serializedVersion: 2
-        x: 2560
-        y: 288
-        width: 512
-        height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 348913f927eb61ad0800000000000000
-      internalID: -2731786724447250365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Millan_Error_19
-      rect:
-        serializedVersion: 2
-        x: 3072
-        y: 288
-        width: 512
-        height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17198d67f2528d5d0800000000000000
-      internalID: -3037637062873804431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Millan_Error_20
-      rect:
-        serializedVersion: 2
-        x: 3584
-        y: 288
-        width: 512
-        height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9daf1751f1d956920800000000000000
-      internalID: 2982963085032159961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Millan_Error_21
-      rect:
-        serializedVersion: 2
-        x: 4096
-        y: 288
-        width: 512
-        height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a789204f14aa2e4c0800000000000000
-      internalID: -4259655097295660934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Millan_Error_22
-      rect:
-        serializedVersion: 2
-        x: 4608
-        y: 288
-        width: 512
-        height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 09ae7184582e89590800000000000000
-      internalID: -7667129303530214768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Millan_Error_23
-      rect:
-        serializedVersion: 2
-        x: 5120
-        y: 288
-        width: 512
-        height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0eff84bd0c91e7540800000000000000
-      internalID: 5007468151785979872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Millan_Error_24
-      rect:
-        serializedVersion: 2
-        x: 5632
-        y: 288
-        width: 512
-        height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a0fdc942e85cc7f0800000000000000
-      internalID: -590999722168291165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Millan_Error_25
-      rect:
-        serializedVersion: 2
-        x: 6144
-        y: 288
-        width: 512
-        height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a5919704ee914420800000000000000
-      internalID: 2612543961068311968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Millan_Error_26
+      name: Millan_IncorrectoHD_Coche_18
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -801,20 +616,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f83daa61b0b2bdb0800000000000000
-      internalID: -4777561978641237776
+      spriteID: 82940faeeaf015010800000000000000
+      internalID: 1175738221660752168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_27
+      name: Millan_IncorrectoHD_Coche_19
       rect:
         serializedVersion: 2
-        x: 512
+        x: 720
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -823,20 +638,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cdb7807f87edebe0800000000000000
-      internalID: -1446245302061777466
+      spriteID: 96065101ebf72c9c0800000000000000
+      internalID: -3908421072313819031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_28
+      name: Millan_IncorrectoHD_Coche_20
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1440
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -845,20 +660,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58dd6a2f36a016850800000000000000
-      internalID: 6368382772467654021
+      spriteID: 77ba71113363554d0800000000000000
+      internalID: -3146549171690427529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_29
+      name: Millan_IncorrectoHD_Coche_21
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 2160
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -867,20 +682,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: deaab94d3f7122b70800000000000000
-      internalID: 8872680551884761837
+      spriteID: c9b4996ada7f7f4a0800000000000000
+      internalID: -6559502007045370980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_30
+      name: Millan_IncorrectoHD_Coche_22
       rect:
         serializedVersion: 2
-        x: 2048
+        x: 2880
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -889,20 +704,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9435304b245ae9210800000000000000
-      internalID: 1341691444909527881
+      spriteID: a9f2e9980b7ca0c10800000000000000
+      internalID: 2020646943866105754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_31
+      name: Millan_IncorrectoHD_Coche_23
       rect:
         serializedVersion: 2
-        x: 2560
+        x: 3600
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -911,20 +726,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb3fe3745ec2dee10800000000000000
-      internalID: 2228486753872704443
+      spriteID: 427adf66913cdb680800000000000000
+      internalID: -8737613188159396060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_32
+      name: Millan_IncorrectoHD_Coche_24
       rect:
         serializedVersion: 2
-        x: 3072
+        x: 4320
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -933,20 +748,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55eaabd760957ee70800000000000000
-      internalID: 9144375452813143637
+      spriteID: 4d5e3a9c389910d40800000000000000
+      internalID: 5548885007199888852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_33
+      name: Millan_IncorrectoHD_Coche_25
       rect:
         serializedVersion: 2
-        x: 3584
+        x: 5040
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -955,20 +770,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e57a28f2cd6287f0800000000000000
-      internalID: -611805915214350877
+      spriteID: 1f4eec43c9e5b9bf0800000000000000
+      internalID: -316555323805604623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_34
+      name: Millan_IncorrectoHD_Coche_26
       rect:
         serializedVersion: 2
-        x: 4096
+        x: 5760
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -977,20 +792,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6fe091e7eaafe0c90800000000000000
-      internalID: -7201543126772019466
+      spriteID: 41c446c8c7cd64240800000000000000
+      internalID: 4775746882362428436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_35
+      name: Millan_IncorrectoHD_Coche_27
       rect:
         serializedVersion: 2
-        x: 4608
+        x: 6480
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -999,20 +814,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a5c8057a8e748370800000000000000
-      internalID: 8323917144421615014
+      spriteID: 74533cd5179155f30800000000000000
+      internalID: 4563581772104938823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_36
+      name: Millan_IncorrectoHD_Coche_28
       rect:
         serializedVersion: 2
-        x: 5120
+        x: 7200
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1021,20 +836,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: beeaf22104e68bc00800000000000000
-      internalID: 916603745631973099
+      spriteID: dd359b0f9b86385a0800000000000000
+      internalID: -6520252687685430307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_37
+      name: Millan_IncorrectoHD_Coche_29
       rect:
         serializedVersion: 2
-        x: 5632
+        x: 7920
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1043,20 +858,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b61548c68a40f5d0800000000000000
-      internalID: -3030840606474299726
+      spriteID: 84fb2821fe2f6c940800000000000000
+      internalID: 5316203518779113288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Millan_Error_38
+      name: Millan_IncorrectoHD_Coche_30
       rect:
         serializedVersion: 2
-        x: 6144
+        x: 8640
         y: 0
-        width: 512
-        height: 288
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1065,8 +880,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e03aa6c73a381bd00800000000000000
-      internalID: 986714531561120526
+      spriteID: ac84648ffb1d90db0800000000000000
+      internalID: -4825094903316461366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_IncorrectoHD_Coche_31
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 0
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23897fbf270b0850800000000000000
+      internalID: 6344172401738744618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_IncorrectoHD_Coche_32
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 0
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08235425d76d8dbd0800000000000000
+      internalID: -2605096550694309248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_IncorrectoHD_Coche_33
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 0
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841fcf8316583d160800000000000000
+      internalID: 7049124494379381064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_IncorrectoHD_Coche_34
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 0
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d919e85f05102a0800000000000000
+      internalID: -6773043348999398114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Millan_IncorrectoHD_Coche_35
+      rect:
+        serializedVersion: 2
+        x: 12240
+        y: 0
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a7036eb886dade0800000000000000
+      internalID: -1320284165678007713
       vertices: []
       indices: 
       edges: []
@@ -1075,7 +1000,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9c7641cba4e164845b179720b50e7034
+    spriteID: 7bc31c167df5c8045b23389ab3be3423
     internalID: 0
     vertices: []
     indices: 
@@ -1085,47 +1010,44 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":13.0,"y":3.0},"gridSpriteSize":{"x":512.0,"y":288.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":18.0,"y":2.0},"gridSpriteSize":{"x":720.0,"y":720.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Millan_Error_0: 7918432503015837896
-      Millan_Error_1: -3635797255886837240
-      Millan_Error_10: -4480652001245788642
-      Millan_Error_11: -5282916275996046137
-      Millan_Error_12: -7855025852628436476
-      Millan_Error_13: 796053416132926357
-      Millan_Error_14: -4122937587673686601
-      Millan_Error_15: 6862895079912943836
-      Millan_Error_16: 6357656547037772314
-      Millan_Error_17: 1928039370607265044
-      Millan_Error_18: -2731786724447250365
-      Millan_Error_19: -3037637062873804431
-      Millan_Error_2: -2061246162181270791
-      Millan_Error_20: 2982963085032159961
-      Millan_Error_21: -4259655097295660934
-      Millan_Error_22: -7667129303530214768
-      Millan_Error_23: 5007468151785979872
-      Millan_Error_24: -590999722168291165
-      Millan_Error_25: 2612543961068311968
-      Millan_Error_26: -4777561978641237776
-      Millan_Error_27: -1446245302061777466
-      Millan_Error_28: 6368382772467654021
-      Millan_Error_29: 8872680551884761837
-      Millan_Error_3: 7577810062965466232
-      Millan_Error_30: 1341691444909527881
-      Millan_Error_31: 2228486753872704443
-      Millan_Error_32: 9144375452813143637
-      Millan_Error_33: -611805915214350877
-      Millan_Error_34: -7201543126772019466
-      Millan_Error_35: 8323917144421615014
-      Millan_Error_36: 916603745631973099
-      Millan_Error_37: -3030840606474299726
-      Millan_Error_38: 986714531561120526
-      Millan_Error_4: 7573420305722688322
-      Millan_Error_5: -1270437149067123592
-      Millan_Error_6: 8322125864388032897
-      Millan_Error_7: -1113090159951283776
-      Millan_Error_8: 8758602482629774746
-      Millan_Error_9: 4975822381450015610
+      Millan_IncorrectoHD_Coche_0: 5358055052535983109
+      Millan_IncorrectoHD_Coche_1: -4286377300667958522
+      Millan_IncorrectoHD_Coche_10: -9207906092728483025
+      Millan_IncorrectoHD_Coche_11: 6157123976198095450
+      Millan_IncorrectoHD_Coche_12: -9013778769764446679
+      Millan_IncorrectoHD_Coche_13: 3376049433965416980
+      Millan_IncorrectoHD_Coche_14: 8764187127752050326
+      Millan_IncorrectoHD_Coche_15: 1753701196758992835
+      Millan_IncorrectoHD_Coche_16: 948982906636765657
+      Millan_IncorrectoHD_Coche_17: 5379503782643093285
+      Millan_IncorrectoHD_Coche_18: 1175738221660752168
+      Millan_IncorrectoHD_Coche_19: -3908421072313819031
+      Millan_IncorrectoHD_Coche_2: -3408133901769784791
+      Millan_IncorrectoHD_Coche_20: -3146549171690427529
+      Millan_IncorrectoHD_Coche_21: -6559502007045370980
+      Millan_IncorrectoHD_Coche_22: 2020646943866105754
+      Millan_IncorrectoHD_Coche_23: -8737613188159396060
+      Millan_IncorrectoHD_Coche_24: 5548885007199888852
+      Millan_IncorrectoHD_Coche_25: -316555323805604623
+      Millan_IncorrectoHD_Coche_26: 4775746882362428436
+      Millan_IncorrectoHD_Coche_27: 4563581772104938823
+      Millan_IncorrectoHD_Coche_28: -6520252687685430307
+      Millan_IncorrectoHD_Coche_29: 5316203518779113288
+      Millan_IncorrectoHD_Coche_3: -2263116170824148800
+      Millan_IncorrectoHD_Coche_30: -4825094903316461366
+      Millan_IncorrectoHD_Coche_31: 6344172401738744618
+      Millan_IncorrectoHD_Coche_32: -2605096550694309248
+      Millan_IncorrectoHD_Coche_33: 7049124494379381064
+      Millan_IncorrectoHD_Coche_34: -6773043348999398114
+      Millan_IncorrectoHD_Coche_35: -1320284165678007713
+      Millan_IncorrectoHD_Coche_4: 8734253607644010095
+      Millan_IncorrectoHD_Coche_5: 391806553422019512
+      Millan_IncorrectoHD_Coche_6: 1342297872808858691
+      Millan_IncorrectoHD_Coche_7: -8171136252624845976
+      Millan_IncorrectoHD_Coche_8: -7807027508132454776
+      Millan_IncorrectoHD_Coche_9: -8069653360811578539
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

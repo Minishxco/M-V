@@ -5973,12 +5973,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1777691647, guid: 08dd1dc280b04c8478e620465266106f, type: 3}
+  m_Sprite: {fileID: 6025095512709597425, guid: 78fb7af67102e074eb20deeedb40c664, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.12, y: 5.12}
+  m_Size: {x: 7.2000003, y: 7.207031}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5992,8 +5992,8 @@ Transform:
   m_GameObject: {fileID: 1334047527}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.8518, y: -0.7302, z: 0}
-  m_LocalScale: {x: 2.7, y: 2.7, z: 2.7}
+  m_LocalPosition: {x: -5.08, y: -0.81, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -6776,6 +6776,11 @@ MonoBehaviour:
   - {fileID: 1882037709}
   audioManager: {fileID: 218018851}
   initialKeys: 0
+  enableVideo: 0
+  playVideo: {fileID: 0}
+  correctAnimDuration: 2
+  delayBeforeFade: 1
+  fadeDuration: 1
 --- !u!1 &1395443720
 GameObject:
   m_ObjectHideFlags: 0
