@@ -974,7 +974,7 @@ MonoBehaviour:
   - {fileID: 745681729}
   - {fileID: 2120208207}
   enableAfterVideo: []
-  sceneName: MENU
+  sceneName: PRUEBA 6
   goToSceneOnFinish: 1
   canvasVideo: {fileID: 2120208207}
 --- !u!4 &135226705
@@ -8740,10 +8740,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeOut: {fileID: 986279871}
   fullKeyImage:
-  - {fileID: 1661900152}
-  - {fileID: 812444373}
-  - {fileID: 1954034586}
   - {fileID: 1519817629}
+  - {fileID: 1954034586}
+  - {fileID: 812444373}
+  - {fileID: 1661900152}
   audioManager: {fileID: 1747134629}
   initialKeys: 3
   enableVideo: 1
@@ -9500,7 +9500,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1519817630
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10025,7 +10025,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1661900153
 RectTransform:
   m_ObjectHideFlags: 0

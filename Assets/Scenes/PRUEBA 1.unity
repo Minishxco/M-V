@@ -6770,10 +6770,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeOut: {fileID: 0}
   fullKeyImage:
-  - {fileID: 877184075}
-  - {fileID: 1439768528}
-  - {fileID: 129428026}
   - {fileID: 1882037709}
+  - {fileID: 129428026}
+  - {fileID: 1439768528}
+  - {fileID: 877184075}
   audioManager: {fileID: 218018851}
   initialKeys: 0
   enableVideo: 0
