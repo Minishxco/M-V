@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 61d1372d001fb714aa88f3835042071a
+guid: 188ca427f53a1af489d91702b62bf2f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5492542485282502388
-    second: FondoQuemaduras_0
+      213: -2041690264742426045
+    second: Silla (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FondoQuemaduras_0
+      name: Silla (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2738
-        height: 1536
+        width: 375
+        height: 593
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c09cefad5b196c3b0800000000000000
-      internalID: -5492542485282502388
+      spriteID: 34a87a485857aa3e0800000000000000
+      internalID: -2041690264742426045
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FondoQuemaduras_0: -5492542485282502388
+      Silla (1)_0: -2041690264742426045
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
