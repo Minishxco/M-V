@@ -226,7 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::YSort
   player: {fileID: 491871863}
   useThreeZones: 0
-  yPositionFront: -5.5
+  yPositionFront: -6
   yPositionBack: 0
   playerFrontOrder: 5
   playerMiddleOrder: 2
@@ -396,7 +396,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 11.406851, y: -26.353401}
+  m_Offset: {x: 13.3149, y: -25.202862}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -406,7 +406,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 13.280434, y: 5.21756}
+  m_Size: {x: 17.096533, y: 2.0947647}
   m_EdgeRadius: 0
 --- !u!1 &61991708
 GameObject:
@@ -2450,7 +2450,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 23.076847, y: -26.666143}
+  m_Offset: {x: 24.213062, y: -26.666143}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2460,7 +2460,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 13.23221, y: 2.9035072}
+  m_Size: {x: 15.504637, y: 2.9035072}
   m_EdgeRadius: 0
 --- !u!1 &383763754
 GameObject:
@@ -3685,12 +3685,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   speedX: 4
-  speedY: 3.5
+  speedY: 3
   canPlayerMove: 1
   minY: {fileID: 2110225371}
   maxY: {fileID: 486817436}
   minScalePlayer: 1.2
-  maxScalePlayer: 2.86
+  maxScalePlayer: 2.5
   smooth: 8
 --- !u!58 &491871865
 CircleCollider2D:
@@ -5996,7 +5996,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -27.00408, y: -24.5303}
+  m_Offset: {x: -13.14389, y: -24.5303}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6006,7 +6006,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 14.8475, y: 2.6444016}
+  m_Size: {x: 33.530865, y: 2.6444016}
   m_EdgeRadius: 0
 --- !u!1 &745681729
 GameObject:
@@ -6071,9 +6071,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -8.859223, y: -12.1239605}
-      - {x: -3.9651115, y: -13.655067}
-      - {x: 1.0097711, y: -11.659366}
+    - - {x: -9.148119, y: -12.815691}
+      - {x: -2.881746, y: -14.78368}
+      - {x: 1.6959028, y: -12.096248}
       - {x: -1.9382706, y: -10.432507}
       - {x: -5.8166904, y: -9.997222}
   m_UseDelaunayMesh: 1
@@ -7739,7 +7739,7 @@ Transform:
   m_GameObject: {fileID: 1133587273}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.414, y: -8.01, z: 0}
+  m_LocalPosition: {x: 4.95, y: -8.01, z: 0}
   m_LocalScale: {x: 4.859883, y: 5.358427, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8696,7 +8696,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &1326751170
 RectTransform:
@@ -9654,7 +9654,7 @@ Transform:
   m_GameObject: {fileID: 1571300153}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.66, y: -5.5, z: 0}
+  m_LocalPosition: {x: -3.66, y: -6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10686,7 +10686,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -20.64662, y: -26.21096}
+  m_Offset: {x: -14.738867, y: -29.798094}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10696,7 +10696,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 13.024373, y: 3.3800125}
+  m_Size: {x: 18.610264, y: 2.0062218}
   m_EdgeRadius: 0
 --- !u!1 &1747134628
 GameObject:
@@ -12739,9 +12739,9 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -7.732502, y: 21.853123}
-      - {x: -8.846533, y: -2.869873}
-      - {x: -9.81381, y: -4.2929134}
-      - {x: -9.007931, y: -6.008934}
+      - {x: -8.628976, y: -2.8303173}
+      - {x: -7.8990464, y: -4.5199885}
+      - {x: -8.019036, y: -6.1869354}
       - {x: -10.683766, y: -7.620535}
       - {x: -27.339527, y: -22.45467}
       - {x: -38.807663, y: 0.34964466}

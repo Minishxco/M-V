@@ -8693,7 +8693,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &1326751170
 RectTransform:
@@ -10019,7 +10019,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 23.4}
+  m_AnchoredPosition: {x: 0, y: 37.3}
   m_SizeDelta: {x: 150.726, y: 26.246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1660255231
@@ -12933,8 +12933,8 @@ PolygonCollider2D:
     - - {x: -7.732502, y: 21.853123}
       - {x: -7.951511, y: -2.4733903}
       - {x: -7.686856, y: -4.7831774}
-      - {x: -9.471458, y: -7.158703}
-      - {x: -27.339527, y: -22.45467}
+      - {x: -8.40364, y: -6.838358}
+      - {x: -26.55539, y: -23.238808}
       - {x: -38.807663, y: 0.34964466}
   m_UseDelaunayMesh: 1
 --- !u!4 &2043149337
