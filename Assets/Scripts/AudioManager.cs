@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class AudioManager : MonoBehaviour
 {
@@ -20,9 +21,38 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager Instance;
 
+    public float startDelay = 2f;
+    public GameObject objectToActivate;
+    public GameObject fade;
+
     private void Awake()
     {
         character = UserDataLoader.LoadCharacter();
+
+        if (fade != null)
+        {
+            fade.SetActive(true);
+        }
+
+        StartCoroutine(StartWithDelay());
+    }
+
+    IEnumerator StartWithDelay()
+    {
+        yield return new WaitForSeconds(startDelay);
+
+        // Desactivar fade antes de la narración
+        if (fade != null)
+        {
+            fade.SetActive(false);
+        }
+
+        if (objectToActivate != null)
+        {
+            objectToActivate.SetActive(true);
+        }
+
+        // Reproducir narración según personaje
         if (character == 1)
         {
             PlayNarrator(narrationMillan);
@@ -35,7 +65,6 @@ public class AudioManager : MonoBehaviour
 
     public void PlayNarrator(AudioClip clip)
     {
-        // Si hay otro audio narrado, se corta
         if (audioVoice.isPlaying)
         {
             audioVoice.Stop();

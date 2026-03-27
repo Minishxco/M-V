@@ -2,10 +2,20 @@ using UnityEngine;
 using System.IO;
 using System.Diagnostics;
 using System.Collections;
+using TMPro;
 
 public class PrintScreen : MonoBehaviour
 {
     private string rutaTemporal;
+    public TextMeshProUGUI textName;
+
+    private void Awake()
+    {
+        if (textName != null)
+        {
+            textName.text = UserDataLoader.LoadName();
+        }
+    }
 
     public void CapturarEImprimir()
     {
