@@ -2198,7 +2198,7 @@ MonoBehaviour:
   video1: {fileID: 526904608}
   panelSeleccionar: {fileID: 1117288781}
   panelNombre: {fileID: 1696580510}
-  sceneName: PRUEBA 6
+  sceneName: PRUEBA 1
 --- !u!114 &1422648684
 MonoBehaviour:
   m_ObjectHideFlags: 0

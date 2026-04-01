@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 135226703}
   videoPersonaje1: ESCENA_RIESGO ELECTRICO_MILLAN.mov
-  videoPersonaje2: ESCENA_RIESGO ELECTRICO_VEGA.mov
+  videoPersonaje2: ESCENA_RIESGO ELECTRICO_VEGA_b.mov
   disableObjects: []
   disableAfterVideo:
   - {fileID: 2363319}
