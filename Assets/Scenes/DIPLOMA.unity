@@ -199,7 +199,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1000
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &52315582
 RectTransform:
@@ -484,7 +484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -96.233, y: 0}
+  m_AnchoredPosition: {x: -96.23297, y: 0}
   m_SizeDelta: {x: 203.767, y: 58.462}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &246861034
@@ -2247,7 +2247,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 11
   m_TargetDisplay: 0
 --- !u!224 &1326751170
 RectTransform:
@@ -2261,8 +2261,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 115226410}
   - {fileID: 986279872}
+  - {fileID: 115226410}
   - {fileID: 2071109422}
   - {fileID: 931683648}
   - {fileID: 246861033}
