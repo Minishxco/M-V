@@ -9133,8 +9133,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1937743012}
-  videoPersonaje1: "TRANSICIO\u0301N MILLA\u0301N.mov"
-  videoPersonaje2: "TRANSICIO\u0301N VEGA.mov"
+  videoPersonaje1: "TRANSICIO\u0301N MILLA\u0301N_v2.mov"
+  videoPersonaje2: "TRANSICIO\u0301N VEGA_V2.mov"
   disableObjects:
   - {fileID: 1371428084}
   - {fileID: 1386661824}
