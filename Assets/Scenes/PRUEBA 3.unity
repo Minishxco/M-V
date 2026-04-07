@@ -5778,7 +5778,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "ERROR,  aunque puede parecer una buena soluci\xF3n y sobre todo r\xE1pida,
-    necesitamos que haya luz porque corremos el riesgo de golearnos y caernos por
+    necesitamos que haya luz porque corremos el riesgo de golpearnos y caernos por
     el taller. Con esta opci\xF3n no conseguiremos encontrar la llave.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
