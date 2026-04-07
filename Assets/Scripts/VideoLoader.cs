@@ -12,5 +12,7 @@ public class VideoLoader : MonoBehaviour
         string path = System.IO.Path.Combine(Application.streamingAssetsPath, urlVideo);
         videoPlayer.url = path;
         videoPlayer.Play();
+
+        Debug.Log(path);
     }
 }
