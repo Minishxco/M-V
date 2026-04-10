@@ -4837,7 +4837,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "CORRECTO, dobla las rodillas, no la cintura, mant\xE9n la espalda recta,
-    acerca la caja al cuerpo y usa la fuerza de tus piernas para levantarte \xA1nunca
+    acerca la caja al cuerpo y usa la fuerza de tus piernas para levantarte\r\n\xA1nunca
     uses la espalda!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -7020,7 +7020,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: -1.8999786}
+  m_AnchoredPosition: {x: 0, y: -1.8999634}
   m_SizeDelta: {x: 182.10999, y: 63.255}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &787898705
@@ -7673,7 +7673,7 @@ GameObject:
   - component: {fileID: 976958158}
   - component: {fileID: 976958160}
   m_Layer: 5
-  m_Name: '[OFF]TextoNarracion'
+  m_Name: '[OFF]Narracion'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9735,7 +9735,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Esta planta parece un almac\xE9n, para continuar nuestra aventura vemos
-    que la puerta por la que debemos pasar est\xE1 bloqueada por una caja que nos
+    que la puerta por la que debemos seguir est\xE1 bloqueada por una caja que nos
     impide el paso. \xBFC\xF3mo debemos actuar para liberar el paso?\r\nPara conseguir
     la llave. Encuentra las opciones y elige la correcta."
   m_isRightToLeft: 0
@@ -10088,7 +10088,7 @@ GameObject:
   - component: {fileID: 1602241983}
   - component: {fileID: 1602241982}
   m_Layer: 5
-  m_Name: TextOrden
+  m_Name: Orden
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12867,8 +12867,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ERROR, al retirarla de esta manera forzamos la parte baja de la espalda,
-    aumentamos el riesgo de lesiones lumbares. '
+  m_text: ERROR, al retirarla de esta manera forzamos la parte baja de la espalda,
+    aumentamos el riesgo de lesiones lumbares.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -13298,8 +13298,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "ERROR, golpear la caja puede romper objetos fr\xE1giles u objetos valiosos
-    que contenga, adem\xE1s, si la caja pesa m\xE1s de lo que parece, podr\xEDamos
-    lesionarnos."
+    que contenga, adem\xE1s, si la caja pesa m\xE1s de lo que parece, podr\xEDamos\r\nlesionarnos."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}

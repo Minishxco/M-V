@@ -3516,9 +3516,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "CORRECTO, el agua fr\xEDa enfr\xEDa la piel, detiene el proceso de da\xF1o
-    t\xE9rmico, alivia el dolor y reduce la inflamaci\xF3n. Se debe aplicar agua
-    corriente a temperatura ambiente durante 10-20 minutos. "
+  m_text: "CORRECTO, enfr\xEDa la piel, detiene el proceso de da\xF1o t\xE9rmico,
+    alivia el dolor y reduce la inflamaci\xF3n. Se debe aplicar agua corriente a
+    temperatura ambiente durante 10-20 minutos. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -7450,7 +7450,7 @@ GameObject:
   - component: {fileID: 976958158}
   - component: {fileID: 976958160}
   m_Layer: 5
-  m_Name: '[OFF]TextoNarracion'
+  m_Name: '[OFF]Narracion'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9467,7 +9467,7 @@ MonoBehaviour:
   m_text: "Esto est\xE1 lleno de humo, no sabemos muy bien donde nos encontramos,
     conseguimos distinguir la silueta de una persona que parece herida. Efectivamente,
     la persona tiene quemaduras. \xBFQu\xE9 es lo primero que debemos hacer para
-    socorrer a una persona con quemaduras?\r\nPara conseguir la llave. Encuentra
+    socorrer a una persona con esta clase de heridas? Para conseguir la llave. Encuentra
     las opciones y elige la correcta."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}

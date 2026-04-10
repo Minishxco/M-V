@@ -1129,7 +1129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 24, y: 14.000015}
+  m_AnchoredPosition: {x: 24, y: 14}
   m_SizeDelta: {x: 366.12305, y: 79.561}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &153846635
@@ -7406,7 +7406,7 @@ GameObject:
   - component: {fileID: 976958158}
   - component: {fileID: 976958160}
   m_Layer: 5
-  m_Name: '[OFF]TextoNarracion'
+  m_Name: '[OFF]Narracion'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9618,10 +9618,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "El sistema de alarma que hay instalado nos impide continuar, observando
-    la instalaci\xF3n y fij\xE1ndonos bien vemos que si conseguimos llegar hasta
-    el enchufe quiz\xE1 logremos desactivar los rayos que pueden delatar nuestra
-    presencia. Elige bien la forma de desactivarla para poder conseguir la llave."
+  m_text: "El sistema de alarma nos impide continuar, observando la instalaci\xF3n
+    y fij\xE1ndonos bien vemos que si conseguimos llegar hasta el enchufe quiz\xE1
+    logremos desactivar los rayos que pueden delatar nuestra presencia. Elige bien
+    la forma de desactivarla para poder conseguir la llave."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}

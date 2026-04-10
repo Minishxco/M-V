@@ -176,10 +176,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "ERROR, puede que dentro del coche haga calor, pero no es lo primero que
-    debemos hacer al montarnos. S\xF3lo si la temperatura dentro del veh\xEDculo
-    es muy alta, antes de empezar a conducir, hay que bajar las ventanillas y encender
-    la climatizaci\xF3n."
+  m_text: ERROR, puede que dentro del coche haga mucho calor, pero no es lo primero
+    que debemos hacer al montarnos.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -570,8 +568,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "CORRECTO, esto es lo primero que debemos hacer, la seguridad es lo primero
-    y el cintur\xF3n de seguridad y el reposacabezas salvan vidas."
+  m_text: "CORRECTO, esto es lo primero que debemos de hacer, la seguridad es lo
+    primero y el cintur\xF3n de seguridad y el reposacabezas salvan vidas."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -1408,7 +1406,7 @@ GameObject:
   - component: {fileID: 268098087}
   - component: {fileID: 268098086}
   m_Layer: 5
-  m_Name: Text Dialogo
+  m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1455,9 +1453,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Entramos en el coche, tenemos que llegar lo antes posible al edificio
     donde se encuentra el Dr. Descuido, pero antes de arrancar no debemos descuidar
-    la seguridad.\r\n\xBFQu\xE9 es lo primero que tenemos que hacer cu\xE1ndo nos
-    montamos en un veh\xEDculo?\r\nPara conseguir la llave. Encuentra las opciones
-    y elige la correcta."
+    la seguridad. \xBFQu\xE9 es lo primero que debemos de hacer cu\xE1ndo nos montamos
+    en un veh\xEDculo? Para conseguir la llave. Encuentra las opciones y elige la
+    correcta."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -4583,7 +4581,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "ABROCHARNOS EL CINTUR\xD3N DE SEGURIDAD Y REGULAR EL RESPOSACABEZAS A
-    LA ALTURA ADECUADA"
+    LA ALTURA ADECUADA\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -5340,6 +5338,144 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1145898516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145898517}
+  - component: {fileID: 1145898519}
+  - component: {fileID: 1145898518}
+  m_Layer: 5
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1145898517
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145898516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1240218478}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2.347993, y: -32.3}
+  m_SizeDelta: {x: 255.297, y: 75.061}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1145898518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145898516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "S\xF3lo si hace mucho calor, antes de empezar a conducir hay que bajar
+    las ventanillas y encender la climatizaci\xF3n.\r\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
+  m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4280808721
+  m_fontColor: {r: 0.06808472, g: 0.9622642, b: 0.15427276, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 12.85
+  m_fontSizeBase: 12.85
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1145898519
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145898516}
+  m_CullTransparentMesh: 1
 --- !u!1 &1153067445
 GameObject:
   m_ObjectHideFlags: 0
@@ -5397,8 +5533,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "ERROR, por mucha prisa que tengamos antes de arrancar debemos cuidar la
-    seguridad, y respetar los l\xEDmites de velocidad. "
+  m_text: "ERROR, por mucha prisa que tengamos antes de arrancar debemos de cuidar
+    la seguridad, y cuidado con los l\xEDmites de velocidad."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -5821,6 +5957,7 @@ RectTransform:
   m_Children:
   - {fileID: 1866957920}
   - {fileID: 6904351}
+  - {fileID: 1145898517}
   m_Father: {fileID: 2028262650}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -8659,7 +8796,7 @@ GameObject:
   - component: {fileID: 1891298414}
   - component: {fileID: 1891298416}
   m_Layer: 5
-  m_Name: '[OFF]Narracion'
+  m_Name: '[OFF]TextoNarracion'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8784,7 +8921,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BAJAR LA VENTANILLA
+  m_text: ' BAJAR LA VENTANILLA'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -9476,6 +9613,7 @@ MonoBehaviour:
   texts:
   - {fileID: 1866957921}
   - {fileID: 6904352}
+  - {fileID: 1145898518}
   audioManager: {fileID: 218018851}
   hasName: 1
   textName: {fileID: 1866957921}

@@ -7445,7 +7445,7 @@ GameObject:
   - component: {fileID: 976958158}
   - component: {fileID: 976958160}
   m_Layer: 5
-  m_Name: '[OFF]TextoNarracion'
+  m_Name: '[OFF]Narracion'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9323,8 +9323,8 @@ MonoBehaviour:
   m_text: "Esta planta es una oficina, aunque aqu\xED no se realizan normalmente
     trabajos de esfuerzo la protecci\xF3n y seguridad tambi\xE9n son importantes.
     La puerta que debemos abrir parece ser que se acciona desde un ordenador. \xBFC\xF3mo
-    debemos intentar abrir la puerta con el ordenador?\r\nPara conseguir la llave.
-    Encuentra las opciones y elige la correcta."
+    intentaremos abrir la puerta con el ordenador?\r\nPara conseguir la llave. Encuentra
+    las opciones y elige la correcta."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}

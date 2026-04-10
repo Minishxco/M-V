@@ -8677,7 +8677,7 @@ GameObject:
   - component: {fileID: 976958158}
   - component: {fileID: 976958160}
   m_Layer: 5
-  m_Name: '[OFF]TextoNarracion'
+  m_Name: '[OFF]Narracion'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11254,9 +11254,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "En este piso se encuentra un taller, bastante desordenado por cierto,
-    para encontrar la llave que nos ayude a liberar a nuestro amigo tenemos que buscarla
-    entre todas estas herramientas.\n\xBFCu\xE1l es la mejor manera de conseguirla?\r\nPara
-    conseguir la llave. Encuentra las opciones y elige la correcta."
+    para encontrar la\r\nllave que nos ayude a liberar a nuestro amigo tenemos que
+    buscarla entre todas estas herramientas. \xBFCu\xE1l es la mejor manera de conseguirla?
+    Para obtener la llave. Encuentra las opciones y elige la correcta."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -15160,7 +15160,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "CORRECTO, \xE9sta es la \xFAnica forma que nos ayudar\xE1 a encontrar
-    la llave, adem\xE1s cuando vayamos a buscar una herramienta siempre la encontraremos
+    la llave, adem\xE1s, cuando vayamos a buscar una herramienta, siempre la\r\nencontraremos
     en su sitio."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
