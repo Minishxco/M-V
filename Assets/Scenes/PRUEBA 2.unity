@@ -11140,8 +11140,8 @@ MonoBehaviour:
   keyCollected: {fileID: 8300000, guid: c102e8fe9171a12459c906066799bca3, type: 3}
   selectTools: {fileID: 8300000, guid: 6a6170a7f3343d34bb3d1af99085f730, type: 3}
   keyboard: {fileID: 8300000, guid: 9642f599152e887418d7e8c3202fff7e, type: 3}
-  narrationVega: {fileID: 8300000, guid: c2cd0fbf1166b04439f9c03d3c7e9f8e, type: 3}
-  narrationMillan: {fileID: 8300000, guid: a2c5d1209b820834585e533e8f8e1282, type: 3}
+  narrationVega: {fileID: 8300000, guid: 09cc0cbab6de82545bb49a515dcbb348, type: 3}
+  narrationMillan: {fileID: 8300000, guid: 4704ccc6b156e1346849dd3c710df013, type: 3}
   startDelay: 2
   objectToActivate: {fileID: 976958156}
   fade: {fileID: 1142427899}
@@ -13298,7 +13298,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "ERROR, golpear la caja puede romper objetos fr\xE1giles u objetos valiosos
-    que contenga, adem\xE1s, si la caja pesa m\xE1s de lo que parece, podr\xEDamos\r\nlesionarnos."
+    que contenga, adem\xE1s, si la caja pesa m\xE1s de lo que parece, podr\xEDamos
+    lesionarnos."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
   m_sharedMaterial: {fileID: 1931757313641819533, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}

@@ -11254,8 +11254,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "En este piso se encuentra un taller, bastante desordenado por cierto,
-    para encontrar la\r\nllave que nos ayude a liberar a nuestro amigo tenemos que
-    buscarla entre todas estas herramientas. \xBFCu\xE1l es la mejor manera de conseguirla?
+    para encontrar la llave que nos ayude a liberar a nuestro amigo tenemos que buscarla
+    entre todas estas herramientas. \xBFCu\xE1l es la mejor manera de conseguirla?
     Para obtener la llave. Encuentra las opciones y elige la correcta."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}
@@ -13225,8 +13225,8 @@ MonoBehaviour:
   keyCollected: {fileID: 8300000, guid: c102e8fe9171a12459c906066799bca3, type: 3}
   selectTools: {fileID: 8300000, guid: 6a6170a7f3343d34bb3d1af99085f730, type: 3}
   keyboard: {fileID: 8300000, guid: 9642f599152e887418d7e8c3202fff7e, type: 3}
-  narrationVega: {fileID: 8300000, guid: 4a0164acd259ee946b94c3199c74c789, type: 3}
-  narrationMillan: {fileID: 8300000, guid: e01b2d76e770559448992d6c7e8b7035, type: 3}
+  narrationVega: {fileID: 8300000, guid: bf5b1127d2a42234f86d1a725f395bce, type: 3}
+  narrationMillan: {fileID: 8300000, guid: 1fc56dc4c1387ae418047d91c00d08b2, type: 3}
   startDelay: 2
   objectToActivate: {fileID: 976958156}
   fade: {fileID: 1915180810}
@@ -15160,7 +15160,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "CORRECTO, \xE9sta es la \xFAnica forma que nos ayudar\xE1 a encontrar
-    la llave, adem\xE1s, cuando vayamos a buscar una herramienta, siempre la\r\nencontraremos
+    la llave, adem\xE1s, cuando vayamos a buscar una herramienta, siempre la encontraremos
     en su sitio."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fc1faa3e0b5c58440992bf8ab5058d6d, type: 2}

@@ -10869,8 +10869,8 @@ MonoBehaviour:
   keyCollected: {fileID: 8300000, guid: c102e8fe9171a12459c906066799bca3, type: 3}
   selectTools: {fileID: 8300000, guid: 6a6170a7f3343d34bb3d1af99085f730, type: 3}
   keyboard: {fileID: 8300000, guid: 9642f599152e887418d7e8c3202fff7e, type: 3}
-  narrationVega: {fileID: 8300000, guid: 2d618260aaa08e54589026ec23e0593e, type: 3}
-  narrationMillan: {fileID: 8300000, guid: e334f8ea06cc55f4f8dd5eeface66c65, type: 3}
+  narrationVega: {fileID: 8300000, guid: 2e562bd14676068489a0df82d9c59b4f, type: 3}
+  narrationMillan: {fileID: 8300000, guid: a06b2beedb7e9b54cbad7bda0b5c979d, type: 3}
   startDelay: 2
   objectToActivate: {fileID: 976958156}
   fade: {fileID: 312114045}
