@@ -17,7 +17,6 @@ public class PlayVideo : MonoBehaviour
     public GameObject[] disableAfterVideo;
     public GameObject[] enableAfterVideo;
 
-    public string sceneName;
     public bool goToSceneOnFinish = true;
 
     public GameObject canvasVideo;
