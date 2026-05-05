@@ -22,7 +22,7 @@ public class MissionsDone : MonoBehaviour
     {
         for (int i = 0; i < missionsDone && i < keys.Length; i++)
         {
-            keys[i].SetActive(false);
+            keys[i].SetActive(true);
         }
     }
 

@@ -29,15 +29,15 @@ public class KeyManager : MonoBehaviour
 
     public void updateKey()
     {
-        int missionsDone = MissionsDone.Instance.GetMissionsDone();
+        int missionsDone = PlayerPrefs.GetInt("_MissionsDone", 0);
+        fullKeyImage[missionsDone].SetActive(true);
+        missionsDone++;
+        PlayerPrefs.SetInt("_MissionsDone", missionsDone);
+
 
         if (missionsDone >= fullKeyImage.Length) return;
-
         audioManager.PlayKeyCollected();
         
-        fullKeyImage[missionsDone].SetActive(true);
-
-
         if (fadeOut != null)
         {
             fadeOut.SetActive(true);

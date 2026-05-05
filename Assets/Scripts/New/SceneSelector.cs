@@ -50,8 +50,7 @@ public class SceneSelector : MonoBehaviour
             PlayerPrefs.SetInt("CurrentMissionIndex", nextIndex);
             UpdateNextIndex(nextIndex);
             PlayerPrefs.Save();
-            int missionsDone = PlayerPrefs.GetInt("_MissionsDone", 0);
-            PlayerPrefs.SetInt("_MissionsDone", missionsDone++);
+
             SceneManager.LoadScene(PlayerPrefs.GetInt("NextSceneIndex"));
         }
 
@@ -130,6 +129,7 @@ public class SceneSelector : MonoBehaviour
     // -------------------------------------------------------------
     public static void ResetSession()
     {
+        PlayerPrefs.DeleteKey("_MissionsDone");
         PlayerPrefs.DeleteKey("CurrentMissionIndex");
         PlayerPrefs.DeleteKey("NextSceneIndex");
         for (int i = 0; i < TOTAL_MISSIONS; i++)
