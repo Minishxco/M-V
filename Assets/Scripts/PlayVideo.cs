@@ -88,7 +88,8 @@ public class PlayVideo : MonoBehaviour
     {
         if (goToSceneOnFinish)
         {
-            SceneManager.LoadScene(sceneName);
+            SceneSelector.Instance.CompleteCurrentMission();
+            //SceneManager.LoadScene(sceneName);
         }
         else
         {

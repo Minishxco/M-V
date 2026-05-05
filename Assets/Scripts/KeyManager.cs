@@ -19,22 +19,24 @@ public class KeyManager : MonoBehaviour
 
     void Start()
     {
-        key = initialKeys;
+       // key = initialKeys;
 
-        for (int i = 0; i < key && i < fullKeyImage.Length; i++)
-        {
-            fullKeyImage[i].SetActive(true);
-        }
+      //  for (int i = 0; i < key && i < fullKeyImage.Length; i++)
+       // {
+//fullKeyImage[i].SetActive(true);
+       // }
     }
 
     public void updateKey()
     {
-        if (key >= fullKeyImage.Length) return;
+        int missionsDone = MissionsDone.Instance.GetMissionsDone();
+
+        if (missionsDone >= fullKeyImage.Length) return;
 
         audioManager.PlayKeyCollected();
+        
+        fullKeyImage[missionsDone].SetActive(true);
 
-        fullKeyImage[key].SetActive(true);
-        key++;
 
         if (fadeOut != null)
         {

@@ -23,6 +23,7 @@ public class UserDataSaver : MonoBehaviour
 
         Debug.Log("Nombre guardado: " + nameInput.text);
         videoSelector.StartVideo();
+
     }
 
     public void SelectCharacter1()

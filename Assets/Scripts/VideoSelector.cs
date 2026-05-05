@@ -95,7 +95,8 @@ public class VideoSelector : MonoBehaviour
                 break;
 
             case VideoState.Personaje:
-                SceneManager.LoadScene(sceneName);
+                SceneSelector.Instance.StartNewGame();
+                //SceneManager.LoadScene(sceneName);
                 break;
         }
     }
