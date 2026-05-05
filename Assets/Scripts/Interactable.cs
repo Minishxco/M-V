@@ -207,6 +207,8 @@ public class Interactable : MonoBehaviour
     IEnumerator LoadSceneAfterDelay(string sceneName)
     {
         yield return new WaitForSeconds(waitTimeBeforeScene);
-        SceneManager.LoadScene(sceneName);
+        SceneSelector.Instance.CompleteCurrentMission();
+
+        //SceneManager.LoadScene(sceneName);
     }
 }

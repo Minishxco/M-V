@@ -8,24 +8,13 @@ public class KeyManager : MonoBehaviour
     public GameObject[] fullKeyImage;
     public AudioManager audioManager;
 
-    public int initialKeys = 0;
-    private int key;
-
     public bool enableVideo = false;
     public PlayVideo playVideo;
     public float correctAnimDuration = 2f;
     public float delayBeforeFade = 1f;
     public float fadeDuration = 1f;
 
-    void Start()
-    {
-       // key = initialKeys;
 
-      //  for (int i = 0; i < key && i < fullKeyImage.Length; i++)
-       // {
-//fullKeyImage[i].SetActive(true);
-       // }
-    }
 
     public void updateKey()
     {

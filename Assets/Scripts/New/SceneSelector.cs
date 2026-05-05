@@ -38,7 +38,7 @@ public class SceneSelector : MonoBehaviour
     {
         int currentIndex = PlayerPrefs.GetInt("CurrentMissionIndex", 0);
         int nextIndex = currentIndex + 1;
-
+        Debug.Log("Mision index " + nextIndex);
         if (nextIndex >= TOTAL_MISSIONS)
         {
             // Todas las misiones completadas → escena final (diploma)

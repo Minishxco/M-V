@@ -4989,7 +4989,7 @@ MonoBehaviour:
   ButtonKey: {fileID: 2041732578}
   sceneName: PRUEBA 4
   goToSceneOnFinish: 1
-  waitTimeBeforeScene: 0.5
+  waitTimeBeforeScene: 2
 --- !u!114 &491871869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10569,7 +10569,6 @@ MonoBehaviour:
   - {fileID: 812444373}
   - {fileID: 1661900152}
   audioManager: {fileID: 1747134629}
-  initialKeys: 2
   enableVideo: 0
   playVideo: {fileID: 0}
   correctAnimDuration: 2
