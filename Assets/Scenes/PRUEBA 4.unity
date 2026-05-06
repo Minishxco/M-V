@@ -1082,7 +1082,6 @@ MonoBehaviour:
   - {fileID: 1575654073}
   - {fileID: 2120208207}
   enableAfterVideo: []
-  sceneName: PRUEBA 5
   goToSceneOnFinish: 1
   canvasVideo: {fileID: 2120208207}
 --- !u!4 &135226705
@@ -8899,11 +8898,10 @@ MonoBehaviour:
   - {fileID: 812444373}
   - {fileID: 1661900152}
   audioManager: {fileID: 1747134629}
-  initialKeys: 3
   enableVideo: 1
   playVideo: {fileID: 135226704}
   correctAnimDuration: 0
-  delayBeforeFade: 0
+  delayBeforeFade: 1
   fadeDuration: 2
 --- !u!1 &1371803083
 GameObject:

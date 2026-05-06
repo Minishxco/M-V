@@ -38,10 +38,11 @@ public class SceneSelector : MonoBehaviour
     {
         int currentIndex = PlayerPrefs.GetInt("CurrentMissionIndex", 0);
         int nextIndex = currentIndex + 1;
-        Debug.Log("Mision index " + nextIndex);
+        Debug.Log($"Se termino la mision numero {currentIndex}, pasara a la siguiente");
         if (nextIndex >= TOTAL_MISSIONS)
         {
-            // Todas las misiones completadas → escena final (diploma)
+            Debug.Log($"Mision siguiente numero {nextIndex}, diploma");
+
             ResetSession();
             SceneManager.LoadScene(FINAL_SCENE);
         }
@@ -50,6 +51,7 @@ public class SceneSelector : MonoBehaviour
             PlayerPrefs.SetInt("CurrentMissionIndex", nextIndex);
             UpdateNextIndex(nextIndex);
             PlayerPrefs.Save();
+            Debug.Log($"Mision siguiente numero {nextIndex}");
 
             SceneManager.LoadScene(PlayerPrefs.GetInt("NextSceneIndex"));
         }
@@ -109,10 +111,9 @@ public class SceneSelector : MonoBehaviour
 
     void UpdateNextIndex(int currentMissionIndex)
     {
-        int nextMission = currentMissionIndex + 1;
 
-        if (nextMission < TOTAL_MISSIONS)
-            PlayerPrefs.SetInt("NextSceneIndex", PlayerPrefs.GetInt("Mission_" + nextMission));
+        if (currentMissionIndex < TOTAL_MISSIONS)
+            PlayerPrefs.SetInt("NextSceneIndex", PlayerPrefs.GetInt("Mission_" + currentMissionIndex));
         else
             PlayerPrefs.SetInt("NextSceneIndex", FINAL_SCENE);
     }

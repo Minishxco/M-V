@@ -112,7 +112,7 @@ public class Interactable : MonoBehaviour
     {
         llave.SetActive(false);
         keyManager.updateKey();
-        Debug.Log("Juego Terminado");
+        Debug.Log("Llave final");
 
         if (goToSceneOnFinish)
         {

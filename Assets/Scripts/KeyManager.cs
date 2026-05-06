@@ -24,7 +24,7 @@ public class KeyManager : MonoBehaviour
         PlayerPrefs.SetInt("_MissionsDone", missionsDone);
 
 
-        if (missionsDone >= fullKeyImage.Length) return;
+        //if (missionsDone >= fullKeyImage.Length) return;
         audioManager.PlayKeyCollected();
         
         if (fadeOut != null)
