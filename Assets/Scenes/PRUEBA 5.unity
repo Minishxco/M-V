@@ -976,7 +976,6 @@ MonoBehaviour:
   - {fileID: 745681729}
   - {fileID: 2120208207}
   enableAfterVideo: []
-  sceneName: PRUEBA 6
   goToSceneOnFinish: 1
   canvasVideo: {fileID: 2120208207}
 --- !u!4 &135226705
@@ -1599,7 +1598,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1326751166}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PrintScreen, Assembly-CSharp
         m_MethodName: CapturarEImprimir
         m_Mode: 1
@@ -8636,7 +8635,6 @@ GameObject:
   - component: {fileID: 1326751169}
   - component: {fileID: 1326751168}
   - component: {fileID: 1326751167}
-  - component: {fileID: 1326751166}
   - component: {fileID: 1326751171}
   m_Layer: 5
   m_Name: Canvas3D
@@ -8645,20 +8643,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1326751166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326751165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 890eb823efc9c1c488b1a455382500d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PrintScreen
-  textName: {fileID: 0}
-  botonImprimir: {fileID: 0}
 --- !u!114 &1326751167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8774,7 +8758,6 @@ MonoBehaviour:
   - {fileID: 812444373}
   - {fileID: 1661900152}
   audioManager: {fileID: 1747134629}
-  initialKeys: 3
   enableVideo: 1
   playVideo: {fileID: 135226704}
   correctAnimDuration: 0
